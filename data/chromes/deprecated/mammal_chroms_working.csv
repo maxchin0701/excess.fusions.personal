@@ -1,0 +1,1473 @@
+,Order,Family,Genus,species,tree.name,female2n,male2n,B.chromosomes,sex.chromosome.system,notes..comments,hapauto,codedSCS,Source,Study
+1235,Rodentia,Octodontidae,Tympanoctomys,barrerae,Tympanoctomys_barrerae,102,102,,XY,,50,unfused,Animal Karyotype Book 2020,Gallardo et al. 2002
+1425,Rodentia,Octodontidae,Tympanoctomys,barrerae,Tympanoctomys_barrerae,102,102,,XY,,50,unfused,Animal Karyotype Book,Gallardo et al. 2004
+1246,Rodentia,Echimyidae,Dactylomys,dactylinus,Dactylomys_dactylinus,96,96,,XY,,47,unfused,Animal Karyotype Book,Aniskin 1993
+1247,Rodentia,Echimyidae,Dactylomys,dactylinus,Dactylomys_dactylinus,94,94,,XY,,46,unfused,Animal Karyotype Book 2020,Aniskin 1993
+1022,Rodentia,Cricetidae,Anotomys,leander,Anotomys_leander,92,92,,XY,,45,unfused,Blackmon,
+809,Perissodactyla,Rhinocerotidae,Diceros,bicornis,Diceros_bicornis,84,84,,XY,,41,unfused,Animal Karyotype Book,Houck et al. 1995
+807,Perissodactyla,Rhinocerotidae,Ceratotherium,simum,Ceratotherium_simum,82,82,,XY,,40,unfused,Blackmon,
+808,Perissodactyla,Rhinocerotidae,Ceratotherium,simum simum,Ceratotherium_simum simum,82,82,,XY,,40,unfused,Animal Karyotype Book,Houck et al. 1994
+811,Perissodactyla,Rhinocerotidae,Dicerorhinus,sumatrensis,Dicerorhinus_sumatrensis,82,82,,XY,,40,unfused,Animal Karyotype Book 2020,Houck (Unpublished)
+810,Perissodactyla,Rhinocerotidae,Rhinoceros,unicornis,Rhinoceros_unicornis,82,82,,XY,,40,unfused,Blackmon,Houck et al. 1994
+812,Perissodactyla,Tapiridae,Tapirus,bairdii,Tapirus_bairdii,80,80,,XY,,39,unfused,Animal Karyotype Book,Houck et al. 2000
+815,Perissodactyla,Tapiridae,Tapirus,terrestris,Tapirus_terrestris,80,80,,XY,,39,unfused,Blackmon,Houck et al. 2000
+973,Primates,Tarsiidae,Tarsius,bancanus,Tarsius_bancanus,80,80,,XY,,39,unfused,Animal Karyotype Book,Poorman et al. 1985
+974,Primates,Tarsiidae,Tarsius,syrichta,Tarsius_syrichta,80,80,,XY,,39,unfused,Animal Karyotype Book,Rickart 2003
+985,Rodentia,Bathyergidae,Fukomys,hottentotus damarensis,Fukomys_hottentotus damarensis,80,80,,XY,,39,unfused,Animal Karyotype Book 2020,Deuve et al. 2008
+1180,Rodentia,Cricetidae,Oryzomys,nitidus,Oryzomys_nitidus,80,80,,XY,,39,unfused,Animal Karyotype Book,Volobouev and Aniskin 2000
+1416,Rodentia,Nesomyidae,Cricetomys,emini,Cricetomys_emini,80,80,,XY,,39,unfused,Animal Karyotype Book 2020,S. Romanenko (Unpublished)
+1417,Rodentia,Nesomyidae,Cricetomys,gambianus,Cricetomys_gambianus,80,80,,XY,,39,unfused,Animal Karyotype Book 2020,V. Aniskin and V. Volobouev (Unpublished)
+247,Carnivora,Canidae,Canis,familiaris,Canis_familiaris,78,78,,XY,,38,unfused,Blackmon,Graphodatsky et al. 2000a
+248,Carnivora,Canidae,Canis,latrans,Canis_latrans,78,78,,XY,,38,unfused,Blackmon,Wurster-Hill and Centerwall 1982
+249,Carnivora,Canidae,Canis,lupus,Canis_lupus,78,78,,XY,,38,unfused,Animal Karyotype Book,Wurster-Hill and Centerwall 1982
+250,Carnivora,Canidae,Cuon,alpinus,Cuon_alpinus,78,78,,XY,,38,unfused,Animal Karyotype Book 2020,Graphodatsky et al. 2008
+980,Rodentia,Bathyergidae,Fukomys,hottentotus damarensis,Fukomys_hottentotus damarensis,78,78,,XY,,38,unfused,Animal Karyotype Book,Nevo et al. 1986
+1230,Rodentia,Octodontidae,Octodon,lunatus,Octodon_lunatus,78,78,,XY,,38,unfused,Animal Karyotype Book 2020,Spotorno et al. 1995
+1423,Rodentia,Octodontidae,Octodon,lunatus,Octodon_lunatus,78,78,,XY,,38,unfused,Animal Karyotype Book,Spotorno et al. 1995
+252,Carnivora,Canidae,Chrysocyon,brachyurus,Chrysocyon_brachyurus,76,76,,XY,,37,unfused,Animal Karyotype Book,Wayne et al. 1987a
+814,Perissodactyla,Tapiridae,Tapirus,pinchaque,Tapirus_pinchaque,76,76,,XY,,37,unfused,Animal Karyotype Book,Houck et al. 2000
+1413,Rodentia,Nesomyidae,Eliurus,minor,Eliurus_minor,76,76,,XY,,37,unfused,Animal Karyotype Book 2020,Solano et al. 2011
+151,Artiodactyla,Camelidae,Camelus,bactrianus,Camelus_bactrianus,74,74,,XY,,36,unfused,Blackmon,Balmus et al. 2007
+152,Artiodactyla,Camelidae,Camelus,dromedarius,Camelus_dromedarius,74,74,,XY,,36,unfused,Animal Karyotype Book,Balmus et al. 2007
+153,Artiodactyla,Camelidae,Camelus,ferus,Camelus_ferus,74,74,,XY,,36,unfused,Animal Karyotype Book 2020,Proskuryakova et al. (Unpublished)
+156,Artiodactyla,Camelidae,Lama,glama,Lama_glama,74,74,,XY,,36,unfused,Animal Karyotype Book 2020,Balmus et al. 2007
+155,Artiodactyla,Camelidae,Lama,guanicoe,Lama_guanicoe,74,74,,XY,,36,unfused,Animal Karyotype Book 2020,Balmus et al. 2007
+154,Artiodactyla,Camelidae,Lama,pacos,Lama_pacos,74,74,,XY,,36,unfused,Animal Karyotype Book 2020,Balmus et al. 2007
+157,Artiodactyla,Camelidae,Vicugna,vicugna,Vicugna_vicugna,74,74,,XY,,36,unfused,Blackmon,
+246,Carnivora,Canidae,Atelocynus,microtis,Atelocynus_microtis,74,74,,XY,,36,unfused,Blackmon,Wurster-Hill and Centerwall 1982
+251,Carnivora,Canidae,Cerdocyon,thous,Cerdocyon_thous,74,74,,XY,,36,unfused,Animal Karyotype Book,Nash et al. 2001
+259,Carnivora,Canidae,Speothos,venaticus,Speothos_venaticus,74,74,,XY,,36,unfused,Animal Karyotype Book,Wayne et al. 1987a
+389,Carnivora,Ursidae,Helarctos,malayanus,Helarctos_malayanus,74,74,,XY,,36,unfused,Blackmon,
+390,Carnivora,Ursidae,Selenarctos,thibetanus,Selenarctos_thibetanus,74,74,,XY,,36,unfused,Blackmon,
+392,Carnivora,Ursidae,Ursus,americanus,Ursus_americanus,74,74,,XY,,36,unfused,Blackmon,Nash and O'Brien 1987
+393,Carnivora,Ursidae,Ursus,arctos,Ursus_arctos,74,74,,XY,,36,unfused,Animal Karyotype Book,Nash and O'Brien 1987
+394,Carnivora,Ursidae,Ursus,malayanus,Ursus_malayanus,74,74,,XY,,36,unfused,Animal Karyotype Book,Nash and O'Brien 1987
+395,Carnivora,Ursidae,Ursus,maritimus,Ursus_maritimus,74,74,,XY,,36,unfused,Animal Karyotype Book,Nash and O'Brien 1987
+396,Carnivora,Ursidae,Ursus,thibetanus,Ursus_thibetanus,74,74,,XY,,36,unfused,Animal Karyotype Book,Nash and O'Brien 1987
+397,Carnivora,Ursidae,Ursus,ursinus,Ursus_ursinus,74,74,,XY,,36,unfused,Animal Karyotype Book,Nash and O'Brien 1987
+1292,Rodentia,Heteromyidae,Dipodomys,agilis,Dipodomys_agilis,74,74,,XY,,36,unfused,Blackmon,
+1286,Rodentia,Heteromyidae,Dipodomys,ordii largus,Dipodomys_ordii largus,74,74,,XY,,36,unfused,Blackmon,
+258,Carnivora,Canidae,Otocyon,megalotis,Otocyon_megalotis,72,72,,XY,,35,unfused,Blackmon,Wayne et al. 1987a
+910,Primates,Cercopithecidae,Cercopithecus,mitis,Cercopithecus_mitis,72,72,,XY,,35,unfused,Animal Karyotype Book 2020,Bigoni and Stanyon (Unpublished)
+891,Primates,Cercopithecidae,Cercopithecus,pogonias,Cercopithecus_pogonias,72,72,,XY,,35,unfused,Animal Karyotype Book,Ponsa and Eqozcue 1981
+1277,Rodentia,Heteromyidae,Dipodomys,elator,Dipodomys_elator,72,72,,XY,,35,unfused,Blackmon,
+1284,Rodentia,Heteromyidae,Dipodomys,nelsoni,Dipodomys_nelsoni,72,72,,XY,,35,unfused,Blackmon,
+1287,Rodentia,Heteromyidae,Dipodomys,ornatus,Dipodomys_ornatus,72,72,,XY,,35,unfused,Blackmon,
+1289,Rodentia,Heteromyidae,Dipodomys,spectabilis,Dipodomys_spectabilis,72,72,,XY,,35,unfused,Blackmon,
+163,Artiodactyla,Cervidae,Capreolus,capreolus,Capreolus_capreolus,70,70,,XY,,34,unfused,Blackmon,
+164,Artiodactyla,Cervidae,Capreolus,pygargus,Capreolus_pygargus,70,70,yes (6),XY,,34,unfused,Animal Karyotype Book,Dementyeva et al. 2010
+181,Artiodactyla,Cervidae,Hippocamelus,bisculus,Hippocamelus_bisculus,70,70,,XY,,34,unfused,Animal Karyotype Book 2020,Spotorno et al. 1987
+182,Artiodactyla,Cervidae,Hydropotes,inermis,Hydropotes_inermis,70,70,,XY,,34,unfused,Blackmon,
+186,Artiodactyla,Cervidae,Mazama,gouazoubira,Mazama_gouazoubira,70,70,yes,XY,,34,unfused,Animal Karyotype Book 2020,Proskuryakova and Yang (Unpublished)
+194,Artiodactyla,Cervidae,Odocoileus,hemionus,Odocoileus_hemionus,70,70,,XY,,34,unfused,Blackmon,
+195,Artiodactyla,Cervidae,Odocoileus,virginianus,Odocoileus_virginianus,70,70,,XY,,34,unfused,Blackmon,Duarte (Unpublished)
+197,Artiodactyla,Cervidae,Pudu,puda,Pudu_puda,70,70,,XY,,34,unfused,Blackmon,Spotorno and Fernandez-Donoso 1975
+198,Artiodactyla,Cervidae,Rangifer,tarandus,Rangifer_tarandus,70,70,,XY,,34,unfused,Blackmon,CRES San Diego (Unpublished)
+889,Primates,Cercopithecidae,Cercopithecus,nictitans,Cercopithecus_nictitans,70,70,,XY,,34,unfused,Animal Karyotype Book,Ponsa and Eqozcue 1981
+1172,Rodentia,Cricetidae,Oecomys,paricola,Oecomys_paricola,70,70,,XY,,34,unfused,Animal Karyotype Book 2020,Rosa et al. 2012
+1265,Rodentia,Geomyidae,Geomys,attwateri,Geomys_attwateri,70,70,,XY,,34,unfused,Animal Karyotype Book,Smolen and Bickham 1994
+1279,Rodentia,Heteromyidae,Dipodomys,graviceps,Dipodomys_graviceps,70,70,,XY,,34,unfused,Blackmon,
+1290,Rodentia,Heteromyidae,Dipodomys,stephensi,Dipodomys_stephensi,70,70,,XY,,34,unfused,Blackmon,
+158,Artiodactyla,Cervidae,Alces,alces,Alces_alces,68,68,,XY,,33,unfused,Blackmon,Graphodatsky (Unpublished)
+160,Artiodactyla,Cervidae,Axis,calamianensis,Axis_calamianensis,68,68,,XY,,33,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+161,Artiodactyla,Cervidae,Axis,kuhlii,Axis_kuhlii,68,68,,XY,,33,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+166,Artiodactyla,Cervidae,Cervus,elaphus,Cervus_elaphus,68,68,,XY,,33,unfused,Blackmon,
+167,Artiodactyla,Cervidae,Cervus,elaphus bactrianus,Cervus_elaphus bactrianus,68,68,,XY,,33,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+168,Artiodactyla,Cervidae,Cervus,elaphus sibiricus,Cervus_elaphus sibiricus,68,68,,XY,,33,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+176,Artiodactyla,Cervidae,Dama,dama,Dama_dama,68,68,,XY,,33,unfused,Blackmon,
+177,Artiodactyla,Cervidae,Dama,mesopotamica,Dama_mesopotamica,68,68,,XY,,33,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+180,Artiodactyla,Cervidae,Elaphurus,davidianus,Elaphurus_davidianus,68,68,,XY,,33,unfused,Blackmon,
+196,Artiodactyla,Cervidae,Ozotocerus,bezoarticus,Ozotocerus_bezoarticus,68,68,,XY,,33,unfused,Animal Karyotype Book 2020,Duarte and Giannoni 1995b
+717,Eulipotyphla,Soricidae,Notiosorex,crawfordi,Notiosorex_crawfordi,68,68,,XY,,33,unfused,Blackmon,
+776,Lagomorpha,Ochotonidae,Ochotona,princeps,Ochotona_princeps,68,68,,XY,,33,unfused,Animal Karyotype Book,Stock 1976
+1171,Rodentia,Cricetidae,Oecomys,paricola,Oecomys_paricola,68,68,,XY,,33,unfused,Animal Karyotype Book 2020,Rosa et al. 2012
+1341,Rodentia,Muridae,Lophuromys,brevicaudus,Lophuromys_brevicaudus,68,68,,XY,,33,unfused,Animal Karyotype Book,Aniskin et al. 1997a
+1418,Rodentia,Ochotonidae,Ochotona,princeps,Ochotona_princeps,68,68,,XY,,33,unfused,Blackmon,
+1467,Scandentia,Tupaiidae,Tupaia,montana,Tupaia_montana,68,68,,XY,,33,unfused,Blackmon,
+159,Artiodactyla,Cervidae,Axis,axis,Axis_axis,66,66,,XY,,32,unfused,Blackmon,
+162,Artiodactyla,Cervidae,Blastocerus,dichotomus,Blastocerus_dichotomus,66,66,,XY,,32,unfused,Animal Karyotype Book 2020,Duarte and Giannoni 1995a
+165,Artiodactyla,Cervidae,Cervus,albirostris,Cervus_albirostris,66,66,,XY,,32,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+174,Artiodactyla,Cervidae,Cervus,nippon,Cervus_nippon,66,66,,XY,,32,unfused,Animal Karyotype Book 2020,Huang et al. 2006a
+169,Artiodactyla,Cervidae,Cervus,nippon hortulorum,Cervus_nippon hortulorum,66,66,,XY,,32,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+170,Artiodactyla,Cervidae,Cervus,nippon mandarinus,Cervus_nippon mandarinus,66,66,,XY,,32,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+260,Carnivora,Canidae,Urocyon,cinereoargenteus,Urocyon_cinereoargenteus,66,66,,XY,,32,unfused,Blackmon,Wayne et al. 1987a
+801,Perissodactyla,Equidae,Equus,prewalskii,Equus_prewalskii,66,66,,XY,,32,unfused,Animal Karyotype Book,Yang et al. 2003b
+794,Perissodactyla,Equidae,Equus,asinus somaliensis,Equus_asinus somaliensis,NA,62-64,,XY,,32,unfused,Atlas of Mammalian Chromosomes,Houck et al. 1998
+883,Primates,Cercopithecidae,Cercopithecus,ascanius,Cercopithecus_ascanius,66,66,,XY,,32,unfused,Blackmon,
+884,Primates,Cercopithecidae,Cercopithecus,ascanius schmidti,Cercopithecus_ascanius schmidti,66,66,,XY,,32,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+885,Primates,Cercopithecidae,Cercopithecus,cephus,Cercopithecus_cephus,66,66,,XY,,32,unfused,Blackmon,Clemente et al. 1990
+888,Primates,Cercopithecidae,Cercopithecus,mona campbell,Cercopithecus_mona campbell,66,66,,XY,,32,unfused,Animal Karyotype Book,Clemente et al. 1990
+890,Primates,Cercopithecidae,Cercopithecus,petaurista,Cercopithecus_petaurista,66,66,,XY,,32,unfused,Animal Karyotype Book,Clemente et al. 1990
+908,Primates,Cheirogaleidae,Microcebus,murinus,Microcebus_murinus,66,66,,XY,,32,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+993,Rodentia,Caviidae,Hydrochoeris,hydrochaeris,Hydrochoeris_hydrochaeris,66,66,,XY,,32,unfused,Blackmon,CRES San Diego (Unpublished)
+1173,Rodentia,Cricetidae,Oligoryzomys,flavescens,Oligoryzomys_flavescens,66,66,,XY,,32,unfused,Animal Karyotype Book,Aniskin and Volobouev 1999
+1299,Rodentia,Hystricidae,Hystrix,indica,Hystrix_indica,66,66,,XY,,32,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1468,Scandentia,Tupaiidae,Tupaia,minor,Tupaia_minor,66,66,,XY,,32,unfused,Animal Karyotype Book 2020,Dumas et al. 2012
+253,Carnivora,Canidae,Fennecus,zerda,Fennecus_zerda,64,64,,XY,,31,unfused,Animal Karyotype Book,Graphodatsky et al. 2008
+357,Carnivora,Mustelidae,Spilogale,putorius,Spilogale_putorius,64,64,,XY,,31,unfused,Blackmon,
+358,Carnivora,Mustelidae,Spilogale,putorius interrupta,Spilogale_putorius interrupta,64,64,,XY,,31,unfused,Animal Karyotype Book,Benirschke 1969
+628,Cingulata,Dasypodidae,Dasypus,hybridus,Dasypus_hybridus,64,64,,XY,,31,unfused,Animal Karyotype Book,Jorge et al. 1977
+629,Cingulata,Dasypodidae,Dasypus,novemcinctus,Dasypus_novemcinctus,64,64,,XY,,31,unfused,Blackmon,Jorge et al. 1977
+630,Cingulata,Dasypodidae,Dasypus,septemcinctus,Dasypus_septemcinctus,64,64,,XY,,31,unfused,Animal Karyotype Book,Barroso and Seuanez 1991
+796,Perissodactyla,Equidae,Equus,caballus,Equus_caballus,64,64,,XY,,31,unfused,Blackmon,Bowling et al. 1997
+820,Pilosa,Cyclopedidae,Cyclopes,didactylus,Cyclopes_didactylus,64,64,,XY,,31,unfused,Animal Karyotype Book,Jorge 2000
+977,Rodentia,Abrocomidae,Abrocoma,bennetti,Abrocoma_bennetti,64,64,,XY,,31,unfused,Animal Karyotype Book,Spotorno et al. 1995
+991,Rodentia,Caviidae,Cavia,porcellus,Cavia_porcellus,64,64,,XY,,31,unfused,Blackmon,Romanenko et al. 2015
+994,Rodentia,Caviidae,Cavia,tschudii,Cavia_tschudii,64,64,,XY,,31,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+992,Rodentia,Caviidae,Dolichotis,patagonum,Dolichotis_patagonum,64,64,,XY,,31,unfused,Blackmon,Romanenko (Unpublished)
+995,Rodentia,Chinchillidae,Chinchilla,laniger,Chinchilla_laniger,64,64,,XY,,31,unfused,Blackmon,
+1109,Rodentia,Cricetidae,Microtus,longicaudatus,Microtus_longicaudatus,64,64,,XY,,31,unfused,Blackmon,Modi 1987
+1158,Rodentia,Cricetidae,Neacomys,dubosti,Neacomys_dubosti,64,64,,XY,,31,unfused,Animal Karyotype Book 2020,Da Silva et al. 2015
+1174,Rodentia,Cricetidae,Oligoryzomys,flavescens,Oligoryzomys_flavescens,64,64,,XY,,31,unfused,Animal Karyotype Book 2020,Hass et al. 2008
+1175,Rodentia,Cricetidae,Oligoryzomys,microtis,Oligoryzomys_microtis,64,64,,XY,,31,unfused,Animal Karyotype Book,Aniskin and Volobouev 1999
+1236,Rodentia,Dasyproctidae,Dasyprocta,agouti,Dasyprocta_agouti,64,64,,XY,,31,unfused,Blackmon,
+1238,Rodentia,Dasyproctidae,Dasyprocta,fuliginosa,Dasyprocta_fuliginosa,64,64,yes,XY,,31,unfused,Animal Karyotype Book 2020,Ramos et al. 2003
+1276,Rodentia,Heteromyidae,Dipodomys,deserti,Dipodomys_deserti,64,64,,XY,,31,unfused,Blackmon,
+1281,Rodentia,Heteromyidae,Dipodomys,ingens,Dipodomys_ingens,64,64,,XY,,31,unfused,Blackmon,
+1288,Rodentia,Heteromyidae,Dipodomys,panamintinus,Dipodomys_panamintinus,64,64,,XY,,31,unfused,Blackmon,
+175,Artiodactyla,Cervidae,Cervus,elaphus,Cervus_elaphus,62,62,,XY,,30,unfused,Animal Karyotype Book 2020,Huang et al. 2006a
+556,Chiroptera,Rhinolophidae,Rhinolophus,pusillus,Rhinolophus_pusillus,62,62,,XY,,30,unfused,Animal Karyotype Book 2020,Mao et al. 2007a
+621,Cingulata,Chlamyphoridae,Cabassous,centralis,Cabassous_centralis,62,62,,XY,,30,unfused,Blackmon,Benirschke 1969
+627,Cingulata,Chlamyphoridae,Zaedyus,pichiy,Zaedyus_pichiy,62,62,,XY,,30,unfused,Animal Karyotype Book,Jorge et al. 1977
+793,Perissodactyla,Equidae,Equus,asinus,Equus_asinus,62,62,,XY,,30,unfused,Blackmon,Raudsepp and Chowdhary 1999
+849,Primates,Atelidae,Brachyteles,arachnoides,Brachyteles_arachnoides,62,62,,XY,,30,unfused,Animal Karyotype Book 2020,de Oliveira et al. 2005
+839,Primates,Atelidae,Lagothrix,lagotricha,Lagothrix_lagotricha,62,62,,XY,,30,unfused,Animal Karyotype Book,Stanyon et al. 2001
+840,Primates,Atelidae,Lagothrix,ubericolor,Lagothrix_ubericolor,62,62,,XY,,30,unfused,Blackmon,
+909,Primates,Cercopithecidae,Cercopithecus,neglectus,Cercopithecus_neglectus,62,62,,XY,,30,unfused,Animal Karyotype Book 2020,Stanyon et al.2005
+921,Primates,Galagidae,Galago,crassicaudatus monteiri,Galago_crassicaudatus monteiri,62,62,,XY,,30,unfused,Blackmon,
+922,Primates,Galagidae,Otolemur,crassicaudatus,Otolemur_crassicaudatus,62,62,,XY,,30,unfused,Animal Karyotype Book,Stanyon et al. 2002
+955,Primates,Lorisidae,Loris,tardigradus,Loris_tardigradus,62,62,,XY,,30,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+986,Rodentia,Bathyergidae,Heliophobius,argenteocinereus,Heliophobius_argenteocinereus,62,62,,XY,,30,unfused,Animal Karyotype Book 2020,Deuve et al. 2008
+1122,Rodentia,Cricetidae,Microtus,pinetorum,Microtus_pinetorum,62,62,,XY,,30,unfused,Animal Karyotype Book,Modi 1987
+1127,Rodentia,Cricetidae,Microtus,socialis,Microtus_socialis,62,62,,XY,,30,unfused,Animal Karyotype Book,Lemskaya e al. 2010
+1200,Rodentia,Cricetidae,Pitymys,mariae,Pitymys_mariae,62,62,,XY,,30,unfused,Blackmon,
+1237,Rodentia,Dasyproctidae,Myoprocta,acouchi,Myoprocta_acouchi,62,62,,XY,,30,unfused,Blackmon,
+1249,Rodentia,Echimyidae,Lonchothrix,emiliae,Lonchothrix_emiliae,62,62,,XY,,30,unfused,Animal Karyotype Book,Aniskin 1994b
+1273,Rodentia,Gliridae,Glis,glis,Glis_glis,62,62,,XY,,30,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+1313,Rodentia,Muridae,Arvicanthis,ansorgei,Arvicanthis_ansorgei,62,62,,XY,,30,unfused,Animal Karyotype Book,Volobouev et al. 2002b
+1314,Rodentia,Muridae,Arvicanthis,niloticus-cytotype 1A,Arvicanthis_niloticus-cytotype 1A,62,62,,XY,,30,unfused,Animal Karyotype Book,Volobouev et al. 2002b
+1315,Rodentia,Muridae,Arvicanthis,niloticus-cytotype 1B,Arvicanthis_niloticus-cytotype 1B,62,62,,XY,,30,unfused,Animal Karyotype Book,Volobouev et al. 2002b
+1316,Rodentia,Muridae,Arvicanthis,rufinus,Arvicanthis_rufinus,62,62,,XY,,30,unfused,Animal Karyotype Book,Volobouev et al. 2002b
+1440,Rodentia,Sciuridae,Menetes,berdmorei,Menetes_berdmorei,62,62,,XY,,30,unfused,Blackmon,
+1464,Scandentia,Tupaiidae,Tupaia,belangeri,Tupaia_belangeri,62,62,,XY,,30,unfused,Animal Karyotype Book,Bigoni and Stanyon (Unpublished)
+1465,Scandentia,Tupaiidae,Tupaia,chinenesis,Tupaia_chinenesis,62,62,,XY,,30,unfused,Blackmon,
+39,Artiodactyla,Bovidae,Aepyceros,melampus,Aepyceros_melampus,60,60,,XY,,29,unfused,Blackmon,
+47,Artiodactyla,Bovidae,Bison,bison,Bison_bison,60,60,,XY,,29,unfused,Blackmon,
+48,Artiodactyla,Bovidae,Bison,bonasus,Bison_bonasus,60,60,,XY,,29,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+51,Artiodactyla,Bovidae,Bos,grunniens,Bos_grunniens,60,60,,XY,,29,unfused,Animal Karyotype Book,Craphodatsky and Biltueva (Unpublished)
+52,Artiodactyla,Bovidae,Bos,indicus,Bos_indicus,60,60,,XY,,29,unfused,Blackmon,
+53,Artiodactyla,Bovidae,Bos,javanicus,Bos_javanicus,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+54,Artiodactyla,Bovidae,Bos,taurus,Bos_taurus,60,60,,XY,,29,unfused,Blackmon,Hayes et al. 1995
+59,Artiodactyla,Bovidae,Capra,cylindricornis,Capra_cylindricornis,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+60,Artiodactyla,Bovidae,Capra,hircus,Capra_hircus,60,60,,XY,,29,unfused,Blackmon,Biltueva and Graphodatsky (Unpublished)
+64,Artiodactyla,Bovidae,Capra,hircus aegagrus,Capra_hircus aegagrus,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Huang et al. 2005
+63,Artiodactyla,Bovidae,Capra,hircus hircus,Capra_hircus hircus,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Biltueva and Graphodatsky (Unpublished)
+61,Artiodactyla,Bovidae,Capra,ibex,Capra_ibex,60,60,,XY,,29,unfused,Blackmon,
+62,Artiodactyla,Bovidae,Capra,pyrenaica hispanica,Capra_pyrenaica hispanica,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+67,Artiodactyla,Bovidae,Cephalophus,dorsalis,Cephalophus_dorsalis,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+68,Artiodactyla,Bovidae,Cephalophus,monticola,Cephalophus_monticola,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+69,Artiodactyla,Bovidae,Cephalophus,niger,Cephalophus_niger,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+70,Artiodactyla,Bovidae,Cephalophus,rufilatus,Cephalophus_rufilatus,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+71,Artiodactyla,Bovidae,Cephalophus,silvicultor,Cephalophus_silvicultor,60,60,,XY,,29,unfused,Blackmon,CRES San Diego (Unpublished)
+97,Artiodactyla,Bovidae,Hippotragus,equinus,Hippotragus_equinus,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+98,Artiodactyla,Bovidae,Hippotragus,niger,Hippotragus_niger,60,60,,XY,,29,unfused,Blackmon,CRES San Diego (Unpublished)
+112,Artiodactyla,Bovidae,Oreotragus,oreotragus stevensoni,Oreotragus_oreotragus stevensoni,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+173,Artiodactyla,Cervidae,Cervus,timorensis russa,Cervus_timorensis russa,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Frohlich et al. 2017
+40,Artiodactyla,Bovidae,Aepyceros,melampus petersi,Aepyceros_melampus petersi,NA,58-60,,XY,,29,unfused,Atlas of Mammalian Chromosomes,Rubes et al. 2012
+324,Carnivora,Mephitidae,Spilogale,gracilis,Spilogale_gracilis,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Perelman et al. 2008
+356,Carnivora,Mustelidae,Spilogale,gracilis latifrons,Spilogale_gracilis latifrons,60,60,,XY,,29,unfused,Animal Karyotype Book,Benirschke 1969
+623,Cingulata,Chlamyphoridae,Chaetophractus,villosus,Chaetophractus_villosus,60,60,,XY,,29,unfused,Blackmon,Jorge et al. 1977
+777,Lagomorpha,Ochotonidae,Ochotona,rufescene rufescens,Ochotona_rufescene rufescens,60,60,,XY,,29,unfused,Blackmon,
+821,Pilosa,Myrmecophagidae,Myrmecophaga,tridactyla,Myrmecophaga_tridactyla,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+881,Primates,Cercopithecidae,Cercopithecus,aethiops,Cercopithecus_aethiops,60,60,,XY,,29,unfused,Blackmon,Finelli et al. 1999
+887,Primates,Cercopithecidae,Cercopithecus,l'hoesti,Cercopithecus_l'hoesti,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+950,Primates,Lemuridae,Eulemur,fulvus,Eulemur_fulvus,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Muller et al. 2004
+944,Primates,Lemuridae,Eulemur,fulvus sanfordi,Eulemur_fulvus sanfordi,60,60,,XY,,29,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+947,Primates,Lemuridae,Lemur,fulvus fulvus,Lemur_fulvus fulvus,60,60,,XY,,29,unfused,Blackmon,
+1104,Rodentia,Cricetidae,Microtus,guentheri arm,Microtus_guentheri arm,60,60,,XY,,29,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1135,Rodentia,Cricetidae,Microtus,schidlovskii,Microtus_schidlovskii,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Sablina et al. (Unpublished)
+1128,Rodentia,Cricetidae,Microtus,socialis schiddlovskii,Microtus_socialis schiddlovskii,60,60,,XY,,29,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1250,Rodentia,Echimyidae,Lonchothrix,emiliae,Lonchothrix_emiliae,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Aniskin 1994b
+983,Rodentia,Heterocephalidae,Heterocephalus,glaber,Heterocephalus_glaber,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1275,Rodentia,Heteromyidae,Dipodomys,agilis,Dipodomys_agilis,60,60,,XY,,29,unfused,Blackmon,
+1278,Rodentia,Heteromyidae,Dipodomys,elephantinus,Dipodomys_elephantinus,60,60,,XY,,29,unfused,Blackmon,
+1283,Rodentia,Heteromyidae,Dipodomys,microps,Dipodomys_microps,60,60,,XY,,29,unfused,Blackmon,
+1291,Rodentia,Heteromyidae,Dipodomys,venustus,Dipodomys_venustus,60,60,,XY,,29,unfused,Blackmon,
+1343,Rodentia,Muridae,Lophuromys,melanonyx,Lophuromys_melanonyx,60,60,,XY,,29,unfused,Animal Karyotype Book,Aniskin et al. 1997a
+1415,Rodentia,Nesomyidae,Nesomys,rufus,Nesomys_rufus,60,60,,XY,,29,unfused,Animal Karyotype Book 2020,Solano et al. 2011
+1460,Rodentia,Spalacidae,Spalax,ehrenbergi,Spalax_ehrenbergi,60,60,,XY,,29,unfused,Blackmon,Ivanitskaya and Nevo 1998
+1466,Scandentia,Tupaiidae,Tupaia,glis,Tupaia_glis,60,60,,XY,,29,unfused,Blackmon,
+30,Artiodactyla,Antilocapridae,Antilocapra,americana,Antilocapra_americana,58,58,,XY,,28,unfused,Blackmon,Kulemzina et al. 2009
+38,Artiodactyla,Bovidae,Addax,nasomaculatus,Addax_nasomaculatus,58,58,,XY,,28,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+43,Artiodactyla,Bovidae,Ammotragus,lervia,Ammotragus_lervia,58,58,,XY,,28,unfused,Blackmon,
+50,Artiodactyla,Bovidae,Bos,frontalis (gaurus),Bos_frontalis (gaurus),58,58,,XY,,28,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+49,Artiodactyla,Bovidae,Bos,frontalis (gayal),Bos_frontalis (gayal),58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Chi et al. 2005a
+72,Artiodactyla,Bovidae,Connochaetes,gnou,Connochaetes_gnou,58,58,,XY,,28,unfused,Blackmon,Rubes et al.2012
+73,Artiodactyla,Bovidae,Connochaetes,taurinus,Connochaetes_taurinus,58,58,,XY,,28,unfused,Blackmon,
+74,Artiodactyla,Bovidae,Connochaetes,taurinus albojubatus,Connochaetes_taurinus albojubatus,58,58,,XY,,28,unfused,Animal Karyotype Book,Rubes et al. 2012
+118,Artiodactyla,Bovidae,Oryx,beisa beisa,Oryx_beisa beisa,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Kumamoto et al. 1999
+119,Artiodactyla,Bovidae,Oryx,beisa callotis,Oryx_beisa callotis,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Kumamoto et al. 1999
+114,Artiodactyla,Bovidae,Oryx,gazella beisa,Oryx_gazella beisa,58,58,,XY,,28,unfused,Animal Karyotype Book,Kumamoto et al. 1999
+115,Artiodactyla,Bovidae,Oryx,gazella callotis,Oryx_gazella callotis,58,58,,XY,,28,unfused,Animal Karyotype Book,Kumamoto et al. 1999
+138,Artiodactyla,Bovidae,Rupricapra,rupicapra,Rupricapra_rupicapra,58,58,,XY,,28,unfused,Blackmon,
+171,Artiodactyla,Cervidae,Cervus,unicolor,Cervus_unicolor,58,58,,XY,,28,unfused,Blackmon,
+200,Artiodactyla,Cervidae,Rucervus,eldii,Rucervus_eldii,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Frohlich et al. 2017
+221,Artiodactyla,Moschidae,Moschus,berezovskii,Moschus_berezovskii,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Chi et al. 2005a
+220,Artiodactyla,Moschidae,Moschus,moschiferus,Moschus_moschiferus,58,58,,XY,,28,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+113,Artiodactyla,Bovidae,Oryx,dammah,Oryx_dammah,NA,56-58,,XY,,28,unfused,Atlas of Mammalian Chromosomes,Kumamoto et al. 1999
+117,Artiodactyla,Bovidae,Oryx,leucoryx,Oryx_leucoryx,NA,57-58,,XY,,28,unfused,Atlas of Mammalian Chromosomes,Rubes et al. 2012
+624,Cingulata,Chlamyphoridae,Euphractus,sexcinctus,Euphractus_sexcinctus,58,58,,XY,,28,unfused,Animal Karyotype Book,Jorge et al. 1977
+625,Cingulata,Chlamyphoridae,Euphractus,sexcinctus flavimanus,Euphractus_sexcinctus flavimanus,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Jorge et al. 1977
+886,Primates,Cercopithecidae,Cercopithecus,diana,Cercopithecus_diana,58,58,,XY,,28,unfused,Animal Karyotype Book,Ponsa et al. 1980
+919,Primates,Galagidae,Galago,demidovii,Galago_demidovii,58,58,,XY,,28,unfused,Blackmon,
+1029,Rodentia,Cricetidae,Blanfordimys,afghanus,Blanfordimys_afghanus,58,58,,XY,,28,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1081,Rodentia,Cricetidae,Hylaeamys,younanus,Hylaeamys_younanus,58,58,,XY,,28,unfused,Animal Karyotype Book,Volobouev and Aniskin 2000
+1160,Rodentia,Cricetidae,Neacomys,sp. 1,Neacomys_sp. 1,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Da Silva et al. 2015
+1182,Rodentia,Cricetidae,Oryzomys,yunganus,Oryzomys_yunganus,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Volobouev and Aniskin 2000a
+1239,Rodentia,Dinomyidae,Dinomys,branickii,Dinomys_branickii,58,58,,XY,,28,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+1317,Rodentia,Muridae,Arvicanthis,sp.,Arvicanthis_sp.,58,58,,XY,,28,unfused,Animal Karyotype Book,Volobouev et al. 2002b
+1355,Rodentia,Muridae,Meriones,crassus,Meriones_crassus,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Darvish and Volobouev (Unpublished)
+1414,Rodentia,Nesomyidae,Eliurus,majori,Eliurus_majori,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Solano et al. 2011
+1234,Rodentia,Octodontidae,Aconaemys,porteri,Aconaemys_porteri,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Gallardo and Mondaca 2002
+1420,Rodentia,Octodontidae,Aconaemys,porteri,Aconaemys_porteri,58,58,,XY,,28,unfused,Animal Karyotype Book,Gallardo and Mandaca 2002
+1229,Rodentia,Octodontidae,Octodon,degus,Octodon_degus,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1422,Rodentia,Octodontidae,Octodon,degus,Octodon_degus,58,58,,XY,,28,unfused,Animal Karyotype Book,Spotorno et al. 1995
+1231,Rodentia,Octodontidae,Spalacopus,cyanus,Spalacopus_cyanus,58,58,,XY,,28,unfused,Animal Karyotype Book 2020,Spotorno et al. 1995
+1424,Rodentia,Octodontidae,Spalacopus,cyanus,Spalacopus_cyanus,58,58,,XY,,28,unfused,Animal Karyotype Book,Spotorno et al. 1995
+24,Afrosoricida,Tenrecidae,Microgale,thomasi,Microgale_thomasi,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+45,Artiodactyla,Bovidae,Antidorcas,marsupialis,Antidorcas_marsupialis,56,56,,XY,,27,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+109,Artiodactyla,Bovidae,Naemorhedus,baileyi cranbrooki,Naemorhedus_baileyi cranbrooki,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Huang et al. 2005
+107,Artiodactyla,Bovidae,Naemorhedus,goral,Naemorhedus_goral,56,56,,XY,,27,unfused,Animal Karyotype Book,Biltueva and Graphodatsky (Unpublished)
+120,Artiodactyla,Bovidae,Oryx,gazella,Oryx_gazella,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,CRES San Diego (Unpublished)
+116,Artiodactyla,Bovidae,Oryx,gazella gazella,Oryx_gazella gazella,56,56,,XY,,27,unfused,Blackmon,CRES San Diego (Unpublished)
+130,Artiodactyla,Bovidae,Ovis,ammon,Ovis_ammon,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Huang et al. 2005
+126,Artiodactyla,Bovidae,Ovis,ammon nigrimontana,Ovis_ammon nigrimontana,56,56,,XY,,27,unfused,Blackmon,
+132,Artiodactyla,Bovidae,Pelea,capreolus,Pelea_capreolus,56,56,,XY,,27,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+133,Artiodactyla,Bovidae,Pseudois,nayaur szechuanensis,Pseudois_nayaur szechuanensis,56,56,,XY,,27,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+172,Artiodactyla,Cervidae,Cervus,unicolor malaccensis,Cervus_unicolor malaccensis,56,56,,XY,,27,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+199,Artiodactyla,Cervidae,Rucervus,duvaucelii,Rucervus_duvaucelii,56,56,,XY,,27,unfused,Blackmon,
+108,Artiodactyla,Bovidae,Naemorhedus,goral,Naemorhedus_goral,56,56,,XY,,27,unfused,Atlas of Mammalian Chromosomes,Biltueva et al. (Unpublished)
+137,Artiodactyla,Bovidae,Redunca,fulvorufula,Redunca_fulvorufula,NA,56-57,,XY,chrom rearrangements,27,unfused,Atlas of Mammalian Chromosomes,Rubes et al. 2007
+553,Chiroptera,Rhinolophidae,Rhinolophus,ferrumequinum,Rhinolophus_ferrumequinum,56,56,,XY,,27,unfused,Animal Karyotype Book,Teeling and Stanyon (Unpublished)
+555,Chiroptera,Rhinolophidae,Rhinolophus,ferrumequinum tragatus,Rhinolophus_ferrumequinum tragatus,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Mao et al. 2007a
+560,Chiroptera,Rhinolophidae,Rhinolophus,hipposideros,Rhinolophus_hipposideros,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Volleth et al. 2013
+554,Chiroptera,Rhinolophidae,Rhinolophus,rouxi,Rhinolophus_rouxi,56,56,,XY,,27,unfused,Animal Karyotype Book,Zima et al. 1992
+642,Dermoptera,Cynocephalidae,Cynocephalus,variegatus,Cynocephalus_variegatus,56,56,,XY,,27,unfused,Blackmon,Nie et al. 2008
+946,Primates,Lemuridae,Lemur,catta,Lemur_catta,56,56,,XY,,27,unfused,Blackmon,
+975,Proboscidea,Elephantidae,Elephas,maximus,Elephas_maximus,56,56,,XY,,27,unfused,Blackmon,Houck et al. 2001
+976,Proboscidea,Elephantidae,Loxodonta,africana,Loxodonta_africana,56,56,,XY,,27,unfused,Blackmon,Houck et al. 2001
+996,Rodentia,Chinchillidae,Lagostomus,maximus,Lagostomus_maximus,56,56,,XY,,27,unfused,Blackmon,Graphodatskaya and Graphodatsky (Unpublished)
+1016,Rodentia,Cricetidae,Alticola,argentatus,Alticola_argentatus,56,56,,XY,,27,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1018,Rodentia,Cricetidae,Alticola,barakshin,Alticola_barakshin,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Lemskaya and Romanenko (Unpublished)
+1017,Rodentia,Cricetidae,Alticola,macrotis,Alticola_macrotis,56,56,,XY,,27,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1020,Rodentia,Cricetidae,Alticola,olchonensis,Alticola_olchonensis,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1019,Rodentia,Cricetidae,Alticola,strelzowi,Alticola_strelzowi,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Lemskaya (Unpublished)
+1045,Rodentia,Cricetidae,Clethrionomys,californicus,Clethrionomys_californicus,56,56,,XY,,27,unfused,Animal Karyotype Book,Modi 1987
+1046,Rodentia,Cricetidae,Clethrionomys,centralis,Clethrionomys_centralis,56,56,,XY,,27,unfused,Animal Karyotype Book,Sokolov et al. 1990
+1047,Rodentia,Cricetidae,Clethrionomys,gapperi,Clethrionomys_gapperi,56,56,,XY,,27,unfused,Blackmon,Modi 1987
+1048,Rodentia,Cricetidae,Clethrionomys,rufocanus,Clethrionomys_rufocanus,56,56,,XY,,27,unfused,Blackmon,Sokolov et al. 1990
+1049,Rodentia,Cricetidae,Clethrionomys,rutilus,Clethrionomys_rutilus,56,56,,XY,,27,unfused,Animal Karyotype Book,Sokolov et al. 1990
+1050,Rodentia,Cricetidae,Clethrionomys,sikotanensis,Clethrionomys_sikotanensis,56,56,,XY,,27,unfused,Animal Karyotype Book,Sokolov et al. 1990
+1074,Rodentia,Cricetidae,Eothenomys,kageus,Eothenomys_kageus,56,56,,XY,,27,unfused,Blackmon,
+1077,Rodentia,Cricetidae,Eothenomys,miletus,Eothenomys_miletus,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Li et al. 2006b
+1075,Rodentia,Cricetidae,Eothenomys,regulus,Eothenomys_regulus,56,56,,XY,,27,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1076,Rodentia,Cricetidae,Eothenomys,smithi,Eothenomys_smithi,56,56,,XY,,27,unfused,Blackmon,
+1083,Rodentia,Cricetidae,Lagurus,lagurus,Lagurus_lagurus,56,56,,XY,,27,unfused,Animal Karyotype Book,Modi 1987
+1144,Rodentia,Cricetidae,Microtus,longicaudus,Microtus_longicaudus,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Modi 1987
+1123,Rodentia,Cricetidae,Microtus,richardsoni,Microtus_richardsoni,56,56,,XY,,27,unfused,Animal Karyotype Book,Modi 1987
+1153,Rodentia,Cricetidae,Myodes,californicus,Myodes_californicus,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Modi 1987
+1155,Rodentia,Cricetidae,Myodes,centralis,Myodes_centralis,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Sokolov et al. 1990
+1152,Rodentia,Cricetidae,Myodes,gapperi,Myodes_gapperi,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Modi 1987
+1147,Rodentia,Cricetidae,Myodes,glareolus,Myodes_glareolus,56,56,,XY,,27,unfused,Blackmon,Sokolov et al. 1990
+1148,Rodentia,Cricetidae,Myodes,imaizumi,Myodes_imaizumi,56,56,,XY,,27,unfused,Blackmon,
+1154,Rodentia,Cricetidae,Myodes,niigatae,Myodes_niigatae,56,56,,XY,,27,unfused,Blackmon,
+1156,Rodentia,Cricetidae,Myodes,regulus,Myodes_regulus,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Sablina et al. (Unpublished)
+1149,Rodentia,Cricetidae,Myodes,rufocanus,Myodes_rufocanus,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Sokolov et al. 1990
+1151,Rodentia,Cricetidae,Myodes,rutilus,Myodes_rutilus,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Romanenko et al. 2016
+1150,Rodentia,Cricetidae,Myodes,sikotanensis,Myodes_sikotanensis,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Sokolov et al. 1990
+1159,Rodentia,Cricetidae,Neacomys,paracou,Neacomys_paracou,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Da Silva et al. 2015
+1181,Rodentia,Cricetidae,Oryzomys,palustris,Oryzomys_palustris,56,56,,XY,,27,unfused,Blackmon,
+1195,Rodentia,Cricetidae,Phenacomys,intermedius,Phenacomys_intermedius,56,56,,XY,,27,unfused,Blackmon,Modi (Unpublished)
+1202,Rodentia,Cricetidae,Prometheomys,schaposchnikowi,Prometheomys_schaposchnikowi,56,56,,XY,,27,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1293,Rodentia,Heteromyidae,Liomys,salvini,Liomys_salvini,56,56,,XY,,27,unfused,Blackmon,
+1232,Rodentia,Octodontidae,Aconaemys,fuscus,Aconaemys_fuscus,56,56,,XY,,27,unfused,Animal Karyotype Book 2020,Gallardo and Mondaca 2002
+1419,Rodentia,Octodontidae,Aconaemys,fuscus,Aconaemys_fuscus,56,56,,XY,,27,unfused,Animal Karyotype Book,Gallardo and Mandaca 2002
+122,Artiodactyla,Bovidae,Ovis,aries,Ovis_aries,54,54,,XY,,26,unfused,Blackmon,Cribiu et al. 2001
+129,Artiodactyla,Bovidae,Ovis,aries aries,Ovis_aries aries,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Iannuzzi et al. 1999
+127,Artiodactyla,Bovidae,Ovis,aries musimon,Ovis_aries musimon,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,CRES San Diego (Unpublished)
+128,Artiodactyla,Bovidae,Ovis,aries orientalis,Ovis_aries orientalis,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Proskuryakova and Beklemisheva (Unpublished)
+123,Artiodactyla,Bovidae,Ovis,canadensis,Ovis_canadensis,54,54,,XY,,26,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+124,Artiodactyla,Bovidae,Ovis,orientalis,Ovis_orientalis,54,54,,XY,,26,unfused,Blackmon,
+125,Artiodactyla,Bovidae,Ovis,orientalis musimon,Ovis_orientalis musimon,54,54,,XY,,26,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+134,Artiodactyla,Bovidae,Pseudois,schaeferi,Pseudois_schaeferi,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Veterinary Research Institute Brno (Unpublished)
+99,Artiodactyla,Bovidae,Kobus,ellipsiprymnus defassa,Kobus_ellipsiprymnus defassa,NA,53-54,,XY,,26,unfused,Atlas of Mammalian Chromosomes,Kingswood et al. 1998b
+139,Artiodactyla,Bovidae,Syncerus,caffer,Syncerus_caffer,NA,54-56,,XY,chrom rearrangements,26,unfused,Atlas of Mammalian Chromosomes,Ropiquet et al. 2010
+256,Carnivora,Canidae,Nyctereutes,procyonoides procyonoides,Nyctereutes_procyonoides procyonoides,54,54,yes (3),XY,,26,unfused,Animal Karyotype Book,Graphodatsky et al. (Unpublished)
+400,Carnivora,Viverridae,Genetta,genetta,Genetta_genetta,54,54,,XY,,26,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+402,Carnivora,Viverridae,Genetta,tigrina,Genetta_tigrina,54,54,,XY,,26,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+429,Chiroptera,Megadermatidae,Megaderma,lyra,Megaderma_lyra,54,54,,XY,,26,unfused,Animal Karyotype Book,Choudhury and Mohanty 1993
+754,Hyracoidea,Procaviidae,Procavia,capensis,Procavia_capensis,54,54,,XY,,26,unfused,Animal Karyotype Book,Pardini et al. 2007
+779,Lagomorpha,Ochotonidae,Ochotona,forresti,Ochotona_forresti,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Ye et al. 2011
+798,Perissodactyla,Equidae,Equus,hemionus kulan,Equus_hemionus kulan,NA,54-55,,XY,,26,unfused,Animal Karyotype Book,Musilova et al. 2009
+799,Perissodactyla,Equidae,Equus,hemionus onager,Equus_hemionus onager,NA,55-56,,XY,,26,unfused,Animal Karyotype Book,Trifonov et al. 2008
+824,Pilosa,Bradypodidae,Bradypus,variegatus,Bradypus_variegatus,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Azevedo et al. 2012
+822,Pilosa,Myrmecophagidae,Tamandua,tetradactyla,Tamandua_tetradactyla,54,54,,XY,,26,unfused,Blackmon,Jorge et al. 1977
+875,Primates,Aotidae,Aotus,lemurinus grisiemembra,Aotus_lemurinus grisiemembra,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Stanyon et al. 2011
+828,Primates,Aotidae,Aotus,nancymaae,Aotus_nancymaae,54,54,,XY,,26,unfused,Animal Karyotype Book,F. Garcia et al. 2002b
+830,Primates,Aotidae,Aotus,trivirgatus,Aotus_trivirgatus,54,54,,XY,,26,unfused,Blackmon,
+869,Primates,Cebidae,Cebus,albifrons,Cebus_albifrons,54,54,,XY,,26,unfused,Blackmon,Amaral et al. 2008
+870,Primates,Cebidae,Cebus,albifrons albifrons,Cebus_albifrons albifrons,54,54,,XY,,26,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+871,Primates,Cebidae,Cebus,apella,Cebus_apella,54,54,,XY,,26,unfused,Animal Karyotype Book,Clemente et al. 1987
+876,Primates,Cebidae,Cebus,apella paraguayanus,Cebus_apella paraguayanus,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Amaral et al. 2008
+872,Primates,Cebidae,Cebus,capucinus,Cebus_capucinus,54,54,,XY,,26,unfused,Animal Karyotype Book,Campa and Stanyon 1992
+877,Primates,Cebidae,Cebus,olivaceus,Cebus_olivaceus,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Garcia et al. 2002a
+882,Primates,Cercopithecidae,Cercopithecus,talapoin,Cercopithecus_talapoin,54,54,,XY,,26,unfused,Blackmon,
+893,Primates,Cercopithecidae,Erythrocebus,patas,Erythrocebus_patas,54,54,,XY,,26,unfused,Blackmon,Stanyon et al. 2005
+898,Primates,Cercopithecidae,Miopithecus,talapoin,Miopithecus_talapoin,54,54,,XY,,26,unfused,Animal Karyotype Book,Ponsa et al. 1980
+972,Primates,Pitheciidae,Chiropotes,utahicki,Chiropotes_utahicki,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Stanyon et al. 2004b
+979,Rodentia,Bathyergidae,Bathyergus,janetta,Bathyergus_janetta,54,54,,XY,,26,unfused,Animal Karyotype Book,Nevo et al. 1986
+984,Rodentia,Bathyergidae,Fukomys,darlingi,Fukomys_darlingi,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Deuve et al. 2008
+982,Rodentia,Bathyergidae,Georychus,capensis,Georychus_capensis,54,54,,XY,,26,unfused,Animal Karyotype Book,Nevo et al. 1986
+1042,Rodentia,Cricetidae,Chionomys,gud,Chionomys_gud,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1043,Rodentia,Cricetidae,Chionomys,nivalis,Chionomys_nivalis,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1044,Rodentia,Cricetidae,Chionomys,roberti,Chionomys_roberti,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1071,Rodentia,Cricetidae,Ellobius,talpinus,Ellobius_talpinus,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Bakloushinskaya et al. 2012
+1072,Rodentia,Cricetidae,Ellobius,tancrei,Ellobius_tancrei,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Bakloushinskaya et al. 2012
+1082,Rodentia,Cricetidae,Lagurus,curtatus,Lagurus_curtatus,54,54,,XY,,26,unfused,Blackmon,
+1084,Rodentia,Cricetidae,Lagurus,lagurus,Lagurus_lagurus,54,54,,XY,,26,unfused,Blackmon,
+1100,Rodentia,Cricetidae,Microtus,daghestanicus,Microtus_daghestanicus,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1137,Rodentia,Cricetidae,Microtus,guentheri,Microtus_guentheri,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Lemskaya et al. 2010
+1105,Rodentia,Cricetidae,Microtus,guentheri philistinus,Microtus_guentheri philistinus,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1132,Rodentia,Cricetidae,Microtus,juldaschi,Microtus_juldaschi,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Sablina et al. (Unpublished)
+1107,Rodentia,Cricetidae,Microtus,julddaschi carruthersi,Microtus_julddaschi carruthersi,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1108,Rodentia,Cricetidae,Microtus,kirgisorum,Microtus_kirgisorum,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1141,Rodentia,Cricetidae,Microtus,levis,Microtus_levis,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Lemskaya et al. 2010
+1110,Rodentia,Cricetidae,Microtus,majori,Microtus_majori,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1118,Rodentia,Cricetidae,Microtus,nova,Microtus_nova,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1119,Rodentia,Cricetidae,Microtus,ochrogaster,Microtus_ochrogaster,54,54,,XY,,26,unfused,Blackmon,Modi 1987
+1138,Rodentia,Cricetidae,Microtus,qazvinensis,Microtus_qazvinensis,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Sablina et al. (Unpublished)
+1124,Rodentia,Cricetidae,Microtus,rossiaemeridonalis,Microtus_rossiaemeridonalis,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1134,Rodentia,Cricetidae,Microtus,savii,Microtus_savii,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1126,Rodentia,Cricetidae,Microtus,schelkovnikovi,Microtus_schelkovnikovi,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1129,Rodentia,Cricetidae,Microtus,subterraneus,Microtus_subterraneus,54,54,,XY,,26,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1164,Rodentia,Cricetidae,Neotoma,cinerea,Neotoma_cinerea,54,54,,XY,,26,unfused,Blackmon,
+1176,Rodentia,Cricetidae,Ondatra,zibethica,Ondatra_zibethica,54,54,,XY,,26,unfused,Blackmon,Lemskaya (Unpublished)
+1179,Rodentia,Cricetidae,Oryzomys,megacephalus,Oryzomys_megacephalus,54,54,,XY,,26,unfused,Animal Karyotype Book,Volobouev and Aniskin 2000
+1285,Rodentia,Heteromyidae,Dipodomys,nitratoides,Dipodomys_nitratoides,54,54,,XY,,26,unfused,Blackmon,
+1339,Rodentia,Muridae,Lemniscomys,barbarus,Lemniscomys_barbarus,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1342,Rodentia,Muridae,Lophuromys,chrysopus,Lophuromys_chrysopus,54,54,,XY,,26,unfused,Animal Karyotype Book,Aniskin et al. 1997a
+1390,Rodentia,Muridae,Stenocephalemys,albocaudata,Stenocephalemys_albocaudata,54,54,,XY,,26,unfused,Animal Karyotype Book,Lavrenchenko et al. 2001
+1391,Rodentia,Muridae,Stenocephalemys,griseicauda,Stenocephalemys_griseicauda,54,54,,XY,,26,unfused,Animal Karyotype Book,Lavrenchenko et al. 2001
+1397,Rodentia,Muridae,Taterillus,congicus,Taterillus_congicus,54,54,,XY,,26,unfused,Animal Karyotype Book,Dobigny 2002
+1233,Rodentia,Octodontidae,Aconaemys,sagei,Aconaemys_sagei,54,54,,XY,,26,unfused,Animal Karyotype Book 2020,Gallardo and Mondaca 2002
+1421,Rodentia,Octodontidae,Aconaemys,sagei,Aconaemys_sagei,54,54,,XY,,26,unfused,Animal Karyotype Book,Gallardo and Mandaca 2002
+1433,Rodentia,Sciuridae,Funambulus,pennati,Funambulus_pennati,54,54,,XY,,26,unfused,Blackmon,
+58,Artiodactyla,Bovidae,Budorcas,taxicolor,Budorcas_taxicolor,52,52,,XY,,25,unfused,Animal Karyotype Book,Rubes et al. 2012
+103,Artiodactyla,Bovidae,Kobus,megaceros,Kobus_megaceros,52,52,,XY,,25,unfused,Animal Karyotype Book,Kingswood et al. 2000
+131,Artiodactyla,Bovidae,Ovis,nivcola,Ovis_nivcola,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Huang et al. 2005
+140,Artiodactyla,Bovidae,Syncerus,caffer,Syncerus_caffer,52,52,,XY,,25,unfused,Blackmon,
+79,Artiodactyla,Bovidae,Gazella,bennettii,Gazella_bennettii,NA,49-52,,XY,,25,unfused,Atlas of Mammalian Chromosomes,Kumamoto et al. 1995
+89,Artiodactyla,Bovidae,Gazella,saudiya,Gazella_saudiya,NA,46-53,,XY,,25,unfused,Atlas of Mammalian Chromosomes,Kumamoto et al. 1995
+100,Artiodactyla,Bovidae,Kobus,ellipsiprymnus ellipsiprymnus,Kobus_ellipsiprymnus ellipsiprymnus,NA,50-52,,XY,,25,unfused,Atlas of Mammalian Chromosomes,Kingswood et al. 1998b
+105,Artiodactyla,Bovidae,Madoqua,guentheri,Madoqua_guentheri,NA,48-50,,XY,,25,unfused,Atlas of Mammalian Chromosomes,Kingswood and Kumamoto 1996
+110,Artiodactyla,Bovidae,Neotragus,moschatus,Neotragus_moschatus,NA,52-56,,XY,,25,unfused,Atlas of Mammalian Chromosomes,Kingswood et al. 1998b
+391,Carnivora,Ursidae,Tremarctos,ornatus,Tremarctos_ornatus,52,52,,XY,,25,unfused,Animal Karyotype Book,Nash et al. 1998
+401,Carnivora,Viverridae,Genetta,genetta neumanni,Genetta_genetta neumanni,52,52,,XY,,25,unfused,Blackmon,
+409,Carnivora,Viverridae,Genetta,maculata,Genetta_maculata,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Matoso Silva et al. 2016
+410,Carnivora,Viverridae,Genetta,pardina,Genetta_pardina,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Beklemisheva (Unpublished)
+245,Carnivora,Canidae,Vulpes,lagopus,Vulpes_lagopus,NA,48-50,,XY,Chrom rearrangements,25,unfused,Atlas of Mammalian Chromosomes,"Graphodatsky et al. 2000b, 2008a; Nash et al. 2001"
+559,Chiroptera,Rhinolophidae,Rhinolophus,formosae,Rhinolophus_formosae,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Volleth et al. 2017
+716,Eulipotyphla,Soricidae,Neomys,fodiens,Neomys_fodiens,52,52,,XY,,25,unfused,Animal Karyotype Book,Perelman and Graphodatsky (Unpublished)
+804,Perissodactyla,Equidae,Equus,kiang,Equus_kiang,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Musilova et al. 2009
+813,Perissodactyla,Tapiridae,Tapirus,indicus,Tapirus_indicus,52,52,,XY,,25,unfused,Animal Karyotype Book,Houck et al. 2000
+818,Pilosa,Choloepodidae,Choloepus,didactylus,Choloepus_didactylus,53,53,,XY,,25,unfused,Animal Karyotype Book,Nash (Unpublished)
+873,Primates,Cebidae,Cebus,olivaceus,Cebus_olivaceus,52,52,,XY,,25,unfused,Animal Karyotype Book,Amaral et al. 2008
+930,Primates,Hylobatidae,Hylobates,concolor,Hylobates_concolor,52,52,,XY,,25,unfused,Blackmon,Koehler et al. 1995
+938,Primates,Hylobatidae,Nomascus,concolor,Nomascus_concolor,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Muller et al. 2003
+941,Primates,Hylobatidae,Nomascus,gabriellae,Nomascus_gabriellae,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Nie et al. (Unpublished)
+939,Primates,Hylobatidae,Nomascus,leucogenys,Nomascus_leucogenys,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Nie et al. (Unpublished)
+940,Primates,Hylobatidae,Nomascus,siki,Nomascus_siki,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Nie et al. (Unpublished)
+997,Rodentia,Cricetidae,Abrothrix,longipilis,Abrothrix_longipilis,52,52,,XY,,25,unfused,Animal Karyotype Book,Gallardo 1982
+998,Rodentia,Cricetidae,Abrothrix,olivaceus,Abrothrix_olivaceus,52,52,,XY,,25,unfused,Animal Karyotype Book,Gallardo 1982
+999,Rodentia,Cricetidae,Abrothrix,sanborni,Abrothrix_sanborni,52,52,,XY,,25,unfused,Animal Karyotype Book,Gallardo 1982
+1006,Rodentia,Cricetidae,Akodon,xanthorhinus,Akodon_xanthorhinus,52,52,,XY,,25,unfused,Blackmon,
+1035,Rodentia,Cricetidae,Calomyscus,sp. 1,Calomyscus_sp. 1,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Romanenko et al. 2007
+1143,Rodentia,Cricetidae,Microtus,clarkei,Microtus_clarkei,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Li et al. 2006b
+1102,Rodentia,Cricetidae,Microtus,fortis,Microtus_fortis,52,52,,XY,,25,unfused,Animal Karyotype Book,Kovalskaya et al. 1991
+1133,Rodentia,Cricetidae,Microtus,subterraneus,Microtus_subterraneus,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Sablina et al. (Unpublished)
+1131,Rodentia,Cricetidae,Microtus,transcaspicus,Microtus_transcaspicus,52,52,,XY,,25,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1162,Rodentia,Cricetidae,Neofiber,alleni,Neofiber_alleni,52,52,,XY,,25,unfused,Animal Karyotype Book,Modi 1987
+1163,Rodentia,Cricetidae,Neotoma,albigula,Neotoma_albigula,52,52,,XY,,25,unfused,Blackmon,Mascarello et al. 1974
+1165,Rodentia,Cricetidae,Neotoma,floridana,Neotoma_floridana,52,52,,XY,,25,unfused,Blackmon,
+1166,Rodentia,Cricetidae,Neotoma,mexicana,Neotoma_mexicana,52,52,,XY,,25,unfused,Blackmon,
+1167,Rodentia,Cricetidae,Neotoma,micropus,Neotoma_micropus,52,52,,XY,,25,unfused,,Mascarello et al. 1974
+1168,Rodentia,Cricetidae,Neotoma,stephensi,Neotoma_stephensi,52,52,,XY,,25,unfused,Blackmon,
+1170,Rodentia,Cricetidae,Ochrotomys,nuttalli,Ochrotomys_nuttalli,52,52,,XY,,25,unfused,Blackmon,
+1194,Rodentia,Cricetidae,Phenacomys,longicaudus,Phenacomys_longicaudus,52,52,,XY,,25,unfused,Blackmon,
+1207,Rodentia,Cricetidae,Sigmodon,hispidus,Sigmodon_hispidus,52,52,,XY,,25,unfused,Blackmon,
+1212,Rodentia,Cricetidae,Thaptomys,nigrita,Thaptomys_nigrita,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Hass et al. 2008
+1215,Rodentia,Cricetidae,Tylomys,panamensis,Tylomys_panamensis,52,52,,XY,,25,unfused,Blackmon,
+1263,Rodentia,Erethizontidae,Chaetomys,subspinosus,Chaetomys_subspinosus,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Vilela et al. 2009
+1280,Rodentia,Heteromyidae,Dipodomys,heermanni,Dipodomys_heermanni,52,52,,XY,,25,unfused,Blackmon,
+1282,Rodentia,Heteromyidae,Dipodomys,merriami,Dipodomys_merriami,52,52,,XY,,25,unfused,Blackmon,Mascarello et al. 1974
+1332,Rodentia,Muridae,Gerbillurus,gambianus,Gerbillurus_gambianus,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Volobouev et al. 2007
+1326,Rodentia,Muridae,Gerbillus,rupicola,Gerbillus_rupicola,52,52,,XY,,25,unfused,Animal Karyotype Book,Granjon et al. 2002
+1350,Rodentia,Muridae,Maxomys,surifer,Maxomys_surifer,52,52,,XY,,25,unfused,Animal Karyotype Book 2020,Badenhorst et al. 2011
+1098,Rodentia,Cricetidae,Microtus,californicus,Microtus_californicus,53,53,,XY,,25,unfused,Atlas of Mammalian Chromosomes,Modi 1987
+56,Artiodactyla,Bovidae,Bubalus,bubalis,Bubalus_bubalis,50,50,,XY,,24,unfused,Blackmon,Iannuzzi 1994
+65,Artiodactyla,Bovidae,Capricornis,crispus,Capricornis_crispus,50,50,,XY,,24,unfused,Blackmon,Biltueva et al. (Unpublished)
+104,Artiodactyla,Bovidae,Kobus,kob,Kobus_kob,50,50,,XY,,24,unfused,Blackmon,
+101,Artiodactyla,Bovidae,Kobus,kob thomasi,Kobus_kob thomasi,50,50,,XY,,24,unfused,Animal Karyotype Book,Kingswood et al. 2000
+135,Artiodactyla,Bovidae,Pseudoryx,nghetinhensis,Pseudoryx_nghetinhensis,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Kulemzina et al. 2014
+244,Carnivora,Canidae,Alopex,lagopus,Alopex_lagopus,50,50,,XY,,24,unfused,Blackmon,Nash et al. 2001
+265,Carnivora,Canidae,Vulpes,macrotis,Vulpes_macrotis,50,50,,XY,,24,unfused,Animal Karyotype Book,Wayne et al. 1987a
+322,Carnivora,Mephitidae,Mephitis,macroura,Mephitis_macroura,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Perelman et al. 2008
+321,Carnivora,Mephitidae,Mephitis,mephitis,Mephitis_mephitis,50,50,,XY,,24,unfused,Blackmon,Perelman et al. 2008
+408,Carnivora,Viverridae,Genetta,johnstoni,Genetta_johnstoni,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Gaubert et al. 2004
+569,Chiroptera,Vespertilionidae,Eptesicus,bottae,Eptesicus_bottae,50,50,,XY,,24,unfused,Animal Karyotype Book,Volleth et al. 2001
+570,Chiroptera,Vespertilionidae,Eptesicus,fuscus,Eptesicus_fuscus,50,50,,XY,,24,unfused,Blackmon,Teeling and Stanyon (Unpublished)
+622,Cingulata,Chlamyphoridae,Cabassous,tatouay,Cabassous_tatouay,50,50,,XY,,24,unfused,Animal Karyotype Book,Benirschke 1969
+707,Eulipotyphla,Soricidae,Blarina,carlinensis peninsulae,Blarina_carlinensis peninsulae,50,50,,XY,,24,unfused,Animal Karyotype Book,George et al. 1982
+740,Eulipotyphla,Soricidae,Crocidura,olivieri,Crocidura_olivieri,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Aniskin (Unpublished)
+823,Pilosa,Bradypodidae,Bradypus,torquatus,Bradypus_torquatus,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Azevedo et al. 2012
+832,Primates,Atelidae,Alouatta,belzebul,Alouatta_belzebul,50,49,,XO,Y translocated to autosome,24,unfused,Animal Karyotype Book,Consigliere et al. .1998
+833,Primates,Atelidae,Alouatta,caraya,Alouatta_caraya,50,50,,XY,,24,unfused,Animal Karyotype Book,Bigoni and Stanyon (Unpublished)
+933,Primates,Hylobatidae,Hylobates,syndactylus,Hylobates_syndactylus,50,50,,XY,,24,unfused,Animal Karyotype Book,Ponsa et al. (Unpublished)
+934,Primates,Hylobatidae,Symphalangus,brachytanites,Symphalangus_brachytanites,50,50,,XY,,24,unfused,Blackmon,
+935,Primates,Hylobatidae,Symphalangus,syndactylus,Symphalangus_syndactylus,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Muller et al. 2003
+956,Primates,Lorisidae,Nycticebus,coucang,Nycticebus_coucang,50,50,,XY,,24,unfused,Animal Karyotype Book,Stanyon et al. 1987a
+957,Primates,Lorisidae,Nycticebus,pygmaeus,Nycticebus_pygmaeus,50,50,,XY,,24,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+968,Primates,Pitheciidae,Callicebus,donacophilus pallescens,Callicebus_donacophilus pallescens,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Barros et al. 2003
+969,Primates,Pitheciidae,Callicebus,hoffmannsi,Callicebus_hoffmannsi,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,J.C. Pieczarka (Unpublished)
+961,Primates,Pitheciidae,Callicebus,pallescens,Callicebus_pallescens,50,50,,XY,,24,unfused,Animal Karyotype Book,Stanyon et al. 2000
+1021,Rodentia,Cricetidae,Amphinectomys,savamis,Amphinectomys_savamis,50,50,,XY,,24,unfused,Animal Karyotype Book,Malygin et al. 1994
+1065,Rodentia,Cricetidae,Eligmodontia,puerulus,Eligmodontia_puerulus,50,50,,XY,,24,unfused,Animal Karyotype Book,Kelt et al. 1991
+1069,Rodentia,Cricetidae,Ellobius,talpinus,Ellobius_talpinus,50,50,,XY,,24,unfused,Animal Karyotype Book,Perelman and Graphodatsky (Unpublished)
+1085,Rodentia,Cricetidae,Lemmus,sibiricus,Lemmus_sibiricus,50,50,,XY,,24,unfused,Animal Karyotype Book,Modi 1987
+1092,Rodentia,Cricetidae,Microtus,agrestis,Microtus_agrestis,50,50,,XY,,24,unfused,Blackmon,Modi 1987
+1106,Rodentia,Cricetidae,Microtus,hyperboreus,Microtus_hyperboreus,50,50,,XY,,24,unfused,Blackmon,Sablina et al. (Unpublished)
+1113,Rodentia,Cricetidae,Microtus,mongolicus,Microtus_mongolicus,50,50,,XY,,24,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1125,Rodentia,Cricetidae,Microtus,sachalinensis,Microtus_sachalinensis,50,50,,XY,,24,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1130,Rodentia,Cricetidae,Microtus,townsendii,Microtus_townsendii,50,50,,XY,,24,unfused,Blackmon,Modi 1987
+1203,Rodentia,Cricetidae,Reithrodontomys,fulvescens,Reithrodontomys_fulvescens,50,50,,XY,,24,unfused,Blackmon,
+1211,Rodentia,Cricetidae,Synaptomys,cooperi,Synaptomys_cooperi,50,50,,XY,,24,unfused,Animal Karyotype Book,Modi 1987
+1226,Rodentia,Ctenomyidae,Ctenomys,rionegrensis,Ctenomys_rionegrensis,50,50,,XY,,24,unfused,Animal Karyotype Book,L. Garcia et al. 2002
+1304,Rodentia,Muridae,Apodemus,flavicolis,Apodemus_flavicolis,50,50,,XY,,24,unfused,Blackmon,
+1333,Rodentia,Muridae,Gerbillurus,guineae,Gerbillurus_guineae,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Volobouev et al. 2007
+1358,Rodentia,Muridae,Meriones,meridianus,Meriones_meridianus,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1392,Rodentia,Spalacidae,Tachyoryctes,macrocephalus,Tachyoryctes_macrocephalus,50,50,,XY,,24,unfused,Animal Karyotype Book 2020,Aniskin et al. 1997b
+1461,Rodentia,Spalacidae,Tachyoryctes,macrocephalus,Tachyoryctes_macrocephalus,50,50,,XY,,24,unfused,Animal Karyotype Book,Aniskin et al. 1997b
+44,Artiodactyla,Bovidae,Anoa,depressicornis depressicornis,Anoa_depressicornis depressicornis,48,48,,XY,,23,unfused,Blackmon,
+57,Artiodactyla,Bovidae,Bubalus,depressicornis,Bubalus_depressicornis,48,48,,XY,,23,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+66,Artiodactyla,Bovidae,Capricornis,sumatraensis,Capricornis_sumatraensis,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Huang et al. 2005
+96,Artiodactyla,Bovidae,Hemitragus,jemlahicus,Hemitragus_jemlahicus,48,48,,XY,,23,unfused,Blackmon,Rubes et al. 2012
+102,Artiodactyla,Bovidae,Kobus,leche,Kobus_leche,48,48,,XY,,23,unfused,Animal Karyotype Book,Kingswood et al. 2000
+121,Artiodactyla,Bovidae,Ovibos,moschatus,Ovibos_moschatus,48,48,,XY,,23,unfused,Blackmon,Biltueva and Graphodatsky (Unpublished)
+440,Chiroptera,Molossidae,Chaerephon,plicatus,Chaerephon_plicatus,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Mao et al. 2007b
+432,Chiroptera,Molossidae,Eumops,perotis,Eumops_perotis,48,48,,XY,,23,unfused,Animal Karyotype Book,Morielle-Versute et al. 1996
+434,Chiroptera,Molossidae,Molossops,temminckii,Molossops_temminckii,48,48,,XY,,23,unfused,Animal Karyotype Book,Morielle-Versute et al. 1996
+435,Chiroptera,Molossidae,Molossus,molossus,Molossus_molossus,48,48,,XY,,23,unfused,Animal Karyotype Book,Morielle-Versute et al. 1996
+436,Chiroptera,Molossidae,Molossus,rufus,Molossus_rufus,48,48,,XY,,23,unfused,Animal Karyotype Book,Morielle-Versute et al. 1996
+437,Chiroptera,Molossidae,Nyctinomops,laticaudatus,Nyctinomops_laticaudatus,48,48,,XY,,23,unfused,Animal Karyotype Book,Morielle-Versute et al. 1996
+438,Chiroptera,Molossidae,Tadarida,brasiliensis,Tadarida_brasiliensis,48,48,,XY,,23,unfused,Blackmon,
+439,Chiroptera,Molossidae,Tadarida,teniotis,Tadarida_teniotis,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Mao et al. 2008
+543,Chiroptera,Pteropodidae,Otopteropus,cartilagonodus,Otopteropus_cartilagonodus,48,48,,XY,,23,unfused,Animal Karyotype Book,Rickart et al. 1999
+696,Eulipotyphla,Erinaceidae,Erinaceus,amurensis,Erinaceus_amurensis,48,48,,XY,,23,unfused,Animal Karyotype Book,Radjabli and Graphodatsky (Unpublished)
+697,Eulipotyphla,Erinaceidae,Erinaceus,concolor,Erinaceus_concolor,48,48,,XY,,23,unfused,Animal Karyotype Book,Sokolov et al. 1991
+698,Eulipotyphla,Erinaceidae,Erinaceus,europaeus,Erinaceus_europaeus,48,48,,XY,,23,unfused,Animal Karyotype Book,Radjabli and Graphodatsky (Unpublished)
+699,Eulipotyphla,Erinaceidae,Hemiechinus,auritus,Hemiechinus_auritus,48,48,,XY,,23,unfused,Animal Karyotype Book,Yang et al. 2006
+700,Eulipotyphla,Erinaceidae,Hemiechinus,dauricus,Hemiechinus_dauricus,48,48,,XY,,23,unfused,Animal Karyotype Book,Radjabli and Graphodatsky (Unpublished)
+705,Eulipotyphla,Erinaceidae,Hylomys,suillus,Hylomys_suillus,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Pavlova (Unpublished)
+701,Eulipotyphla,Erinaceidae,Paraechinus,hypomelas,Paraechinus_hypomelas,48,48,,XY,,23,unfused,Animal Karyotype Book,Radjabli and Graphodatsky (Unpublished)
+760,Lagomorpha,Leporidae,Lepus,alleni alleni,Lepus_alleni alleni,48,48,,XY,,23,unfused,Blackmon,
+757,Lagomorpha,Leporidae,Lepus,americanus,Lepus_americanus,48,48,,XY,,23,unfused,Blackmon,
+758,Lagomorpha,Leporidae,Lepus,californicus,Lepus_californicus,48,48,,XY,,23,unfused,Animal Karyotype Book,Robinson et al. 2002
+761,Lagomorpha,Leporidae,Lepus,californicus eremicus,Lepus_californicus eremicus,48,48,,XY,,23,unfused,Blackmon,
+773,Lagomorpha,Leporidae,Lepus,mandshuricus,Lepus_mandshuricus,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Beklemisheva and Kartavtseva (Unpublished)
+759,Lagomorpha,Leporidae,Lepus,saxatilis,Lepus_saxatilis,48,48,,XY,,23,unfused,Animal Karyotype Book,Robinson 1980
+772,Lagomorpha,Leporidae,Lepus,timidus,Lepus_timidus,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Beklemisheva et al. 2011
+774,Lagomorpha,Leporidae,Lepus,tolai,Lepus_tolai,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Beklemisheva and Romanenko (Unpublished)
+762,Lagomorpha,Leporidae,Lepus,townsendii,Lepus_townsendii,48,48,,XY,,23,unfused,Blackmon,
+765,Lagomorpha,Leporidae,Romerolagus,diazi,Romerolagus_diazi,48,48,,XY,,23,unfused,Blackmon,Robinson et al. 2002
+878,Primates,Cercopithecidae,Allenopithecus,nigroviridis,Allenopithecus_nigroviridis,48,48,,XY,,23,unfused,Blackmon,CRES San Diego (Unpublished)
+899,Primates,Cercopithecidae,Nasalis,larvatus,Nasalis_larvatus,48,48,,XY,,23,unfused,Blackmon,
+923,Primates,Hominidae,Gorilla,gorilla,Gorilla_gorilla,48,48,,XY,,23,unfused,Blackmon,Yunis and Prakash 1982
+925,Primates,Hominidae,Pan,paniscus,Pan_paniscus,48,48,,XY,,23,unfused,Blackmon,Bigoni and Stanyon (Unpublished)
+926,Primates,Hominidae,Pan,troglodytes,Pan_troglodytes,48,48,,XY,,23,unfused,Blackmon,Yunis and Prakash 1982
+929,Primates,Hominidae,Pongo,abelii,Pongo_abelii,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Jauch et al. 1992
+927,Primates,Hominidae,Pongo,pygmaeus,Pongo_pygmaeus,48,48,,XY,,23,unfused,Blackmon,Yunis and Prakash 1982
+928,Primates,Hominidae,Pongo,pygmaeus abelii,Pongo_pygmaeus abelii,48,48,,XY,,23,unfused,Animal Karyotype Book,Bigoni and Stanyon (Unpublished)
+943,Primates,Indriidae,Propithecus,verreauxi coquereli,Propithecus_verreauxi coquereli,48,48,,XY,,23,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+964,Primates,Pitheciidae,Pithecia,irrorata,Pithecia_irrorata,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Finotelo et al. 2010
+963,Primates,Pitheciidae,Pithecia,pithecia,Pithecia_pithecia,48,48,,XY,,23,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+990,Rodentia,Castoridae,Castor,fiber,Castor_fiber,48,48,,XY,,23,unfused,Animal Karyotype Book,Graphodatsky et al. 2008b
+1028,Rodentia,Cricetidae,Baiomys,taylori subater,Baiomys_taylori subater,48,48,,XY,,23,unfused,Blackmon,
+1030,Rodentia,Cricetidae,Blanfordimys,bucharicus,Blanfordimys_bucharicus,48,48,,XY,,23,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1136,Rodentia,Cricetidae,Microtus,dogramacii,Microtus_dogramacii,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Lemskaya et al. 2010
+1145,Rodentia,Cricetidae,Microtus,mandarinus,Microtus_mandarinus,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Aniskin and Volobouev (Unpublished)
+1112,Rodentia,Cricetidae,Microtus,mexicanus,Microtus_mexicanus,48,48,,XY,,23,unfused,Animal Karyotype Book,Modi 1987
+1169,Rodentia,Cricetidae,Neotomodon,alstoni,Neotomodon_alstoni,48,48,,XY,,23,unfused,Blackmon,
+1177,Rodentia,Cricetidae,Onychomys,leucogaster,Onychomys_leucogaster,48,48,,XY,,23,unfused,Blackmon,
+1178,Rodentia,Cricetidae,Onychomys,torridus,Onychomys_torridus,48,48,,XY,,23,unfused,Blackmon,
+1183,Rodentia,Cricetidae,Ototylomys,phyllotis,Ototylomys_phyllotis,48,48,,XY,,23,unfused,Blackmon,
+1184,Rodentia,Cricetidae,Peromyscus,boylii,Peromyscus_boylii,48,48,,XY,,23,unfused,Blackmon,Greenbaum et al. 1994
+1185,Rodentia,Cricetidae,Peromyscus,californicus,Peromyscus_californicus,48,48,,XY,,23,unfused,Blackmon,
+1186,Rodentia,Cricetidae,Peromyscus,eremicus,Peromyscus_eremicus,48,48,,XY,,23,unfused,Blackmon,Romanenko et al. 2007
+1187,Rodentia,Cricetidae,Peromyscus,floridanus,Peromyscus_floridanus,48,48,,XY,,23,unfused,Blackmon,
+1188,Rodentia,Cricetidae,Peromyscus,gossypinus,Peromyscus_gossypinus,48,48,,XY,,23,unfused,Blackmon,
+1189,Rodentia,Cricetidae,Peromyscus,malanophyrys,Peromyscus_malanophyrys,48,48,,XY,,23,unfused,Blackmon,
+1190,Rodentia,Cricetidae,Peromyscus,maniculatus,Peromyscus_maniculatus,48,48,,XY,,23,unfused,Blackmon,Greenbaum et al. 1994
+1191,Rodentia,Cricetidae,Peromyscus,ochraventer,Peromyscus_ochraventer,48,48,,XY,,23,unfused,Blackmon,
+1192,Rodentia,Cricetidae,Peromyscus,polionotus,Peromyscus_polionotus,48,48,,XY,,23,unfused,Blackmon,
+1193,Rodentia,Cricetidae,Peromyscus,truei,Peromyscus_truei,48,48,,XY,,23,unfused,Blackmon,Greenbaum et al. 1994
+1228,Rodentia,Ctenomyidae,Ctenomys,talarum,Ctenomys_talarum,48,48,,XY,,23,unfused,Animal Karyotype Book,L. Garcia et al. 2002
+1266,Rodentia,Geomyidae,Thomomys,talpoides,Thomomys_talpoides,48,48,,XY,,23,unfused,Animal Karyotype Book,Thaeler Jr. 1974
+1267,Rodentia,Geomyidae,Thomomys,talpoides attenuatus,Thomomys_talpoides attenuatus,48,48,,XY,,23,unfused,Animal Karyotype Book,Thaeler Jr. 1968
+1268,Rodentia,Geomyidae,Thomomys,talpoides pygmaeus,Thomomys_talpoides pygmaeus,48,48,,XY,,23,unfused,Animal Karyotype Book,Thaeler Jr. 1968
+1269,Rodentia,Gliridae,Dryomys,nitedula,Dryomys_nitedula,48,48,,XY,,23,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+1274,Rodentia,Gliridae,Eliomys,melanurus,Eliomys_melanurus,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Sannier et al. 2011
+1270,Rodentia,Gliridae,Eliomys,quercinus,Eliomys_quercinus,48,48,,XY,,23,unfused,Blackmon,Graphodatsky (Unpublished)
+1294,Rodentia,Heteromyidae,Liomys,pictus,Liomys_pictus,48,48,,XY,,23,unfused,Blackmon,
+1306,Rodentia,Muridae,Apodemus,agrarius,Apodemus_agrarius,48,48,,XY,,23,unfused,Blackmon,Sablina et al. (Unpublished)
+1307,Rodentia,Muridae,Apodemus,flavicolis,Apodemus_flavicolis,48,48,yes,XY,,23,unfused,Blackmon,Sablina et al. (Unpublished)
+1311,Rodentia,Muridae,Apodemus,mystaconus,Apodemus_mystaconus,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Sablina et al. (Unpublished)
+1308,Rodentia,Muridae,Apodemus,peninsulae,Apodemus_peninsulae,48,48,yes (6),XY,,23,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1309,Rodentia,Muridae,Apodemus,speciosus,Apodemus_speciosus,48,48,,XY,,23,unfused,Blackmon,
+1305,Rodentia,Muridae,Apodemus,sylvaticus,Apodemus_sylvaticus,48,48,,XY,,23,unfused,Blackmon,Stanyon et al. 2004
+1310,Rodentia,Muridae,Apodemus,uralensis,Apodemus_uralensis,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Volobouev and Aniskin (Unpublished)
+1334,Rodentia,Muridae,Gerbillurus,kempi,Gerbillurus_kempi,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Volobouev et al. 2007
+1338,Rodentia,Muridae,Hapalomys,delacouri,Hapalomys_delacouri,48,48,yes,XY,,23,unfused,Animal Karyotype Book 2020,Badenhort et al. 2012
+1371,Rodentia,Muridae,Mus,pahari,Mus_pahari,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Veyrunes et al. 2006
+1377,Rodentia,Muridae,Psammomys,obesus,Psammomys_obesus,48,48,,XY,,23,unfused,Blackmon,
+1436,Rodentia,Sciuridae,Glaucomys,volans,Glaucomys_volans,48,48,,XY,,23,unfused,Blackmon,
+1393,Rodentia,Spalacidae,Tachyoryctes,splendens,Tachyoryctes_splendens,48,48,,XY,,23,unfused,Animal Karyotype Book 2020,Aniskin et al. 1997b
+1462,Rodentia,Spalacidae,Tachyoryctes,splendens,Tachyoryctes_splendens,48,48,,XY,,23,unfused,Animal Karyotype Book,Aniskin et al. 1997b
+1469,Sirenia,Trichechidae,Trichechus,manatus latirostris,Trichechus_manatus latirostris,48,48,,XY,,23,unfused,Animal Karyotype Book,Gray et al. 2002
+193,Artiodactyla,Cervidae,Muntiacus,reevesi,Muntiacus_reevesi,46,46,,XY,,22,unfused,Blackmon,Yang et al. 1995
+106,Artiodactyla,Bovidae,Madoqua,kirkii,Madoqua_kirkii,NA,46-48,,XY,,22,unfused,Atlas of Mammalian Chromosomes,Cernohorska et al. 2011
+323,Carnivora,Mephitidae,Conepatus,leuconotus,Conepatus_leuconotus,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Perelman et al. 2008
+578,Chiroptera,Miniopteridae,Miniopterus,fuliginosus,Miniopterus_fuliginosus,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Ao et al.2006
+492,Chiroptera,Phyllostomidae,Macrotus,waterhousii,Macrotus_waterhousii,46,46,,XY,,22,unfused,Animal Karyotype Book,Baker et al. 1979
+566,Chiroptera,Vespertilionidae,Antrozous,pallidus,Antrozous_pallidus,46,46,,XY,,22,unfused,Blackmon,
+592,Chiroptera,Vespertilionidae,Nycticeius,humeralis,Nycticeius_humeralis,46,46,,XY,,22,unfused,Blackmon,
+617,Chiroptera,Vespertilionidae,Tylonycteris,robustula,Tylonycteris_robustula,46,46,,XY,,22,unfused,Animal Karyotype Book,Volleth et al. 2001
+708,Eulipotyphla,Soricidae,Blarina,carolinensis,Blarina_carolinensis,46,46,,XY,,22,unfused,Animal Karyotype Book,George et al. 1982
+771,Lagomorpha,Leporidae,Sylvilagus,transitionalis,Sylvilagus_transitionalis,46,46,,XY,,22,unfused,Animal Karyotype Book,Robinson et al. 1983
+797,Perissodactyla,Equidae,Equus,grevyi,Equus_grevyi,46,46,,XY,,22,unfused,Blackmon,Musilova et al. 2007
+859,Primates,Callitrichidae,Callithrix,geoffroyi,Callithrix_geoffroyi,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Nagamachi et al. 1997b
+855,Primates,Callitrichidae,Callithrix,humeralifer,Callithrix_humeralifer,46,46,,XY,,22,unfused,Blackmon,
+856,Primates,Callitrichidae,Callithrix,jacchus,Callithrix_jacchus,46,46,,XY,,22,unfused,Blackmon,Bigoni and Stanyon (Unpublished)
+861,Primates,Callitrichidae,Leontopithecus,chrysopygus,Leontopithecus_chrysopygus,46,46,,XY,,22,unfused,Animal Karyotype Book,Seuanez et al. 1988
+862,Primates,Callitrichidae,Leontopithecus,rosalia,Leontopithecus_rosalia,46,46,,XY,,22,unfused,Blackmon,Seuanez et al. 1988
+863,Primates,Callitrichidae,Saguinus,fusicollis,Saguinus_fusicollis,46,46,,XY,,22,unfused,Blackmon,
+864,Primates,Callitrichidae,Saguinus,imperator,Saguinus_imperator,46,46,,XY,,22,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+865,Primates,Callitrichidae,Saguinus,midas,Saguinus_midas,46,46,,XY,,22,unfused,Animal Karyotype Book,Bigoni and Stanyon (Unpublished)
+866,Primates,Callitrichidae,Saguinus,mystax,Saguinus_mystax,46,46,,XY,,22,unfused,Blackmon,
+867,Primates,Callitrichidae,Saguinus,nigricollis,Saguinus_nigricollis,46,46,,XY,,22,unfused,Blackmon,
+868,Primates,Callitrichidae,Saguinus,oedipus,Saguinus_oedipus,46,46,,XY,,22,unfused,Blackmon,
+924,Primates,Hominidae,Homo,sapiens,Homo_sapiens,46,46,,XY,,22,unfused,Blackmon,Francke 1994
+949,Primates,Lemuridae,Lemur,variegatus subcinctus,Lemur_variegatus subcinctus,46,46,,XY,,22,unfused,Blackmon,
+959,Primates,Pitheciidae,Cacajao,calvus rubicundus,Cacajao_calvus rubicundus,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Finotelo et al. 2010
+960,Primates,Pitheciidae,Callicebus,cupreus,Callicebus_cupreus,46,46,,XY,,22,unfused,Animal Karyotype Book,Bigoni and Stanyon (Unpublished)
+1063,Rodentia,Cricetidae,Dicrostonyx,torquatus,Dicrostonyx_torquatus,46,46,,"XX,X*X,X*Y females and XY males",complex XY,22,unfused,Blackmon,
+978,Rodentia,Arvicolidae,Microtus,arvalis,Microtus_arvalis,46,46,,XY,,22,unfused,Blackmon,
+1011,Rodentia,Cricetidae,Akodon,serrensis,Akodon_serrensis,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Hass et al. 2008
+1036,Rodentia,Cricetidae,Calomyscus,bailwardi,Calomyscus_bailwardi,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1041,Rodentia,Cricetidae,Cerradomys,langguthi,Cerradomys_langguthi,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Nagamachi et al. 2013
+1139,Rodentia,Cricetidae,Microtus,arvalis,Microtus_arvalis,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Lemskaya et al. 2010
+1096,Rodentia,Cricetidae,Microtus,arvalis arvalis,Microtus_arvalis arvalis,46,46,,XY,,22,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1097,Rodentia,Cricetidae,Microtus,breweri,Microtus_breweri,46,46,,XY,,22,unfused,Animal Karyotype Book,Modi 1987
+1140,Rodentia,Cricetidae,Microtus,obscurus,Microtus_obscurus,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Tougard et al. 2013
+1121,Rodentia,Cricetidae,Microtus,pennsylvanicus,Microtus_pennsylvanicus,46,46,,XY,,22,unfused,Animal Karyotype Book,Modi 1987
+1095,Rodentia,Cricetidae,Microtus,pennsylvanicus pennsylvanicus,Microtus_pennsylvanicus pennsylvanicus,46,46,,XY,,22,unfused,Blackmon,
+1271,Rodentia,Gliridae,Muscardinus,avellanarius,Muscardinus_avellanarius,46,46,,XY,,22,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+1295,Rodentia,Heteromyidae,Perognathus,intermedius,Perognathus_intermedius,46,46,,XY,,22,unfused,Blackmon,
+1296,Rodentia,Heteromyidae,Perognathus,penicillatus,Perognathus_penicillatus,46,46,,XY,,22,unfused,Blackmon,
+1337,Rodentia,Muridae,Gerbillurus,sp.,Gerbillurus_sp.,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Volobouev et al. 2007
+1373,Rodentia,Muridae,Niviventer,confucianus,Niviventer_confucianus,46,46,,XY,,22,unfused,Animal Karyotype Book 2020,Aniskin and Volobouev (Unpublished)
+1383,Rodentia,Muridae,Rattus,flavipectus,Rattus_flavipectus,46,46,,XY,,22,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1387,Rodentia,Muridae,Rhabdomys,pumilio,Rhabdomys_pumilio,46,46,,XY,chrom rearrangements,22,unfused,Animal Karyotype Book 2020,Rambau and Robinson 2003
+1389,Rodentia,Muridae,Stenocephalemys,albipes,Stenocephalemys_albipes,46,46,,XY,,22,unfused,Animal Karyotype Book,Lavrenchenko et al. 2001
+1434,Rodentia,Sciuridae,Funambulus,palmarum,Funambulus_palmarum,46,46,,XY,,22,unfused,Blackmon,
+1435,Rodentia,Sciuridae,Funambulus,tristriatus,Funambulus_tristriatus,46,46,,XY,,22,unfused,Blackmon,
+1450,Rodentia,Sciuridae,Tamiasciurus,hudsonicus streatori,Tamiasciurus_hudsonicus streatori,46,46,,XY,,22,unfused,Blackmon,
+32,Artiodactyla,Balaenopteridae,Balaenoptera,acutorostrata,Balaenoptera_acutorostrata,44,44,,XY,,21,unfused,Blackmon,Arnason 1981a
+33,Artiodactyla,Balaenopteridae,Balaenoptera,borealis,Balaenoptera_borealis,44,44,,XY,,21,unfused,Blackmon,Nash (Unpublished)
+34,Artiodactyla,Balaenopteridae,Balaenoptera,musculus,Balaenoptera_musculus,44,44,,XY,,21,unfused,Animal Karyotype Book,Arnason and Widegren 1989
+36,Artiodactyla,Balaenopteridae,Balaenoptera,physalus,Balaenoptera_physalus,44,44,,XY,,21,unfused,Blackmon,Arnason 1974a
+37,Artiodactyla,Balaenopteridae,Megaptera,novaeangliae,Megaptera_novaeangliae,44,44,,XY,,21,unfused,Animal Karyotype Book,Arnason 1974a
+76,Artiodactyla,Bovidae,Damaliscus,hunteri,Damaliscus_hunteri,44,44,,XY,,21,unfused,Animal Karyotype Book,Kumamoto et al. 1996
+201,Artiodactyla,Delphinidae,Delphinus,bairdii,Delphinus_bairdii,44,44,,XY,,21,unfused,Blackmon,
+202,Artiodactyla,Delphinidae,Delphinus,delphis,Delphinus_delphis,44,44,,XY,,21,unfused,Animal Karyotype Book,Arnason 1974a
+203,Artiodactyla,Delphinidae,Globicephala,macrorhynchus,Globicephala_macrorhynchus,44,44,,XY,,21,unfused,Animal Karyotype Book,Arnason 1974a
+204,Artiodactyla,Delphinidae,Lagenorhynchus,albirostris,Lagenorhynchus_albirostris,44,44,,XY,,21,unfused,Animal Karyotype Book,Arnason 1980
+205,Artiodactyla,Delphinidae,Orcinus,orca,Orcinus_orca,44,44,,XY,,21,unfused,Blackmon,Arnason et al. 1980
+206,Artiodactyla,Delphinidae,Stenella,attenuata,Stenella_attenuata,44,44,,XY,,21,unfused,Animal Karyotype Book,Stock 1981
+207,Artiodactyla,Delphinidae,Stenella,clymene,Stenella_clymene,44,44,,XY,,21,unfused,Animal Karyotype Book,Arnason 1980
+208,Artiodactyla,Delphinidae,Stenella,dubia,Stenella_dubia,44,44,,XY,,21,unfused,Animal Karyotype Book,Arnason 1974c
+209,Artiodactyla,Delphinidae,Tursiops,truncatus,Tursiops_truncatus,44,44,,XY,,21,unfused,Blackmon,Bielec et al. 1997
+210,Artiodactyla,Eschrichtiidae,Eschrichtius,robustus,Eschrichtius_robustus,44,44,,XY,,21,unfused,Animal Karyotype Book,Arnason 1981a
+218,Artiodactyla,Lipotidae,Lipotes,vexillifer,Lipotes_vexillifer,44,44,,XY,,21,unfused,Animal Karyotype Book,Minrong et al. 1986
+219,Artiodactyla,Monodontidae,Delphinapterus,leucas,Delphinapterus_leucas,44,44,,XY,,21,unfused,Animal Karyotype Book,Jarrell and Arnason 1981
+223,Artiodactyla,Phocoenidae,Neophocaena,phocaenoides asiaeorientalis,Neophocaena_phocaenoides asiaeorientalis,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Nie et al. 2012
+222,Artiodactyla,Phocoenidae,Phocoena,phocoena,Phocoena_phocoena,44,44,,XY,,21,unfused,Blackmon,Arnason 1980
+213,Artiodactyla,Giraffidae,Okapia,johnstoni,Okapia_johnstoni,NA,45-46,,XY,,21,unfused,Atlas of Mammalian Chromosomes,Kulemzina et al. 2009
+214,Artiodactyla,Giraffidae,Okapia,johnstoni,Okapia_johnstoni,45,45,,XY,,21,unfused,Blackmon,Kulemzima et al. 2009
+269,Carnivora,Eupleridae,Galidia,elegans,Galidia_elegans,44,44,,XY,,21,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+339,Carnivora,Mustelidae,Meles,meles,Meles_meles,44,44,,XY,,21,unfused,Animal Karyotype Book,Nie et al. 2002
+343,Carnivora,Mustelidae,Mustela,altaica,Mustela_altaica,44,44,,XY,,21,unfused,Blackmon,Graphodatsky et al. 2002
+344,Carnivora,Mustelidae,Mustela,erminea,Mustela_erminea,44,44,,XY,,21,unfused,Blackmon,Graphodatsky (Unpublished)
+404,Carnivora,Viverridae,Paguma,larvata,Paguma_larvata,44,44,,XY,,21,unfused,Animal Karyotype Book,Perelman et al. 2005
+415,Chiroptera,Emballonuridae,Taphozous,saccolaimus,Taphozous_saccolaimus,44,44,,XY,,21,unfused,Animal Karyotype Book,Sreepada et al. 1995
+525,Chiroptera,Phyllostomidae,Uroderma,bilobatum,Uroderma_bilobatum,44,44,,XY,,21,unfused,Blackmon,
+557,Chiroptera,Rhinolophidae,Rhinolophus,pearsonii,Rhinolophus_pearsonii,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Mao et al. 2007a
+567,Chiroptera,Vespertilionidae,Chalinolobus,morio,Chalinolobus_morio,44,44,,XY,,21,unfused,Animal Karyotype Book,Volleth and Tidemann 1989
+579,Chiroptera,Vespertilionidae,Murina,cyclotis,Murina_cyclotis,44,44,,XY,,21,unfused,Animal Karyotype Book,Rickart et al. 1999
+580,Chiroptera,Vespertilionidae,Murina,hilgendorfi,Murina_hilgendorfi,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Kulemzina et al. 2011b
+589,Chiroptera,Vespertilionidae,Myotis,altarium,Myotis_altarium,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Ao et al.2006
+590,Chiroptera,Vespertilionidae,Myotis,dasycneme,Myotis_dasycneme,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Kulemzina et al. 2011b
+581,Chiroptera,Vespertilionidae,Myotis,grisescens,Myotis_grisescens,44,44,,XY,,21,unfused,Blackmon,
+582,Chiroptera,Vespertilionidae,Myotis,keenii,Myotis_keenii,44,44,,XY,,21,unfused,Animal Karyotype Book,Bickham 1979
+583,Chiroptera,Vespertilionidae,Myotis,macrodactylus,Myotis_macrodactylus,44,44,,XY,,21,unfused,Blackmon,
+584,Chiroptera,Vespertilionidae,Myotis,mystacinus,Myotis_mystacinus,44,44,,XY,,21,unfused,Animal Karyotype Book,Bickham 1979
+585,Chiroptera,Vespertilionidae,Myotis,nigricans,Myotis_nigricans,44,44,,XY,,21,unfused,Animal Karyotype Book,Bickham 1979
+586,Chiroptera,Vespertilionidae,Myotis,sodalis,Myotis_sodalis,44,44,,XY,,21,unfused,Animal Karyotype Book,Bickham 1979
+587,Chiroptera,Vespertilionidae,Myotis,thysanodes,Myotis_thysanodes,44,44,,XY,,21,unfused,Animal Karyotype Book,Bickham 1979
+588,Chiroptera,Vespertilionidae,Myotis,velifer,Myotis_velifer,44,44,,XY,,21,unfused,Blackmon,
+593,Chiroptera,Vespertilionidae,Nyctophilus,gouldi,Nyctophilus_gouldi,44,44,,XY,,21,unfused,Animal Karyotype Book,Volleth and Tidemann 1989
+604,Chiroptera,Vespertilionidae,Pipistrellus,pipistrellus,Pipistrellus_pipistrellus,44,44,,XY,,21,unfused,Animal Karyotype Book,Volleth 1987
+609,Chiroptera,Vespertilionidae,Pipistrellus,pulveratus,Pipistrellus_pulveratus,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Ao et al.2006
+605,Chiroptera,Vespertilionidae,Pipistrellus,sagittula,Pipistrellus_sagittula,44,44,,XY,,21,unfused,Animal Karyotype Book,Volleth and Tidemann 1989
+607,Chiroptera,Vespertilionidae,Pipistrellus,tasmaniensis,Pipistrellus_tasmaniensis,44,44,,XY,,21,unfused,Animal Karyotype Book,Volleth and Tidemann 1989
+608,Chiroptera,Vespertilionidae,Pipistrellus,vulturnus,Pipistrellus_vulturnus,44,44,,XY,,21,unfused,Animal Karyotype Book,Volleth and Tidemann 1989
+729,Eulipotyphla,Soricidae,Blarinella,griselda,Blarinella_griselda,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Ye et al. 2006
+736,Eulipotyphla,Soricidae,Crocidura,crossei,Crocidura_crossei,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Aniskin (Unpublished)
+755,Lagomorpha,Leporidae,Brachylagus,idahoensis,Brachylagus_idahoensis,44,44,,XY,,21,unfused,Animal Karyotype Book,Robinson et al. 2002
+756,Lagomorpha,Leporidae,Bunolagus,monticularis,Bunolagus_monticularis,44,44,,XY,,21,unfused,Animal Karyotype Book,Robinson et al. 2002
+763,Lagomorpha,Leporidae,Oryctolagus,cuniculus,Oryctolagus_cuniculus,44,44,,XY,,21,unfused,Blackmon,Korstanje et al. 1999
+795,Perissodactyla,Equidae,Equus,burchelli,Equus_burchelli,44,44,,XY,,21,unfused,Animal Karyotype Book,Trifonov et al. 2008
+800,Perissodactyla,Equidae,Equus,prewalskii,Equus_prewalskii,44,44,,XY,,21,unfused,Blackmon,
+805,Perissodactyla,Equidae,Equus,burchelli boehmi,Equus_burchelli boehmi,NA,44-45,,XY,,21,unfused,Animal Karyotype Book 2020,CRES San Diego (Unpublished)
+851,Primates,Callitrichidae,Callithrix,argentata,Callithrix_argentata,44,44,,XY,,21,unfused,Blackmon,Canavez et al. 1996
+852,Primates,Callitrichidae,Callithrix,chrysoleuca,Callithrix_chrysoleuca,44,44,,XY,,21,unfused,Animal Karyotype Book,Nagamachi et al. 1996
+853,Primates,Callitrichidae,Callithrix,emiliae,Callithrix_emiliae,44,44,,XY,,21,unfused,Animal Karyotype Book,Nagamachi et al. 1996
+854,Primates,Callitrichidae,Callithrix,humeralifer,Callithrix_humeralifer,44,44,,XY,,21,unfused,Animal Karyotype Book,Nagamachi et al. 1996
+857,Primates,Callitrichidae,Callithrix,mauesi,Callithrix_mauesi,44,44,,XY,,21,unfused,Animal Karyotype Book,Nagamachi et al. 1996
+858,Primates,Callitrichidae,Callithrix,pygmaea,Callithrix_pygmaea,44,44,,XY,,21,unfused,Blackmon,
+860,Primates,Callitrichidae,Cebuella,pygmaea,Cebuella_pygmaea,44,44,,XY,,21,unfused,Animal Karyotype Book,Bigoni and Stanyon (Unpublished)
+874,Primates,Cebidae,Saimiri,sciureus,Saimiri_sciureus,44,44,,XY,,21,unfused,Blackmon,Stanyon et al. 2000
+914,Primates,Cercopithecidae,Colobus,angolensis palliatus,Colobus_angolensis palliatus,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,M. Houck (Unpublished)
+892,Primates,Cercopithecidae,Colobus,guereza,Colobus_guereza,44,44,,XY,,21,unfused,Animal Karyotype Book,Bigoni et al. 1997b
+902,Primates,Cercopithecidae,Presbytis,entellus,Presbytis_entellus,44,44,,XY,,21,unfused,Blackmon,
+903,Primates,Cercopithecidae,Presbytis,obscurus,Presbytis_obscurus,44,44,,XY,,21,unfused,Blackmon,
+904,Primates,Cercopithecidae,Pygathrix,nemaeus,Pygathrix_nemaeus,44,44,,XY,,21,unfused,Blackmon,Bigoni 1995
+916,Primates,Cercopithecidae,Semnopithecus,entellus,Semnopithecus_entellus,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Stanyon (Unpublished)
+906,Primates,Cercopithecidae,Trachypithecus,cristatus,Trachypithecus_cristatus,44,44,,XY,,21,unfused,Blackmon,
+907,Primates,Cercopithecidae,Trachypithecus,obscurus,Trachypithecus_obscurus,44,44,,XY,,21,unfused,Animal Karyotype Book,Ponsa et al. 1983
+931,Primates,Hylobatidae,Hylobates,lar,Hylobates_lar,44,44,,XY,,21,unfused,Animal Karyotype Book,Jauch et al. 1992
+951,Primates,Lemuridae,Eulemur,macaco,Eulemur_macaco,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Muller et al. 2004
+945,Primates,Lemuridae,Eulemur,macaco falvifrons,Eulemur_macaco falvifrons,44,44,,XY,,21,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+948,Primates,Lemuridae,Lemur,macaco,Lemur_macaco,44,44,,XY,,21,unfused,Blackmon,Muller et al. 2004
+970,Primates,Pitheciidae,Callicebus,coimbrai,Callicebus_coimbrai,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Rodrigues et al. 2006
+967,Primates,Pitheciidae,Callicebus,personatus,Callicebus_personatus,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Rofdrigues et al. 2011
+1012,Rodentia,Cricetidae,Akodon,paranaensis,Akodon_paranaensis,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Hass et al. 2008
+1031,Rodentia,Cricetidae,Calomyscus,bailwardi,Calomyscus_bailwardi,44,44,,XY,,21,unfused,Animal Karyotype Book,Radjabli et al. (Unpublished)
+1037,Rodentia,Cricetidae,Calomyscus,elburzensis,Calomyscus_elburzensis,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1040,Rodentia,Cricetidae,Calomyscus,firiusaensis,Calomyscus_firiusaensis,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Graphodatsky et al. (Unpublished)
+1033,Rodentia,Cricetidae,Calomyscus,mystax,Calomyscus_mystax,44,44,,XY,,21,unfused,Animal Karyotype Book,Radjabli et al. (Unpublished)
+1088,Rodentia,Cricetidae,Mesocricetus,auratus,Mesocricetus_auratus,44,44,,XY,,21,unfused,Blackmon,Popescu and DiPaolo 1972
+1089,Rodentia,Cricetidae,Mesocricetus,brandti,Mesocricetus_brandti,44,44,,XY,,21,unfused,Animal Karyotype Book,Popescu and DiPaolo 1972
+1087,Rodentia,Cricetidae,Mesocricetus,raddei,Mesocricetus_raddei,44,44,,XY,,21,unfused,Animal Karyotype Book,Romanenko et al. 2007
+1142,Rodentia,Cricetidae,Microtus,gromovi,Microtus_gromovi,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Lemskaya (Unpublished)
+1111,Rodentia,Cricetidae,Microtus,maximowiczii,Microtus_maximowiczii,44,44,,XY,,21,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1201,Rodentia,Cricetidae,Pitymys,thomasi,Pitymys_thomasi,44,44,,XY,,21,unfused,Blackmon,
+1242,Rodentia,Dipodidae,Sicista,strandi,Sicista_strandi,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Kovalskaya et al. 2011
+1272,Rodentia,Gliridae,Myomimus,personatus,Myomimus_personatus,44,44,,XY,,21,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+1298,Rodentia,Heteromyidae,Perognathus,spinatus,Perognathus_spinatus,44,44,,XY,,21,unfused,Blackmon,
+1320,Rodentia,Muridae,Celaenomys,silaceus,Celaenomys_silaceus,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Rickart and Heany 2002
+1321,Rodentia,Muridae,Chrotomys,silaceus,Chrotomys_silaceus,44,44,,XY,,21,unfused,Animal Karyotype Book,Rickart and Heany 2002
+1340,Rodentia,Muridae,Leopoldamys,edwarsi,Leopoldamys_edwarsi,44,44,,XY,,21,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1351,Rodentia,Muridae,Meriones,libycus,Meriones_libycus,44,44,,XY,,21,unfused,Blackmon,Darvish and Volobouev (Unpublished)
+1352,Rodentia,Muridae,Meriones,shawi,Meriones_shawi,44,44,,XY,,21,unfused,Blackmon,
+1353,Rodentia,Muridae,Meriones,unguiculatus,Meriones_unguiculatus,44,44,,XY,,21,unfused,Blackmon,Darvish and Volobouev (Unpublished)
+1375,Rodentia,Muridae,Phloeomys,cumingi,Phloeomys_cumingi,44,44,,XY,,21,unfused,Animal Karyotype Book,Rickart and Heany 2002
+1463,Rodentia,Thryonomyidae,Thryonomys,swinderianus,Thryonomys_swinderianus,44,44,,XY,,21,unfused,Animal Karyotype Book 2020,Deuve et al. 2008
+31,Artiodactyla,Balaenidae,Balena,mysticetus,Balena_mysticetus,42,42,,XY,,20,unfused,Animal Karyotype Book,Jarelle 1979
+35,Artiodactyla,Balaenopteridae,Balaenoptera,physalus,Balaenoptera_physalus,42,42,,XY,,20,unfused,Animal Karyotype Book,Arnason 1974a
+111,Artiodactyla,Bovidae,Oreamnos,americanus,Oreamnos_americanus,42,42,,XY,,20,unfused,Blackmon,CRES San Diego (Unpublished)
+217,Artiodactyla,Kogiidae,Kogia,breviceps,Kogia_breviceps,42,42,,XY,,20,unfused,Blackmon,Arnason and Benirscke 1973
+224,Artiodactyla,Physeteridae,Physeter,catodon,Physeter_catodon,42,42,,XY,,20,unfused,Blackmon,
+225,Artiodactyla,Physeteridae,Physeter,macrocephalus,Physeter_macrocephalus,42,42,,XY,,20,unfused,Animal Karyotype Book,Arnason and Benirscke 1973
+242,Artiodactyla,Ziphiidae,Mesoplodon,carlhubbsi,Mesoplodon_carlhubbsi,42,42,,XY,,20,unfused,Animal Karyotype Book,Arnason et al. 1977
+243,Artiodactyla,Ziphiidae,Mesoplodon,europaeus,Mesoplodon_europaeus,42,42,,XY,,20,unfused,Animal Karyotype Book,Arnason et al. 1977
+255,Carnivora,Canidae,Nyctereutes,procyonoides,Nyctereutes_procyonoides,42,42,,XY,,20,unfused,Blackmon,
+266,Carnivora,Eupleridae,Cryptoprocta,ferox,Cryptoprocta_ferox,42,42,,XY,,20,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+267,Carnivora,Eupleridae,Fossa,fossa,Fossa_fossa,42,42,,XY,,20,unfused,Blackmon,Nash et al. 2008
+268,Carnivora,Eupleridae,Fossa,fossana,Fossa_fossana,42,42,,XY,,20,unfused,Animal Karyotype Book,Nash (Unpublished)
+329,Carnivora,Mustelidae,Gulo,gulo,Gulo_gulo,42,42,,XY,,20,unfused,Blackmon,Graphodatsky (Unpublished)
+345,Carnivora,Mustelidae,Mustela,frenata,Mustela_frenata,42,42,,XY,,20,unfused,Blackmon,
+347,Carnivora,Mustelidae,Mustela,nivalis,Mustela_nivalis,42,42,,XY,,20,unfused,Animal Karyotype Book,Perelman and Graphodatsky (Unpublished)
+388,Carnivora,Ursidae,Ailuropoda,melanoleuca,Ailuropoda_melanoleuca,42,42,,XY,,20,unfused,Animal Karyotype Book,Nash et al. 2001
+398,Carnivora,Viverridae,Arctictis,binturong,Arctictis_binturong,42,42,,XY,,20,unfused,Blackmon,Wurster-Hill and Gray 1975
+403,Carnivora,Viverridae,Hemigalus,derbyanus,Hemigalus_derbyanus,42,42,,XY,,20,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+405,Carnivora,Viverridae,Paradoxurus,hermaphroditicus,Paradoxurus_hermaphroditicus,42,42,,XY,,20,unfused,Blackmon,Wurster-Hill and Gray 1975
+412,Chiroptera,Emballonuridae,Taphozous,longimanus,Taphozous_longimanus,42,42,,XY,,20,unfused,Blackmon,Sreepada et al. 1995
+413,Chiroptera,Emballonuridae,Taphozous,melanopogon,Taphozous_melanopogon,42,42,,XY,,20,unfused,Animal Karyotype Book,Sreepada et al. 1995
+414,Chiroptera,Emballonuridae,Taphozous,nudiventris,Taphozous_nudiventris,42,42,,XY,,20,unfused,Animal Karyotype Book,Sreepada et al. 1995
+565,Chiroptera,Rhinopomatidae,Rhinopoma,microphyllum,Rhinopoma_microphyllum,42,42,,XY,,20,unfused,Animal Karyotype Book,Qumsiyeh 1988
+600,Chiroptera,Vespertilionidae,Pipistrellus,eisentrauti,Pipistrellus_eisentrauti,42,42,,XY,,20,unfused,Animal Karyotype Book,Volleth et al. 2001
+602,Chiroptera,Vespertilionidae,Pipistrellus,kuhli,Pipistrellus_kuhli,42,42,,XY,,20,unfused,Animal Karyotype Book,Volleth et al. 2001
+719,Eulipotyphla,Soricidae,Sorex,caecutiens,Sorex_caecutiens,42,42,,XY,,20,unfused,Animal Karyotype Book,Biltueva et al. 2011
+721,Eulipotyphla,Soricidae,Sorex,minutus,Sorex_minutus,42,42,,XY,,20,unfused,Animal Karyotype Book,Biltueva et al. 2011
+764,Lagomorpha,Leporidae,Pronolagus,rupestris,Pronolagus_rupestris,42,42,,XY,,20,unfused,Animal Karyotype Book,Robinson et al. 2002
+767,Lagomorpha,Leporidae,Sylvilagus,audubonii,Sylvilagus_audubonii,42,42,,XY,,20,unfused,Animal Karyotype Book,Robinson et al. 1984
+768,Lagomorpha,Leporidae,Sylvilagus,floridanus,Sylvilagus_floridanus,42,42,,XY,,20,unfused,Animal Karyotype Book,Robinson et al. 1983
+769,Lagomorpha,Leporidae,Sylvilagus,nuttallii,Sylvilagus_nuttallii,42,42,,XY,,20,unfused,Animal Karyotype Book,Robinson et al. 1984
+879,Primates,Cercopithecidae,Cercocebus,galeritus,Cercocebus_galeritus,42,42,,XY,,20,unfused,Animal Karyotype Book,Bigoni and Stanyon (Unpublished)
+880,Primates,Cercopithecidae,Cercocebus,torquatus,Cercocebus_torquatus,42,42,,XY,,20,unfused,Blackmon,F. Garcia et al. 2002
+894,Primates,Cercopithecidae,Macaca,fascicularis,Macaca_fascicularis,42,42,,XY,,20,unfused,Blackmon,Ruiz-Herrera et al. 2002
+895,Primates,Cercopithecidae,Macaca,fuscata,Macaca_fuscata,42,42,,XY,,20,unfused,Animal Karyotype Book,Weinberg et al. 1992
+896,Primates,Cercopithecidae,Macaca,mulatta,Macaca_mulatta,42,42,,XY,,20,unfused,Blackmon,Bigoni and Stanyon (Unpublished)
+912,Primates,Cercopithecidae,Macaca,nigra,Macaca_nigra,42,42,,XY,,20,unfused,Animal Karyotype Book 2020,Stanyon et al. (Unpublished)
+911,Primates,Cercopithecidae,Macaca,sylvanus,Macaca_sylvanus,42,42,,XY,,20,unfused,Animal Karyotype Book 2020,Stanyon et al. (Unpublished)
+897,Primates,Cercopithecidae,Mandrillus,sphinx,Mandrillus_sphinx,42,42,,XY,,20,unfused,Animal Karyotype Book,Ponsa et al. (Unpublished)
+913,Primates,Cercopithecidae,Papio,anubis,Papio_anubis,42,42,,XY,,20,unfused,Animal Karyotype Book 2020,Bigoni and Stanyon (Unpublished)
+900,Primates,Cercopithecidae,Papio,hamadryas,Papio_hamadryas,42,42,,XY,,20,unfused,Animal Karyotype Book,Bigoni and Stanyon (Unpublished)
+901,Primates,Cercopithecidae,Papio,papio,Papio_papio,42,42,,XY,,20,unfused,Blackmon,
+915,Primates,Cercopithecidae,Theropithecus,gelada,Theropithecus_gelada,42,42,,XY,,20,unfused,Animal Karyotype Book 2020,M. Houck (Unpublished)
+932,Primates,Hylobatidae,Hylobates,moloch,Hylobates_moloch,42,42,,XY,,20,unfused,Animal Karyotype Book,Stanyon and Chiarelli 1983
+942,Primates,Indriidae,Propithecus,tattersalli,Propithecus_tattersalli,42,42,,XY,,20,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+966,Primates,Pitheciidae,Callicebus,nigrifrons,Callicebus_nigrifrons,42,42,,XY,,20,unfused,Animal Karyotype Book 2020,Nagamachi et al. 2003
+962,Primates,Pitheciidae,Callicebus,personatus nigrifrous,Callicebus_personatus nigrifrous,42,42,,XY,,20,unfused,Animal Karyotype Book,Nagamachi et al. 2003
+1004,Rodentia,Cricetidae,Akodon,toba,Akodon_toba,42,42,,XY,,20,unfused,Animal Karyotype Book,Aniskin et al. 1996
+1080,Rodentia,Cricetidae,Euneomys,mordax,Euneomys_mordax,42,42,,XY,,20,unfused,Animal Karyotype Book,Reise and Gallardo 1990
+1090,Rodentia,Cricetidae,Mesocricetus,brandti,Mesocricetus_brandti,42,42,,XY,,20,unfused,Blackmon,Romanenko et al. 2007
+1117,Rodentia,Cricetidae,Microtus,nasarovi,Microtus_nasarovi,42,42,,XY,,20,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1204,Rodentia,Cricetidae,Reithrodontomys,megalotis,Reithrodontomys_megalotis,42,42,,XY,,20,unfused,Blackmon,
+1214,Rodentia,Cricetidae,Tylomys,nudicaudus,Tylomys_nudicaudus,42,42,,XY,,20,unfused,Blackmon,
+1240,Rodentia,Dipodidae,Sicista,napaea,Sicista_napaea,42,42,,XY,,20,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+1251,Rodentia,Echimyidae,Myocastor,coypus,Myocastor_coypus,42,42,,XY,,20,unfused,Blackmon,Biltueva and Graphodatsky (Unpublished)
+1262,Rodentia,Erethizontidae,Erethizon,dorsatum,Erethizon_dorsatum,42,42,,XY,,20,unfused,Blackmon,
+1264,Rodentia,Erethizontidae,Sphiggurus,villosus,Sphiggurus_villosus,42,42,,XY,,20,unfused,Animal Karyotype Book 2020,Bonvicino et al. 2000
+1297,Rodentia,Heteromyidae,Perognathus,goldmani,Perognathus_goldmani,42,42,,XY,,20,unfused,Blackmon,
+1318,Rodentia,Muridae,Bandicota,bengalensis,Bandicota_bengalensis,42,42,,XY,,20,unfused,Blackmon,
+1319,Rodentia,Muridae,Bandicota,indica,Bandicota_indica,42,42,,XY,,20,unfused,Blackmon,
+1356,Rodentia,Muridae,Meriones,persicus,Meriones_persicus,42,42,,XY,,20,unfused,Animal Karyotype Book 2020,Darvish and Volobouev (Unpublished)
+1372,Rodentia,Muridae,Nesokia,indica,Nesokia_indica,42,42,,XY,,20,unfused,Blackmon,Sablina et al. (Unpublished)
+1381,Rodentia,Muridae,Rattus,agentiventer,Rattus_agentiventer,42,42,,XY,,20,unfused,Blackmon,
+1382,Rodentia,Muridae,Rattus,exulans,Rattus_exulans,42,42,,XY,,20,unfused,Blackmon,
+1384,Rodentia,Muridae,Rattus,mindanensis,Rattus_mindanensis,42,42,,XY,,20,unfused,Blackmon,
+1385,Rodentia,Muridae,Rattus,nitidus,Rattus_nitidus,42,42,,XY,,20,unfused,Blackmon,
+1379,Rodentia,Muridae,Rattus,norvegicus,Rattus_norvegicus,42,42,,XY,,20,unfused,Blackmon,Nilson et al. 2001
+1386,Rodentia,Muridae,Rattus,tanezumi,Rattus_tanezumi,42,42,,XY,,20,unfused,Animal Karyotype Book 2020,Aniskin and Volobouev (Unpublished)
+1300,Rodentia,Diatomyidae,Laonastes,aenigmamus,Laonastes_aenigmamus,NA,38-42,,XY,chrom rearrangements,20,unfused,Atlas of Mammalian Chromosomes,Richard et al. 2016
+6,Afrosoricida,Tenrecidae,Echinops,telfairi,Echinops_telfairi,40,40,,XY,,19,unfused,Animal Karyotype Book,Benirschke 1969
+41,Artiodactyla,Bovidae,Alcephalus,buselaphus jacksoni,Alcephalus_buselaphus jacksoni,40,40,,XY,,19,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+42,Artiodactyla,Bovidae,Alcephalus,busephalus,Alcephalus_busephalus,40,40,,XY,,19,unfused,Blackmon,
+317,Carnivora,Hyaenidae,Crocuta,crocuta,Crocuta_crocuta,40,40,,XY,,19,unfused,Blackmon,Perelman et al. 2005
+318,Carnivora,Hyaenidae,Hyaena,brunnea,Hyaena_brunnea,40,40,,XY,,19,unfused,Blackmon,
+319,Carnivora,Hyaenidae,Parahyaena,brunnea,Parahyaena_brunnea,40,40,,XY,,19,unfused,Animal Karyotype Book,Perelman and Graphodatsky (Unpublished)
+320,Carnivora,Hyaenidae,Proteles,cristatus,Proteles_cristatus,40,40,,XY,,19,unfused,Blackmon,
+334,Carnivora,Mustelidae,Martes,flavigula,Martes_flavigula,40,40,,XY,,19,unfused,Animal Karyotype Book,Nie et al. 2002
+340,Carnivora,Mustelidae,Mellivora,capensis,Mellivora_capensis,40,40,,XY,,19,unfused,Animal Karyotype Book,Wurster-Hill and Centerwall 1982
+350,Carnivora,Mustelidae,Mustela,putorius furo,Mustela_putorius furo,40,40,,XY,,19,unfused,Blackmon,Cavagna et al. 2000
+351,Carnivora,Mustelidae,Mustela,putorius putorius,Mustela_putorius putorius,40,40,,XY,,19,unfused,Animal Karyotype Book,Graphodatsky et al. 2002
+399,Carnivora,Viverridae,Arctogalidia,trivirgata stigmatica,Arctogalidia_trivirgata stigmatica,40,40,,XY,,19,unfused,Blackmon,
+431,Chiroptera,Molossidae,Eumops,glaucinus,Eumops_glaucinus,40,40,,XY,,19,unfused,Animal Karyotype Book,Morielle-Versute et al. 1996
+493,Chiroptera,Phyllostomidae,Macrotus,californicus,Macrotus_californicus,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Sotero-Caio et al. 2013
+497,Chiroptera,Phyllostomidae,Micronycteris,megalotis,Micronycteris_megalotis,40,40,,XY,,19,unfused,Animal Karyotype Book,Baker et al. 1979
+545,Chiroptera,Pteropodidae,Pteropus,lylei,Pteropus_lylei,40,40,,XY,,19,unfused,Animal Karyotype Book,Hood et al. 1988
+594,Chiroptera,Vespertilionidae,Phoniscus,atrox,Phoniscus_atrox,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Volleth 2006
+702,Eulipotyphla,Erinaceidae,Podogymnura,truei,Podogymnura_truei,40,40,,XY,,19,unfused,Animal Karyotype Book,Rickart 2003
+711,Eulipotyphla,Soricidae,Crocidura,dsinezumi,Crocidura_dsinezumi,40,40,,XY,,19,unfused,Animal Karyotype Book,Biltueva et al. 1999
+714,Eulipotyphla,Soricidae,Crocidura,sibirica,Crocidura_sibirica,40,40,,XY,,19,unfused,Animal Karyotype Book,Graphodatsky et al. 1987
+715,Eulipotyphla,Soricidae,Crocidura,suaveolens,Crocidura_suaveolens,40,40,,XY,,19,unfused,Animal Karyotype Book,Graphodatsky et al. 1987
+724,Eulipotyphla,Soricidae,Suncus,murinus,Suncus_murinus,40,40,,XY,,19,unfused,Animal Karyotype Book,Perelman et al. (Unpublished)
+709,Eulipotyphla,Soricidae,Blarina,carolinensis,Blarina_carolinensis,37,37,,XY,,19,unfused,Atlas of Mammalian Chromosomes,George et al. 1982
+775,Lagomorpha,Ochotonidae,Ochotona,hyperborea,Ochotona_hyperborea,40,40,,XY,,19,unfused,Animal Karyotype Book,Perelman and Graphodatsky (Unpublished)
+778,Lagomorpha,Ochotonidae,Ochotona,hyperborea,Ochotona_hyperborea,40,40,,XY,,19,unfused,Blackmon,Perelman and Graphodatsky (Unpublished)
+817,Pholidota,Manidae,Manis,pentadactyla,Manis_pentadactyla,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Nie et al. 2009
+918,Primates,Galagidae,Galago,alleni,Galago_alleni,40,40,,XY,,19,unfused,Blackmon,
+981,Rodentia,Bathyergidae,Fukomys,mechowi,Fukomys_mechowi,40,40,,XY,,19,unfused,Animal Karyotype Book,Macholan et al. 1993
+987,Rodentia,Capromyidae,Capromys,pilorodes,Capromys_pilorodes,40,40,,XY,,19,unfused,Blackmon,Perelman et al. (Unpublished)
+989,Rodentia,Castoridae,Castor,canadiensis,Castor_canadiensis,40,40,,XY,,19,unfused,Blackmon,Ward et al. 1991
+1000,Rodentia,Cricetidae,Akodon,aerosus,Akodon_aerosus,40,40,,XY,,19,unfused,Blackmon,
+1061,Rodentia,Cricetidae,Deltamys,sp,Deltamys_sp,40,40,,XY,XY,19,unfused,Blackmon,
+1101,Rodentia,Cricetidae,Microtus,evoronensis,Microtus_evoronensis,40,40,,XY,,19,unfused,Animal Karyotype Book,Sablina et al. (Unpublished)
+1216,Rodentia,Ctenodactylidae,Ctenodactylus,gundi,Ctenodactylus_gundi,40,40,,XY,,19,unfused,Animal Karyotype Book,George 1979
+1217,Rodentia,Ctenodactylidae,Ctenodactylus,vali,Ctenodactylus_vali,40,40,,XY,,19,unfused,Animal Karyotype Book,George 1979
+1219,Rodentia,Ctenodactylidae,Pectinator,spekei,Pectinator_spekei,40,40,,XY,,19,unfused,Animal Karyotype Book,George 1979
+1335,Rodentia,Muridae,Gerbillurus,leucogaster,Gerbillurus_leucogaster,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Volobouev et al. 2007
+1327,Rodentia,Muridae,Gerbillus,occiduus,Gerbillus_occiduus,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Aniskin et al. 2006
+1328,Rodentia,Muridae,Gerbillus,perpallidus,Gerbillus_perpallidus,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Aniskin et al. 2006
+1330,Rodentia,Muridae,Gerbillus,tarabuli,Gerbillus_tarabuli,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Aniskin et al. 2006
+1354,Rodentia,Muridae,Meriones,hurrianae,Meriones_hurrianae,40,40,,XY,,19,unfused,Blackmon,
+1364,Rodentia,Muridae,Mus,macedonicus,Mus_macedonicus,40,40,,XY,,19,unfused,Animal Karyotype Book,Ivanitskaya et al. 1996
+1362,Rodentia,Muridae,Mus,musculus,Mus_musculus,40,40,,XY,,19,unfused,Blackmon,Adler 1994
+1388,Rodentia,Muridae,Rhombomys,opimus,Rhombomys_opimus,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1394,Rodentia,Muridae,Tatera,nigricauda,Tatera_nigricauda,40,40,,XY,,19,unfused,Animal Karyotype Book,Qumsiyeh 1986
+1428,Rodentia,Sciuridae,Citellus,citellus,Citellus_citellus,40,40,,XY,,19,unfused,Blackmon,
+1459,Rodentia,Sciuridae,Sciurus,carolinensis,Sciurus_carolinensis,40,40,,XY,,19,unfused,Animal Karyotype Book 2020,Stanyon et al. 2003b
+1442,Rodentia,Sciuridae,Sciurus,niger rufiventer,Sciurus_niger rufiventer,40,40,,XY,,19,unfused,Blackmon,
+1443,Rodentia,Sciuridae,Sciurus,vulgaris,Sciurus_vulgaris,40,40,,XY,,19,unfused,Blackmon,Beklemisheva et al. 2011
+19,Afrosoricida,Tenrecidae,Hemicentetes,nigriceps,Hemicentetes_nigriceps,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Benirschke 1969
+20,Afrosoricida,Tenrecidae,Microgale,cowani,Microgale_cowani,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+8,Afrosoricida,Tenrecidae,Tenrec,eucadatus,Tenrec_eucadatus,38,38,,XY,,18,unfused,Blackmon,
+75,Artiodactyla,Bovidae,Damaliscus,dorcas phillipsi,Damaliscus_dorcas phillipsi,38,38,,XY,,18,unfused,Blackmon,
+78,Artiodactyla,Bovidae,Damaliscus,pygargus phillipsi,Damaliscus_pygargus phillipsi,38,38,,XY,,18,unfused,Animal Karyotype Book,Kumamoto et al. 1996
+143,Artiodactyla,Bovidae,Tetracerus,quadricornis,Tetracerus_quadricornis,38,38,,XY,,18,unfused,Blackmon,Popiquet et al. 2010
+146,Artiodactyla,Bovidae,Tragelaphus,imberbis,Tragelaphus_imberbis,38,38,,XY,,18,unfused,Animal Karyotype Book,Rubes et al. 2008
+236,Artiodactyla,Suidae,Babyrousa,babyrussa,Babyrousa_babyrussa,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Bosma et al. 1996
+226,Artiodactyla,Suidae,Babyrousa,babyrussa celebensis,Babyrousa_babyrussa celebensis,38,38,,XY,,18,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+230,Artiodactyla,Suidae,Sus,barbatus,Sus_barbatus,38,38,,XY,,18,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+233,Artiodactyla,Suidae,Sus,scrofa domestica,Sus_scrofa domestica,38,38,,XY,,18,unfused,Animal Karyotype Book,Biltueva et al. 2004
+254,Carnivora,Canidae,Lycaon,pictus,Lycaon_pictus,38,38,,XY,,18,unfused,Blackmon,
+257,Carnivora,Canidae,Nyctereutes,procyonoides viverrinus,Nyctereutes_procyonoides viverrinus,38,38,yes (3),XY,,18,unfused,Animal Karyotype Book,Nash et al. 2001
+270,Carnivora,Felidae,Acinonyx,jubatus,Acinonyx_jubatus,38,38,,XY,,18,unfused,Blackmon,Nash (Unpublished)
+271,Carnivora,Felidae,Caracal,caracal,Caracal_caracal,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1973
+272,Carnivora,Felidae,Felis,bengalensis,Felis_bengalensis,38,38,,XY,,18,unfused,Blackmon,
+273,Carnivora,Felidae,Felis,catus,Felis_catus,38,38,,XY,,18,unfused,Blackmon,Cho et al. 1997
+274,Carnivora,Felidae,Felis,chaus,Felis_chaus,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1973
+275,Carnivora,Felidae,Felis,concolor,Felis_concolor,38,38,,XY,,18,unfused,Blackmon,
+287,Carnivora,Felidae,Felis,lynx,Felis_lynx,38,38,,XY,,18,unfused,Blackmon,
+277,Carnivora,Felidae,Felis,manul,Felis_manul,38,38,,XY,,18,unfused,Blackmon,
+278,Carnivora,Felidae,Felis,margarita,Felis_margarita,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+279,Carnivora,Felidae,Felis,marmorata,Felis_marmorata,38,38,,XY,,18,unfused,Blackmon,
+280,Carnivora,Felidae,Felis,nigripes,Felis_nigripes,38,38,,XY,,18,unfused,Blackmon,Nash (Unpublished)
+282,Carnivora,Felidae,Felis,serval,Felis_serval,38,38,,XY,,18,unfused,Blackmon,
+283,Carnivora,Felidae,Felis,silvestris,Felis_silvestris,38,38,,XY,,18,unfused,Blackmon,
+284,Carnivora,Felidae,Felis,viverrina,Felis_viverrina,38,38,,XY,,18,unfused,Blackmon,
+286,Carnivora,Felidae,Felis,yagouaroundi,Felis_yagouaroundi,38,38,,XY,,18,unfused,Blackmon,
+288,Carnivora,Felidae,Herpailurus,yagouaroundi,Herpailurus_yagouaroundi,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1973
+291,Carnivora,Felidae,Leopardus,tigrinus,Leopardus_tigrinus,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Centerwall 1982
+294,Carnivora,Felidae,Leptailurus,serval,Leptailurus_serval,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Centerwall 1982
+295,Carnivora,Felidae,Lynchailurus,colocolo,Lynchailurus_colocolo,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1973
+296,Carnivora,Felidae,Lynx,lynx,Lynx_lynx,38,38,,XY,,18,unfused,Animal Karyotype Book,Nie et al. 2012
+297,Carnivora,Felidae,Lynx,rufus,Lynx_rufus,38,38,,XY,,18,unfused,Blackmon,
+298,Carnivora,Felidae,Neofelis,nebulosa,Neofelis_nebulosa,38,38,,XY,,18,unfused,Animal Karyotype Book,Tian et al. 2004
+299,Carnivora,Felidae,Neofelis,nebulosa diardi,Neofelis_nebulosa diardi,38,38,,XY,,18,unfused,Animal Karyotype Book,Nash (Unpublished)
+300,Carnivora,Felidae,Octocolobus,manul,Octocolobus_manul,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+301,Carnivora,Felidae,Panthera,leo,Panthera_leo,38,38,,XY,,18,unfused,Animal Karyotype Book,Tian et al. 2004
+302,Carnivora,Felidae,Panthera,pardus,Panthera_pardus,38,38,,XY,,18,unfused,Blackmon,
+303,Carnivora,Felidae,Panthera,tigris,Panthera_tigris,38,38,,XY,,18,unfused,Blackmon,
+304,Carnivora,Felidae,Panthera,tigris altaica,Panthera_tigris altaica,38,38,,XY,,18,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+305,Carnivora,Felidae,Prionailurus,bengalensis,Prionailurus_bengalensis,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1973
+307,Carnivora,Felidae,Prionailurus,bengalensis euptilurus,Prionailurus_bengalensis euptilurus,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Proskuryakova et al. (Unpublished)
+306,Carnivora,Felidae,Prionailurus,viverrinus,Prionailurus_viverrinus,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1973
+308,Carnivora,Felidae,Profelis,temmincki,Profelis_temmincki,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1973
+309,Carnivora,Felidae,Puma,concolor,Puma_concolor,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1973
+310,Carnivora,Felidae,Uncia,uncia,Uncia_uncia,38,38,,XY,,18,unfused,Blackmon,
+325,Carnivora,Mustelidae,Amblonyx,cinerea,Amblonyx_cinerea,38,38,,XY,,18,unfused,Blackmon,
+326,Carnivora,Mustelidae,Eira,barbara,Eira_barbara,38,38,,XY,,18,unfused,Blackmon,Wurster-Hill and Centerwall 1982
+327,Carnivora,Mustelidae,Enhydra,lutris,Enhydra_lutris,38,38,,XY,,18,unfused,Blackmon,
+328,Carnivora,Mustelidae,Galictis,vittata,Galictis_vittata,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Centerwall 1982
+330,Carnivora,Mustelidae,Ictonyx,striatus,Ictonyx_striatus,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky et al. 2002
+332,Carnivora,Mustelidae,Lutra,lutra,Lutra_lutra,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Graphodatsky (Unpublished)
+333,Carnivora,Mustelidae,Martes,americana,Martes_americana,38,38,,XY,,18,unfused,Blackmon,
+335,Carnivora,Mustelidae,Martes,foina,Martes_foina,38,38,,XY,,18,unfused,Animal Karyotype Book,Nie et al. 2002
+336,Carnivora,Mustelidae,Martes,martes,Martes_martes,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+337,Carnivora,Mustelidae,Martes,melampus,Martes_melampus,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky et al. 2002
+338,Carnivora,Mustelidae,Martes,zibellina,Martes_zibellina,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+341,Carnivora,Mustelidae,Melogale,moschata,Melogale_moschata,38,38,,XY,,18,unfused,Blackmon,Nie et al. 2002
+342,Carnivora,Mustelidae,Melogale,sp.,Melogale_sp.,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Centerwall 1982
+349,Carnivora,Mustelidae,Mustela,eversmanni,Mustela_eversmanni,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky et al. 2002
+354,Carnivora,Mustelidae,Mustela,itatsi,Mustela_itatsi,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Graphodatsky (Unpublished)
+346,Carnivora,Mustelidae,Mustela,lutreola,Mustela_lutreola,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky et al. 2002
+355,Carnivora,Mustelidae,Mustela,nigripes,Mustela_nigripes,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Houck (Unpublished)
+352,Carnivora,Mustelidae,Mustela,sibirica,Mustela_sibirica,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+353,Carnivora,Mustelidae,Mustela,sibirica itatsi,Mustela_sibirica itatsi,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+360,Carnivora,Mustelidae,Vormela,peregusna,Vormela_peregusna,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+361,Carnivora,Nandiniidae,Nandinia,binotata,Nandinia_binotata,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+383,Carnivora,Procyonidae,Bassariscus,astutus,Bassariscus_astutus,38,38,,XY,,18,unfused,Blackmon,Nash et al. 2008
+384,Carnivora,Procyonidae,Brassaricyon,sp.,Brassaricyon_sp.,38,38,,XY,,18,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+385,Carnivora,Procyonidae,Nasua,nasua,Nasua_nasua,38,38,,XY,,18,unfused,Blackmon,
+386,Carnivora,Procyonidae,Potos,flavus,Potos_flavus,38,38,,XY,,18,unfused,Blackmon,CRES San Diego (Unpublished)
+387,Carnivora,Procyonidae,Procyon,lotor,Procyon_lotor,38,38,,XY,,18,unfused,Blackmon,Stanyon et al. 1993
+407,Carnivora,Viverridae,Viverricula,indica,Viverricula_indica,38,38,,XY,,18,unfused,Blackmon,Wurster-Hill and Gray 1975
+430,Chiroptera,Megadermatidae,Megaderma,spasma,Megaderma_spasma,38,38,,XY,,18,unfused,Animal Karyotype Book,Morielle-Versute et al. 1992
+441,Chiroptera,Mormoopidae,Mormoops,blainvillii,Mormoops_blainvillii,38,38,,XY,,18,unfused,Animal Karyotype Book,Sites et al. 1981
+442,Chiroptera,Mormoopidae,Pteronotus,gymnonotus,Pteronotus_gymnonotus,38,38,,XY,,18,unfused,Animal Karyotype Book,Sites et al. 1981
+443,Chiroptera,Mormoopidae,Pteronotus,macleayii,Pteronotus_macleayii,38,38,,XY,,18,unfused,Animal Karyotype Book,Sites et al. 1981
+444,Chiroptera,Mormoopidae,Pteronotus,parnelii,Pteronotus_parnelii,38,38,,XY,,18,unfused,Blackmon,Sites et al. 1981
+445,Chiroptera,Mormoopidae,Pteronotus,personatus,Pteronotus_personatus,38,38,,XY,,18,unfused,Animal Karyotype Book,Sites et al. 1981
+500,Chiroptera,Phyllostomidae,Micronycteris,schmidtorum,Micronycteris_schmidtorum,38,38,,XY,,18,unfused,Animal Karyotype Book,Baker et al. 1979
+517,Chiroptera,Phyllostomidae,Rhinophyla,fischerae,Rhinophyla_fischerae,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Gomes et al. 2010
+526,Chiroptera,Phyllostomidae,Uroderma,magnirostrum,Uroderma_magnirostrum,38,38,,XY,,18,unfused,Animal Karyotype Book,Baker et al. 1979
+544,Chiroptera,Pteropodidae,Pteropus,giganteus,Pteropus_giganteus,38,38,,XY,,18,unfused,Blackmon,Choudhury and Jena 1995
+546,Chiroptera,Pteropodidae,Pteropus,rodricensis,Pteropus_rodricensis,38,38,,XY,,18,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+603,Chiroptera,Vespertilionidae,Pipistrellus,mimus,Pipistrellus_mimus,38,38,,XY,,18,unfused,Blackmon,Volleth et al. 2001
+620,Chiroptera,Vespertilionidae,Vespertilio,murinus,Vespertilio_murinus,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Kulemzina et al. 2011b
+626,Cingulata,Chlamyphoridae,Tolypeutes,matacus,Tolypeutes_matacus,38,38,,XY,,18,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+643,Dermoptera,Cynocephalidae,Cynocephalus,volans,Cynocephalus_volans,38,38,,XY,,18,unfused,Animal Karyotype Book,Rickart 2003
+739,Eulipotyphla,Soricidae,Crocidura,obscurior,Crocidura_obscurior,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Aniskin (Unpublished)
+766,Lagomorpha,Leporidae,Sylvilagus,aquaticus,Sylvilagus_aquaticus,38,38,,XY,,18,unfused,Animal Karyotype Book,Robinson et al. 1983
+770,Lagomorpha,Leporidae,Sylvilagus,palustris,Sylvilagus_palustris,38,38,,XY,,18,unfused,Animal Karyotype Book,Robinson et al. 1983
+781,Macroscelidea,Tenrecidae,Hemicentetes,nigriceps,Hemicentetes_nigriceps,38,38,,XY,,18,unfused,Animal Karyotype Book,Benirschke 1969
+816,Pholidota,Manidae,Manis,javanica,Manis_javanica,38,38,,XY,,18,unfused,Animal Karyotype Book,Nie and Yang (Unpublished)
+920,Primates,Galagidae,Galago,moholi,Galago_moholi,38,38,,XY,,18,unfused,Animal Karyotype Book,Stanyon et al. 2002
+936,Primates,Hylobatidae,Hoolock,hoolock,Hoolock_hoolock,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Nie et al. 2001
+937,Primates,Hylobatidae,Hoolock,leuconedys,Hoolock_leuconedys,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Capozzi et al. 2012
+1086,Rodentia,Cricetidae,Mesocricetus,newtoni,Mesocricetus_newtoni,38,38,,XY,,18,unfused,Animal Karyotype Book,Radjabli et al. (Unpublished)
+1116,Rodentia,Cricetidae,Microtus,mujanensis,Microtus_mujanensis,38,38,,XY,,18,unfused,Animal Karyotype Book,Lemskaya et al. 2010
+1302,Rodentia,Muridae,Acomys,cahirinus-2,Acomys_cahirinus-2,38,38,,XY,,18,unfused,Blackmon,
+1303,Rodentia,Muridae,Acomys,dimidiatus,Acomys_dimidiatus,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1325,Rodentia,Muridae,Gerbillus,cheesmani,Gerbillus_cheesmani,38,38,,XY,,18,unfused,Blackmon,
+1329,Rodentia,Muridae,Gerbillus,pyramidum,Gerbillus_pyramidum,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Aniskin et al. 2006
+1345,Rodentia,Muridae,Mastomys,erythroleucus,Mastomys_erythroleucus,38,38,,XY,,18,unfused,Animal Karyotype Book,Volobouev et al. 2002a
+1347,Rodentia,Muridae,Mastomys,kollmanspergeri,Mastomys_kollmanspergeri,38,38,,XY,,18,unfused,Animal Karyotype Book,Volobouev et al. 2002a
+1357,Rodentia,Muridae,Meriones,rex,Meriones_rex,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Darvish and Volobouev (Unpublished)
+1363,Rodentia,Muridae,Mus,cervicolor,Mus_cervicolor,38,38,,XY,,18,unfused,Blackmon,
+1380,Rodentia,Muridae,Rattus,rattus,Rattus_rattus,38,38,,XY,,18,unfused,Blackmon,Cavagna et al. 2002
+1426,Rodentia,Pedetidae,Pedetes,capensis,Pedetes_capensis,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky et al. 2008b
+1431,Rodentia,Sciuridae,Eutamias,amoenus,Eutamias_amoenus,38,38,,XY,,18,unfused,Blackmon,
+1429,Rodentia,Sciuridae,Eutamias,minimus,Eutamias_minimus,38,38,,XY,,18,unfused,Blackmon,
+1432,Rodentia,Sciuridae,Eutamias,ruficaudus,Eutamias_ruficaudus,38,38,,XY,,18,unfused,Blackmon,
+1430,Rodentia,Sciuridae,Eutamias,sibiricus,Eutamias_sibiricus,38,38,,XY,,18,unfused,Blackmon,Graphodatsky and Sablina (Unpublished)
+1437,Rodentia,Sciuridae,Hylopetes,alboniger alboniger,Hylopetes_alboniger alboniger,38,38,,XY,,18,unfused,Blackmon,
+1452,Rodentia,Sciuridae,Marmota,baibacina,Marmota_baibacina,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Beklemisheva et al. 2011
+1451,Rodentia,Sciuridae,Marmota,himalayana,Marmota_himalayana,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Li et al. 2006a
+1438,Rodentia,Sciuridae,Marmota,marmota,Marmota_marmota,38,38,,XY,,18,unfused,Blackmon,
+1439,Rodentia,Sciuridae,Marmota,monax,Marmota_monax,38,38,,XY,,18,unfused,Blackmon,Beklemisheva and Perelman (Unpublished)
+1441,Rodentia,Sciuridae,Petaurista,albiventer,Petaurista_albiventer,38,38,,XY,,18,unfused,Animal Karyotype Book,Li et al. 2006a
+1444,Rodentia,Sciuridae,Spermophilus,alaschanicus,Spermophilus_alaschanicus,38,38,,XY,,18,unfused,Animal Karyotype Book,Graphodatsky and Sablina (Unpublished)
+1449,Rodentia,Sciuridae,Sundasciurus,phillippinensis,Sundasciurus_phillippinensis,38,38,,XY,,18,unfused,Animal Karyotype Book,Rickart 2003
+1458,Rodentia,Sciuridae,Xerus,erythropus,Xerus_erythropus,38,38,,XY,,18,unfused,Animal Karyotype Book 2020,Li et al. 2006a
+1039,Rodentia,Cricetidae,Calomyscus,sp. 3,Calomyscus_sp. 3,37,37,,XY,,18,unfused,Atlas of Mammalian Chromosomes,Graphodatsky et al. (Unpublished)
+11,Afrosoricida,Chrysochloridae,Amblysomus,robustus,Amblysomus_robustus,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Gilbert et al 2008
+77,Artiodactyla,Bovidae,Damaliscus,lunatus topi,Damaliscus_lunatus topi,36,36,,XY,,17,unfused,Animal Karyotype Book,Kumamoto et al. 1996
+184,Artiodactyla,Cervidae,Mazama,nana,Mazama_nana,36,36,yes,XY,,17,unfused,Animal Karyotype Book 2020,Abril and Duarte 2008
+216,Artiodactyla,Hippopotamidae,Choeropsis,liberiensis,Choeropsis_liberiensis,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Frohlich et al. 2016
+215,Artiodactyla,Hippopotamidae,Hippopotamus,amphibius,Hippopotamus_amphibius,36,36,,XY,,17,unfused,Animal Karyotype Book,Kulemzima et al. 2009
+232,Artiodactyla,Suidae,Sus,scrofa,Sus_scrofa,36,36,,XY,,17,unfused,Blackmon,
+234,Artiodactyla,Suidae,Sus,scrofa scrofa,Sus_scrofa scrofa,36,36,,XY,,17,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+263,Carnivora,Canidae,Vulpes,corsac,Vulpes_corsac,36,36,,XY,,17,unfused,Animal Karyotype Book,Graphodatsky et al. 2008
+261,Carnivora,Canidae,Vulpes,vulpes,Vulpes_vulpes,36,36,,XY,,17,unfused,Blackmon,
+276,Carnivora,Felidae,Felis,geoffroyi,Felis_geoffroyi,36,36,,XY,,17,unfused,Blackmon,
+281,Carnivora,Felidae,Felis,pardalis,Felis_pardalis,36,36,,XY,,17,unfused,Blackmon,
+285,Carnivora,Felidae,Felis,wiedi,Felis_wiedi,36,36,,XY,,17,unfused,Blackmon,
+293,Carnivora,Felidae,Leopardus,colocolo,Leopardus_colocolo,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Wurster-Hill and Gray 1973
+289,Carnivora,Felidae,Leopardus,geoffroyi,Leopardus_geoffroyi,36,36,,XY,,17,unfused,Animal Karyotype Book,Nash (Unpublished)
+290,Carnivora,Felidae,Leopardus,pardalis,Leopardus_pardalis,36,36,,XY,,17,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+292,Carnivora,Felidae,Leopardus,tigrinus,Leopardus_tigrinus,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Wurster-Hill and Centerwall 1982
+312,Carnivora,Herpestidae,Bdeogale,sp.,Bdeogale_sp.,36,36,,XY,,17,unfused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+313,Carnivora,Herpestidae,Helogale,parvula,Helogale_parvula,36,36,,XY,,17,unfused,Animal Karyotype Book,Nash (Unpublished)
+315,Carnivora,Herpestidae,Herpestes,javanicus,Herpestes_javanicus,36,36,,XY,,17,unfused,Animal Karyotype Book,Yang and Nie (Unpublished)
+316,Carnivora,Herpestidae,Suricata,suricatta,Suricata_suricatta,36,36,,XY,,17,unfused,Blackmon,
+331,Carnivora,Mustelidae,Lutra,lutra,Lutra_lutra,36,36,,XY,,17,unfused,Animal Karyotype Book,Graphodatsky (Unpublished)
+368,Carnivora,Otariidae,Arctocephalus,forsteri,Arctocephalus_forsteri,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Beklemisheva (Unpublished)
+363,Carnivora,Otariidae,Arctocephalus,pusillus,Arctocephalus_pusillus,36,36,,XY,,17,unfused,Animal Karyotype Book,Arnason 1977
+364,Carnivora,Otariidae,Callorhinus,ursinus,Callorhinus_ursinus,36,36,,XY,,17,unfused,Blackmon,Arnason 1977
+365,Carnivora,Otariidae,Eumetopias,jubatus,Eumetopias_jubatus,36,36,,XY,,17,unfused,Blackmon,Arnason 1974b
+367,Carnivora,Otariidae,Phocarctos,hookeri,Phocarctos_hookeri,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Beklemisheva (Unpublished)
+366,Carnivora,Otariidae,Zalophus,californianus,Zalophus_californianus,36,36,,XY,,17,unfused,Blackmon,Arnason 1974a
+382,Carnivora,Procyonidae,Ailurus,fulgens,Ailurus_fulgens,36,36,,XY,,17,unfused,Blackmon,Ni et al. 2002
+411,Carnivora,Viverridae,Viverricula,indica,Viverricula_indica,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Nie et al. 2012
+446,Chiroptera,Mystacinidae,Mystacina,tuberculata,Mystacina_tuberculata,36,36,,XY,,17,unfused,Animal Karyotype Book,Bickham et al. 1980
+447,Chiroptera,Natalidae,Natalus,major,Natalus_major,36,36,,XY,,17,unfused,Animal Karyotype Book,Hoyt and Baker 1980
+448,Chiroptera,Natalidae,Natalus,tumidirostris,Natalus_tumidirostris,36,36,,XY,,17,unfused,Blackmon,
+515,Chiroptera,Phyllostomidae,Rhinophyla,pumilio,Rhinophyla_pumilio,36,36,,XY,,17,unfused,Blackmon,Baker et al. 1979
+527,Chiroptera,Phyllostomidae,Uroderma,magnirostrum,Uroderma_magnirostrum,36,36,,XY,,17,unfused,Blackmon,Pieczarka et al. 2013
+535,Chiroptera,Pteropodidae,Alionycteris,paucidentata,Alionycteris_paucidentata,36,36,,XY,,17,unfused,Animal Karyotype Book,Rickart et al. 1999
+537,Chiroptera,Pteropodidae,Eonycteris,robusta,Eonycteris_robusta,36,36,,XY,,17,unfused,Animal Karyotype Book,Rickart et al. 1999
+538,Chiroptera,Pteropodidae,Epomops,franqueti,Epomops_franqueti,36,36,,XY,,17,unfused,Animal Karyotype Book,Haiduk et al. 1981
+539,Chiroptera,Pteropodidae,Hypsignathus,monstrosus,Hypsignathus_monstrosus,36,36,,XY,,17,unfused,Animal Karyotype Book,Haiduk et al. 1981
+540,Chiroptera,Pteropodidae,Megaloglossus,woermanni,Megaloglossus_woermanni,36,36,,XY,,17,unfused,Animal Karyotype Book,Haiduk et al. 1981
+542,Chiroptera,Pteropodidae,Myonycteris,torquata,Myonycteris_torquata,36,36,,XY,,17,unfused,Animal Karyotype Book,Haiduk et al. 1981
+547,Chiroptera,Pteropodidae,Rousettus,aegyptiacus,Rousettus_aegyptiacus,36,36,,XY,,17,unfused,Animal Karyotype Book,Haiduk et al. 1981
+548,Chiroptera,Pteropodidae,Rousettus,angolensis,Rousettus_angolensis,36,36,,XY,,17,unfused,Animal Karyotype Book,Haiduk et al. 1981
+549,Chiroptera,Pteropodidae,Rousettus,lanosus,Rousettus_lanosus,36,36,,XY,,17,unfused,Animal Karyotype Book,Teeling and Stanyon (Unpublished)
+550,Chiroptera,Pteropodidae,Rousettus,leschenaulti,Rousettus_leschenaulti,36,36,,XY,,17,unfused,Blackmon,Sreeepada and Gururaj 1995
+558,Chiroptera,Rhinolophidae,Rhinolophus,sinicus,Rhinolophus_sinicus,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Mao et al. 2007a
+564,Chiroptera,Rhinopomatidae,Rhinopoma,hardwickei,Rhinopoma_hardwickei,36,36,,XY,,17,unfused,Animal Karyotype Book,Qumsiyeh 1988
+591,Chiroptera,Vespertilionidae,Nyctalus,velutinus,Nyctalus_velutinus,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Ao et al.2006
+595,Chiroptera,Vespertilionidae,Pipistrellus,affinis,Pipistrellus_affinis,36,36,,XY,,17,unfused,Blackmon,
+597,Chiroptera,Vespertilionidae,Pipistrellus,ceylonicus,Pipistrellus_ceylonicus,36,36,,XY,,17,unfused,Animal Karyotype Book,Sreepada et al. 1996
+613,Chiroptera,Vespertilionidae,Scotophilus,dinganii,Scotophilus_dinganii,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Eick et al. 2007
+611,Chiroptera,Vespertilionidae,Scotophilus,heathi,Scotophilus_heathi,36,36,,XY,,17,unfused,Animal Karyotype Book,Stock 1975
+612,Chiroptera,Vespertilionidae,Scotophilus,kuhlii,Scotophilus_kuhlii,36,36,,XY,,17,unfused,Animal Karyotype Book,Stock 1975
+735,Eulipotyphla,Soricidae,Crocidura,canariensis,Crocidura_canariensis,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Vogel et al. 2006
+737,Eulipotyphla,Soricidae,Crocidura,glassi,Crocidura_glassi,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Aniskin (Unpublished)
+738,Eulipotyphla,Soricidae,Crocidura,muricauda,Crocidura_muricauda,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Aniskin (Unpublished)
+734,Eulipotyphla,Soricidae,Crocidura,sicula,Crocidura_sicula,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Vogel et al. 2006
+733,Eulipotyphla,Soricidae,Crocidura,tarfayensis,Crocidura_tarfayensis,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Vogel et al. 2006
+720,Eulipotyphla,Soricidae,Sorex,granarius,Sorex_granarius,36,36,,XY,,17,unfused,Animal Karyotype Book,Perelman et al. (Unpublished)
+722,Eulipotyphla,Soricidae,Sorex,raddei,Sorex_raddei,36,36,,XY,,17,unfused,Animal Karyotype Book,Biltueva et al. 2011
+749,Eulipotyphla,Talpidae,Euroscaptor,klossi,Euroscaptor_klossi,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Kawada et al. 2006
+1001,Rodentia,Cricetidae,Akodon,simulator,Akodon_simulator,36,36,,XY,,17,unfused,Animal Karyotype Book,Aniskin et al. 1996
+1024,Rodentia,Cricetidae,Arvicola,amphibius,Arvicola_amphibius,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Romanenko et al. 2016
+1023,Rodentia,Cricetidae,Arvicola,terrestris,Arvicola_terrestris,36,36,,XY,,17,unfused,Blackmon,Sablina et al. (Unpublished)
+1067,Rodentia,Cricetidae,Ellobius,fuscocapillus,Ellobius_fuscocapillus,36,36,,XY,XY/SRY,17,unfused,Blackmon,Perelman and Graphodatsky (Unpublished)
+1079,Rodentia,Cricetidae,Euneomys,chinchilloides petersoni,Euneomys_chinchilloides petersoni,36,36,,XY,,17,unfused,Animal Karyotype Book,Reise and Gallardo 1990
+1103,Rodentia,Cricetidae,Microtus,gregalis,Microtus_gregalis,36,36,,XY,,17,unfused,Animal Karyotype Book,Lemskaya et al. 2010
+1220,Rodentia,Ctenodactylidae,Felovia,vae,Felovia_vae,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,George 1979
+1218,Rodentia,Ctenodactylidae,Massoutiera,mzabi,Massoutiera_mzabi,36,36,,XY,,17,unfused,Animal Karyotype Book,George 1979
+1301,Rodentia,Muridae,Acomys,cahirinus-1,Acomys_cahirinus-1,36,36,,XY,,17,unfused,Blackmon,
+1322,Rodentia,Muridae,Crunomys,suncoides,Crunomys_suncoides,36,36,,XY,,17,unfused,Animal Karyotype Book,Rickart and Heany 2002
+1323,Rodentia,Muridae,Dasymys,incomtus,Dasymys_incomtus,36,36,,XY,,17,unfused,Animal Karyotype Book,Volobouev et al. 2000
+1324,Rodentia,Muridae,Dasymys,rufulus,Dasymys_rufulus,36,36,yes (3),XY,,17,unfused,Animal Karyotype Book,Volobouev et al. 2000
+1336,Rodentia,Muridae,Gerbillurus,robustus,Gerbillurus_robustus,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Volobouev et al. 2007
+1331,Rodentia,Muridae,Gerbillurus,tytonis,Gerbillurus_tytonis,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Volobouev et al. 2007
+1349,Rodentia,Muridae,Mastomys,coucha,Mastomys_coucha,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Romanenko (Unpublished)
+1365,Rodentia,Muridae,Mus,mahomet,Mus_mahomet,36,36,,XY,,17,unfused,Animal Karyotype Book,Aniskin et al. 1998
+1367,Rodentia,Muridae,Mus,mattheyi,Mus_mattheyi,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Veyrunes et al. 2006
+1376,Rodentia,Muridae,Praomys,daltoni,Praomys_daltoni,36,36,,XY,,17,unfused,Animal Karyotype Book,Volobouev et al. 2002a
+1378,Rodentia,Muridae,Rattus,natalensis,Rattus_natalensis,36,36,,XY,,17,unfused,Blackmon,
+1453,Rodentia,Sciuridae,Marmota,kastschenkoi,Marmota_kastschenkoi,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Beklemisheva et al. 2011
+1446,Rodentia,Sciuridae,Spermophilus,erythrogenys,Spermophilus_erythrogenys,36,36,,XY,,17,unfused,Animal Karyotype Book,Graphodatsky and Sablina (Unpublished)
+1454,Rodentia,Sciuridae,Spermophilus,major,Spermophilus_major,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Beklemisheva et al. 2011
+1456,Rodentia,Sciuridae,Spermophilus,pygmaeus,Spermophilus_pygmaeus,36,36,,XY,,17,unfused,Animal Karyotype Book 2020,Beklemisheva et al. (Unpublished)
+2,Afrosoricida,Chrysochloridae,Amblysomus,iris,Amblysomus_iris,34,34,,XY,,16,unfused,Animal Karyotype Book,Capanna et al. 1989
+150,Artiodactyla,Bovidae,Tragelaphus,scriptus,Tragelaphus_scriptus,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Rubes et al. 2008
+185,Artiodactyla,Cervidae,Mazama,bororo,Mazama_bororo,34,34,yes,XY,,16,unfused,Animal Karyotype Book 2020,Duarte (Unpublished)
+235,Artiodactyla,Suidae,Phacochoerus,africanus,Phacochoerus_africanus,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Musilova et al. 2010
+227,Artiodactyla,Suidae,Phacochoerus,africanus sundervallii,Phacochoerus_africanus sundervallii,34,34,,XY,,16,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+228,Artiodactyla,Suidae,Potamochoerus,larvatus,Potamochoerus_larvatus,34,34,,XY,,16,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+229,Artiodactyla,Suidae,Potamochoerus,porcus,Potamochoerus_porcus,34,34,,XY,,16,unfused,Animal Karyotype Book,Musilova et al. 2010
+231,Artiodactyla,Suidae,Sus,cebifrons,Sus_cebifrons,34,34,,XY,,16,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+264,Carnivora,Canidae,Vulpes,fulva,Vulpes_fulva,34,34,,XY,,16,unfused,Blackmon,
+262,Carnivora,Canidae,Vulpes,vulpes,Vulpes_vulpes,34,34,yes (3),XY,,16,unfused,Animal Karyotype Book,Rubtsova 1998
+369,Carnivora,Phocidae,Cystophora,cristata,Cystophora_cristata,34,34,,XY,,16,unfused,Blackmon,Arnason 1974b
+370,Carnivora,Phocidae,Erignathus,barbatus,Erignathus_barbatus,34,34,,XY,,16,unfused,Blackmon,Arnason 1974b
+372,Carnivora,Phocidae,Leptonychotes,weddelli,Leptonychotes_weddelli,34,34,,XY,,16,unfused,Animal Karyotype Book,Arnason 1974b
+373,Carnivora,Phocidae,Mirounga,angustirostris,Mirounga_angustirostris,34,34,,XY,,16,unfused,Animal Karyotype Book,Arnason 1974b
+374,Carnivora,Phocidae,Monachus,schauinslandi,Monachus_schauinslandi,34,34,,XY,,16,unfused,Animal Karyotype Book,Arnason 1974b
+406,Carnivora,Viverridae,Prionodon,linsang,Prionodon_linsang,34,34,,XY,,16,unfused,Blackmon,Wurster-Hill and Gray 1975
+433,Chiroptera,Molossidae,Molossops,abrasus,Molossops_abrasus,34,34,,XY,,16,unfused,Animal Karyotype Book,Morielle-Versute et al. 1996
+449,Chiroptera,Noctilionidae,Noctilio,albiventris,Noctilio_albiventris,34,34,,XY,,16,unfused,Blackmon,Varella-Garcia et al. 1989
+486,Chiroptera,Phyllostomidae,Lophostoma,occidentalis,Lophostoma_occidentalis,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Sotero-Caio et al. 2015
+485,Chiroptera,Phyllostomidae,Lophostoma,silvicolum,Lophostoma_silvicolum,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Ribas et al. 2015
+514,Chiroptera,Phyllostomidae,Rhinophyla,fischerae,Rhinophyla_fischerae,34,34,,XY,,16,unfused,Animal Karyotype Book,Baker et al. 1979
+516,Chiroptera,Phyllostomidae,Rhinophyla,pumilio,Rhinophyla_pumilio,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Gomes et al. 2012
+536,Chiroptera,Pteropodidae,Casinycteris,ophiodon,Casinycteris_ophiodon,34,34,,XY,,16,unfused,Animal Karyotype Book,Haiduk et al. 1981
+551,Chiroptera,Pteropodidae,Cynopterus,sphinx,Cynopterus_sphinx,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Ao et al. 2007
+552,Chiroptera,Pteropodidae,Eidolon,helvum,Eidolon_helvum,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Houck (Unpublished)
+601,Chiroptera,Vespertilionidae,Pipistrellus,javanicus,Pipistrellus_javanicus,34,34,,XY,,16,unfused,Animal Karyotype Book,Volleth et al. 2001
+706,Eulipotyphla,Solenodontidae,Solenodon,paradoxus,Solenodon_paradoxus,34,34,,XY,,16,unfused,Animal Karyotype Book,Benirschke 1969
+747,Eulipotyphla,Talpidae,Dymecodon,pilirostris,Dymecodon_pilirostris,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Kawada and Obara 1999
+752,Eulipotyphla,Talpidae,Neurotrichus,gibbsii,Neurotrichus_gibbsii,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Kawada et al. 2008
+741,Eulipotyphla,Talpidae,Parascalops,breweri,Parascalops_breweri,34,34,,XY,,16,unfused,Animal Karyotype Book,Benirschke 1969
+750,Eulipotyphla,Talpidae,Parascaptor,leucura,Parascaptor_leucura,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Kawada et al. 2016
+753,Eulipotyphla,Talpidae,Scapanulus,oweni,Scapanulus_oweni,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,He et al. 2012
+751,Eulipotyphla,Talpidae,Scaptonyx,fusicaudus,Scaptonyx_fusicaudus,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Kawada et al. 2008
+742,Eulipotyphla,Talpidae,Talpa,altaica,Talpa_altaica,34,34,,XY,,16,unfused,Animal Karyotype Book,Biltueva and Vorobieva 2012
+743,Eulipotyphla,Talpidae,Talpa,europaea,Talpa_europaea,34,34,,XY,,16,unfused,Blackmon,Volleth and Muller 2006
+744,Eulipotyphla,Talpidae,Talpa,europaea europaea,Talpa_europaea europaea,34,34,,XY,,16,unfused,Animal Karyotype Book,Benirschke 1969
+748,Eulipotyphla,Talpidae,Urotrichus,talpoides,Urotrichus_talpoides,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Kawada and Obara 1999
+847,Primates,Atelidae,Ateles,belzebuth marginatus,Ateles_belzebuth marginatus,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,de Oliveira et al. 2005
+838,Primates,Atelidae,Ateles,geoffroyi,Ateles_geoffroyi,34,34,,XY,,16,unfused,Blackmon,Pieczarka et al. 1989
+848,Primates,Atelidae,Ateles,paniscus,Ateles_paniscus,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Pieczarka et al. 1989
+954,Primates,Lepilemuridae,Lepilemur,septentrionalis,Lepilemur_septentrionalis,34,34,,XY,,16,unfused,Animal Karyotype Book,Rumpler et al. 1985
+988,Rodentia,Capromyidae,Mysateles,prehensilis,Mysateles_prehensilis,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Milishnikov et al. 1990
+1091,Rodentia,Cricetidae,Microtus,brandti,Microtus_brandti,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Gladkikh et al. 2016
+1161,Rodentia,Cricetidae,Necromys,lasiurus,Necromys_lasiurus,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Hass et al. 2008
+1196,Rodentia,Cricetidae,Phodopus,roborovskii,Phodopus_roborovskii,34,34,,XY,,16,unfused,Animal Karyotype Book,Romanenko et al. 2007
+1222,Rodentia,Ctenomyidae,Ctenomys,magellanicus magellanicus,Ctenomys_magellanicus magellanicus,34,34,,XY,,16,unfused,Animal Karyotype Book,Gallardo 1979
+1256,Rodentia,Echimyidae,Proechimys,sp.2,Proechimys_sp.2,34,34,,XY,,16,unfused,Animal Karyotype Book,Aniskin 1994b
+1457,Rodentia,Sciuridae,Ictidomys,tridecemlineatu,Ictidomys_tridecemlineatu,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Lemskaya et al. 2018
+1447,Rodentia,Sciuridae,Spermophilus,richardsonii,Spermophilus_richardsonii,34,34,,XY,,16,unfused,Blackmon,
+1455,Rodentia,Sciuridae,Spermophilus,suslicus,Spermophilus_suslicus,34,34,,XY,,16,unfused,Animal Karyotype Book 2020,Beklemisheva et al. 2011
+21,Afrosoricida,Tenrecidae,Microgale,fotsifotsy,Microgale_fotsifotsy,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+25,Afrosoricida,Tenrecidae,Microgale,parvula,Microgale_parvula,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+22,Afrosoricida,Tenrecidae,Microgale,soricoides,Microgale_soricoides,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+23,Afrosoricida,Tenrecidae,Microgale,taiva,Microgale_taiva,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+29,Afrosoricida,Tenrecidae,Oryzorictes,hova,Oryzorictes_hova,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+148,Artiodactyla,Bovidae,Tragelaphus,strepsiceros,Tragelaphus_strepsiceros,32,32,,XY,,15,unfused,Animal Karyotype Book,Rubes et al. 2008
+241,Artiodactyla,Tragulidae,Tragulus,javanicus,Tragulus_javanicus,32,32,,XY,,15,unfused,Animal Karyotype Book,Gallagher et al. 1996
+46,Artiodactyla,Bovidae,Antilope,cervicapra,Antilope_cervicapra,NA,30-33,,XY,,15,unfused,Atlas of Mammalian Chromosomes,Cerohorska et al. 2012
+359,Carnivora,Mustelidae,Taxidea,taxus,Taxidea_taxus,32,32,,XY,,15,unfused,Blackmon,
+362,Carnivora,Odobenidae,Odobenus,rosmarus,Odobenus_rosmarus,32,32,,XY,,15,unfused,Animal Karyotype Book,Arnason 1977
+371,Carnivora,Phocidae,Halichoerus,grypus,Halichoerus_grypus,32,32,,XY,,15,unfused,Blackmon,Arnason 1970a
+375,Carnivora,Phocidae,Pagophilus,groenlandicus,Pagophilus_groenlandicus,32,32,,XY,,15,unfused,Blackmon,
+376,Carnivora,Phocidae,Phoca,fasciata,Phoca_fasciata,32,32,,XY,,15,unfused,Animal Karyotype Book,Arnason 1977
+377,Carnivora,Phocidae,Phoca,groenlandica,Phoca_groenlandica,32,32,,XY,,15,unfused,Animal Karyotype Book,Arnason 1974c
+380,Carnivora,Phocidae,Phoca,largha,Phoca_largha,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Beklemisheva (Unpublished)
+378,Carnivora,Phocidae,Phoca,vitulina,Phoca_vitulina,32,32,,XY,,15,unfused,Blackmon,Fronicke et al. 1997
+379,Carnivora,Phocidae,Pusa,hispida,Pusa_hispida,32,32,,XY,,15,unfused,Blackmon,Arnason 1974c
+381,Carnivora,Phocidae,Pusa,sibirica,Pusa_sibirica,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Beklemisheva et al. 2016
+428,Chiroptera,Hipposideridae,Hipposideros,armiger,Hipposideros_armiger,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Mao et al. 2010
+417,Chiroptera,Hipposideridae,Hipposideros,ater,Hipposideros_ater,32,32,,XY,,15,unfused,Animal Karyotype Book,Sreepada et al. 1993
+418,Chiroptera,Hipposideridae,Hipposideros,cineraceus,Hipposideros_cineraceus,32,32,,XY,,15,unfused,Animal Karyotype Book,Sreepada et al. 1993
+419,Chiroptera,Hipposideridae,Hipposideros,fulvus,Hipposideros_fulvus,32,32,,XY,,15,unfused,Animal Karyotype Book,Sreepada et al. 1993
+420,Chiroptera,Hipposideridae,Hipposideros,fulvus pallidus,Hipposideros_fulvus pallidus,32,32,,XY,,15,unfused,Animal Karyotype Book,Choudhury and Patro 1993
+421,Chiroptera,Hipposideridae,Hipposideros,lankadiva,Hipposideros_lankadiva,32,32,,XY,,15,unfused,Animal Karyotype Book,Sreepada et al. 1993
+425,Chiroptera,Hipposideridae,Hipposideros,larvatus,Hipposideros_larvatus,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Volleth et al. 2002
+422,Chiroptera,Hipposideridae,Hipposideros,pomona,Hipposideros_pomona,32,32,,XY,,15,unfused,Animal Karyotype Book,Sreepada et al. 1993
+427,Chiroptera,Hipposideridae,Hipposideros,pomona,Hipposideros_pomona,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Mao et al. 2010
+426,Chiroptera,Hipposideridae,Hipposideros,pratti,Hipposideros_pratti,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Mao et al. 2010
+423,Chiroptera,Hipposideridae,Hipposideros,speoris,Hipposideros_speoris,32,32,,XY,,15,unfused,Animal Karyotype Book,Sreepada et al. 1993
+476,Chiroptera,Phyllostomidae,Diaemus,youngi,Diaemus_youngi,32,32,,XY,,15,unfused,Animal Karyotype Book,Varella-Garcia et al. 1989
+477,Chiroptera,Phyllostomidae,Diphylla,ecaudata,Diphylla_ecaudata,32,32,,XY,,15,unfused,Animal Karyotype Book,Baker et al. 1979
+480,Chiroptera,Phyllostomidae,Erophylla,sezekorni,Erophylla_sezekorni,32,32,,XY,,15,unfused,Animal Karyotype Book,Baker et al. 1979
+481,Chiroptera,Phyllostomidae,Glossophaga,soricina,Glossophaga_soricina,32,32,,XY,,15,unfused,Blackmon,Varella-Garcia et al. 1989
+487,Chiroptera,Phyllostomidae,Lonchorhina,aurita,Lonchorhina_aurita,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Barros et al. 2009
+495,Chiroptera,Phyllostomidae,Micronycteris,brachyotis,Micronycteris_brachyotis,32,32,,XY,,15,unfused,Animal Karyotype Book,Baker et al. 1979
+502,Chiroptera,Phyllostomidae,Mimon,crenulatum,Mimon_crenulatum,32,32,,XY,,15,unfused,Blackmon,Baker et al. 1979
+503,Chiroptera,Phyllostomidae,Monophyllus,redmani,Monophyllus_redmani,32,32,,XY,,15,unfused,Animal Karyotype Book,Baker et al. 1979
+504,Chiroptera,Phyllostomidae,Phylloderma,stenops,Phylloderma_stenops,32,32,,XY,,15,unfused,Animal Karyotype Book,Baker et al. 1979
+505,Chiroptera,Phyllostomidae,Phyllonycteris,poeyi,Phyllonycteris_poeyi,32,32,,XY,,15,unfused,Animal Karyotype Book,Baker et al. 1979
+507,Chiroptera,Phyllostomidae,Phyllostomus,discolor,Phyllostomus_discolor,32,32,,XY,,15,unfused,Animal Karyotype Book,Baker et al. 1979
+509,Chiroptera,Phyllostomidae,Phyllostomus,hastatus,Phyllostomus_hastatus,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Pieczarka et al. 2005
+561,Chiroptera,Rhinolophidae,Rhinolophus,luctoides,Rhinolophus_luctoides,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Volleth et al. 2015
+568,Chiroptera,Vespertilionidae,Corynorhinus,townsendii,Corynorhinus_townsendii,32,32,,XY,,15,unfused,Animal Karyotype Book,Stock 1983
+573,Chiroptera,Vespertilionidae,Hesperoptenus,blandfordi,Hesperoptenus_blandfordi,32,32,,XY,,15,unfused,Animal Karyotype Book,Volleth et al. 2001
+606,Chiroptera,Vespertilionidae,Pipistrellus,stenopterus,Pipistrellus_stenopterus,32,32,,XY,,15,unfused,Animal Karyotype Book,Volleth et al. 2001
+610,Chiroptera,Vespertilionidae,Plecotus,auritus,Plecotus_auritus,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Kulemzina et al. 2011b
+616,Chiroptera,Vespertilionidae,Tylonycteris,pachypus,Tylonycteris_pachypus,32,32,,XY,,15,unfused,Animal Karyotype Book,Volleth et al. 2001
+618,Chiroptera,Vespertilionidae,Tylonycteris,robustula,Tylonycteris_robustula,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Ao et al.2006
+703,Eulipotyphla,Erinaceidae,Neohylomys,hainanensis,Neohylomys_hainanensis,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Li et al. 2008
+704,Eulipotyphla,Erinaceidae,Neotetracus,sinensis,Neotetracus_sinensis,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Ye et al. 2006
+745,Eulipotyphla,Talpidae,Mogera,insularis,Mogera_insularis,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Kawada et al. 2007
+746,Eulipotyphla,Talpidae,Mogera,kanoana,Mogera_kanoana,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Kawada et al. 2007
+803,Perissodactyla,Equidae,Equus,zebra,Equus_zebra,32,32,,XY,,15,unfused,Blackmon,
+806,Perissodactyla,Equidae,Equus,zebra hartmannae,Equus_zebra hartmannae,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Yang et al. 2003b
+1026,Rodentia,Cricetidae,Auliscomys,micropus,Auliscomys_micropus,34,32,,XY,Females have an extra set of chromosomes (16th chromosomes),15,unfused,Animal Karyotype Book,Walker and Spotorno 1992
+1032,Rodentia,Cricetidae,Calomyscus,bailwardi,Calomyscus_bailwardi,32,32,,XY,,15,unfused,Blackmon,
+1034,Rodentia,Cricetidae,Calomyscus,urartensis,Calomyscus_urartensis,32,32,,XY,,15,unfused,Animal Karyotype Book,Graphodatsky et al. 2000a
+1066,Rodentia,Cricetidae,Eligmodontia,sp.,Eligmodontia_sp.,32,32,,XY,,15,unfused,Animal Karyotype Book,Kelt et al. 1991
+1078,Rodentia,Cricetidae,Eothenomys,proditor,Eothenomys_proditor,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Li et al. 2006b
+1241,Rodentia,Dipodidae,Sicista,betulina,Sicista_betulina,32,32,,XY,,15,unfused,Animal Karyotype Book 2020,Kovalskaya et al. 2011
+1254,Rodentia,Echimyidae,Proechimys,simonsi,Proechimys_simonsi,32,32,,XY,,15,unfused,Animal Karyotype Book,Aniskin 1994b
+1344,Rodentia,Muridae,Mastomys,awashensis,Mastomys_awashensis,32,32,,XY,,15,unfused,Animal Karyotype Book,Volobouev et al. 2002a
+1346,Rodentia,Muridae,Mastomys,huberti,Mastomys_huberti,32,32,,XY,,15,unfused,Animal Karyotype Book,Volobouev et al. 2002a
+1348,Rodentia,Muridae,Mastomys,natalensis,Mastomys_natalensis,32,32,,XY,,15,unfused,Animal Karyotype Book,Volobouev et al. 2002a
+1411,Rodentia,Nesomyidae,Mystromys,albicaudatus,Mystromys_albicaudatus,32,32,,XY,,15,unfused,Blackmon,
+1427,Rodentia,Sciuridae,Ammospermophilus,harrisii,Ammospermophilus_harrisii,32,32,,XY,,15,unfused,Blackmon,
+1448,Rodentia,Sciuridae,Spermophilus,undulatus,Spermophilus_undulatus,32,32,,XY,,15,unfused,Animal Karyotype Book,Graphodatsky and Sablina (Unpublished)
+1,Afrosoricida,Chrysochloridae,Amblysomus,hottentotus,Amblysomus_hottentotus,30,30,,XY,,14,unfused,Animal Karyotype Book,Bronner 1995a
+12,Afrosoricida,Chrysochloridae,Amblysomus,hottentotus longiceps,Amblysomus_hottentotus longiceps,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al 2008
+13,Afrosoricida,Chrysochloridae,Amblysomus,hottentotus meesteri,Amblysomus_hottentotus meesteri,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al 2008
+14,Afrosoricida,Chrysochloridae,Amblysomus,hottentotus pondoliae,Amblysomus_hottentotus pondoliae,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al 2008
+4,Afrosoricida,Chrysochloridae,Chlorotalpa,duthieae,Chlorotalpa_duthieae,30,30,,XY,,14,unfused,Animal Karyotype Book,Bronner 1995a
+5,Afrosoricida,Chrysochloridae,Chlorotalpa,sclateri,Chlorotalpa_sclateri,30,30,,XY,,14,unfused,Animal Karyotype Book,Bronner 1995a
+9,Afrosoricida,Chrysochloridae,Chrysochloris,asiatica,Chrysochloris_asiatica,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Robinson et al. 2004
+15,Afrosoricida,Chrysochloridae,Chrysospalax,trevelyani,Chrysospalax_trevelyani,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al. 2006
+10,Afrosoricida,Chrysochloridae,Cryptochloris,zyli,Cryptochloris_zyli,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al. 2006
+18,Afrosoricida,Chrysochloridae,Neamblysomus,julianae,Neamblysomus_julianae,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al 2008
+7,Afrosoricida,Tenrecidae,Microgale,dobsoni,Microgale_dobsoni,30,30,,XY,,14,unfused,Blackmon,
+26,Afrosoricida,Tenrecidae,Microgale,longicaudata,Microgale_longicaudata,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+28,Afrosoricida,Tenrecidae,Microgale,majori,Microgale_majori,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+27,Afrosoricida,Tenrecidae,Microgale,principula,Microgale_principula,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gilbert et al. 2007
+3,Afrosoricida,Chrysochloridae,Neamblysomus,julianae,Neamblysomus_julianae,30,30,,XY,,14,unfused,Atlas of Mammalian Chromosomes,Gilbert et al. 2008
+136,Artiodactyla,Bovidae,Raphicerus,campestris,Raphicerus_campestris,30,30,,XY,,14,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+147,Artiodactyla,Bovidae,Tragelaphus,spekii,Tragelaphus_spekii,30,30,,XY,,14,unfused,Blackmon,Rubes et al. 2008
+211,Artiodactyla,Giraffidae,Giraffa,camelopardalis tippelskirchi,Giraffa_camelopardalis tippelskirchi,30,30,,XY,,14,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+212,Artiodactyla,Giraffidae,Giraffa,camelopardis,Giraffa_camelopardis,30,30,,XY,,14,unfused,Blackmon,Huang et al. 2008
+240,Artiodactyla,Tayassuidae,Tayassu,tajacu,Tayassu_tajacu,30,30,,XY,,14,unfused,Blackmon,Benirschke and Kumamoto 1989
+348,Carnivora,Mustelidae,Mustela,vison,Mustela_vison,30,30,,XY,,14,unfused,Blackmon,Serov (1998)
+424,Chiroptera,Hipposideridae,Aselliscus,stoliczkanus,Aselliscus_stoliczkanus,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Ao et al. 2007
+451,Chiroptera,Phyllostomidae,Anoura,caudifera,Anoura_caudifera,30,30,,XY,,14,unfused,Animal Karyotype Book,Varella-Garcia et al. 1989
+452,Chiroptera,Phyllostomidae,Anoura,cultrata,Anoura_cultrata,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+478,Chiroptera,Phyllostomidae,Ectophylla,alba,Ectophylla_alba,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+490,Chiroptera,Phyllostomidae,Lonchophylla,thomasi,Lonchophylla_thomasi,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+496,Chiroptera,Phyllostomidae,Micronycteris,hirsuta,Micronycteris_hirsuta,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+508,Chiroptera,Phyllostomidae,Phyllostomus,hastatus,Phyllostomus_hastatus,30,30,,XY,,14,unfused,Animal Karyotype Book,Varella-Garcia et al. 1989
+513,Chiroptera,Phyllostomidae,Platyrrhinus,incarum,Platyrrhinus_incarum,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Gomes et al. 2016
+512,Chiroptera,Phyllostomidae,Platyrrhinus,lineatus,Platyrrhinus_lineatus,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Varella-Garcia et al. 1989
+510,Chiroptera,Phyllostomidae,Platyrrhinus,vittatus,Platyrrhinus_vittatus,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+511,Chiroptera,Phyllostomidae,Platyrrhinus,vittatus lineatus,Platyrrhinus_vittatus lineatus,30,30,,XY,,14,unfused,Animal Karyotype Book,Varella-Garcia et al. 1989
+519,Chiroptera,Phyllostomidae,Sturnina,lilium,Sturnina_lilium,30,30,,XY,,14,unfused,Blackmon,Varella-Garcia et al. 1989
+520,Chiroptera,Phyllostomidae,Sturnira,erythromos,Sturnira_erythromos,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+521,Chiroptera,Phyllostomidae,Sturnira,mordax,Sturnira_mordax,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+524,Chiroptera,Phyllostomidae,Trachops,cirrhosus,Trachops_cirrhosus,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+533,Chiroptera,Phyllostomidae,Vampyrodes,caraccioli,Vampyrodes_caraccioli,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Pieczarka et al. 2013
+534,Chiroptera,Phyllostomidae,Vampyrum,spectrum,Vampyrum_spectrum,30,30,,XY,,14,unfused,Animal Karyotype Book,Baker et al. 1979
+563,Chiroptera,Rhinolophidae,Rhinolophus,sedulus,Rhinolophus_sedulus,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Volleth et al. 2014
+571,Chiroptera,Vespertilionidae,Euderma,maculatum,Euderma_maculatum,30,30,,XY,,14,unfused,Animal Karyotype Book,Stock 1983
+574,Chiroptera,Vespertilionidae,Idionycteris,phyllotis,Idionycteris_phyllotis,30,30,,XY,,14,unfused,Animal Karyotype Book,Stock 1983
+598,Chiroptera,Vespertilionidae,Pipistrellus,coromandra,Pipistrellus_coromandra,30,30,,XY,,14,unfused,Animal Karyotype Book,Sreepada et al. 1996
+599,Chiroptera,Vespertilionidae,Pipistrellus,crassulus,Pipistrellus_crassulus,30,30,,XY,,14,unfused,Animal Karyotype Book,Volleth et al. 2001
+596,Chiroptera,Vespertilionidae,Pipistrellus,subflavus,Pipistrellus_subflavus,30,30,,XY,,14,unfused,Blackmon,
+614,Chiroptera,Vespertilionidae,Scotorepens,balstoni,Scotorepens_balstoni,30,30,,XY,,14,unfused,Animal Karyotype Book,Volleth and Tidemann 1989
+615,Chiroptera,Vespertilionidae,Scotozous,dormeri,Scotozous_dormeri,30,30,,XY,,14,unfused,Animal Karyotype Book,Volleth et al. 2001
+619,Chiroptera,Vespertilionidae,Tylonycteris,sp.,Tylonycteris_sp.,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Ao et al.2006
+723,Eulipotyphla,Soricidae,Sorex,tundrensis,Sorex_tundrensis,30,30,,XY,,14,unfused,Animal Karyotype Book,Aniskin and Volobouev 1980
+782,Macroscelidea,Tenrecidae,Microgale,dobsoni,Microgale_dobsoni,30,30,,XY,,14,unfused,Animal Karyotype Book,Benirschke 1969
+917,Primates,Daubentoniidae,Daubentonia,madagascariensis,Daubentonia_madagascariensis,30,30,,XY,,14,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+1038,Rodentia,Cricetidae,Calomyscus,sp. 2,Calomyscus_sp. 2,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Graphodatsky et al. (Unpublished)
+1062,Rodentia,Cricetidae,Dicrostonyx,torquatus,Dicrostonyx_torquatus,30,30,,XY,,14,unfused,Animal Karyotype Book,Modi 1987
+1073,Rodentia,Cricetidae,Ellobius,tancrei,Ellobius_tancrei,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Bakloushinskaya et al. 2013
+1115,Rodentia,Cricetidae,Microtus,montebelli,Microtus_montebelli,30,30,,XY,,14,unfused,Blackmon,Sablina et al. (Unpublished)
+1120,Rodentia,Cricetidae,Microtus,oeconomus,Microtus_oeconomus,30,30,,XY,,14,unfused,Blackmon,Modi 1987
+1210,Rodentia,Cricetidae,Sigmodon,fulviventer,Sigmodon_fulviventer,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Swier et al. 2009
+1208,Rodentia,Cricetidae,Sigmodon,minimus,Sigmodon_minimus,30,30,,XY,,14,unfused,Blackmon,
+1261,Rodentia,Echimyidae,Proechimys,roberti,Proechimys_roberti,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Ribeiro et al. 2011
+1253,Rodentia,Echimyidae,Proechimys,semispinosus,Proechimys_semispinosus,30,30,,XY,,14,unfused,Blackmon,
+1255,Rodentia,Echimyidae,Proechimys,sp.1,Proechimys_sp.1,30,30,,XY,,14,unfused,Animal Karyotype Book,Aniskin 1994b
+1412,Rodentia,Nesomyidae,Dendromus,lachaisei,Dendromus_lachaisei,30,30,,XY,,14,unfused,Animal Karyotype Book 2020,Denys and Aniskin 2012
+1445,Rodentia,Sciuridae,Spermophilus,beldingi,Spermophilus_beldingi,30,30,,XY,,14,unfused,Blackmon,
+1070,Rodentia,Cricetidae,Ellobius,tancrei,Ellobius_tancrei,NA,,,XX females and males/no SRY,complex XY,14,unfused,Atlas of Mammalian Chromosomes,
+17,Afrosoricida,Chrysochloridae,Calcochloris,obtusirostris,Calcochloris_obtusirostris,28,28,,XY,,13,unfused,Animal Karyotype Book 2020,Gilbert et al 2008
+473,Chiroptera,Phyllostomidae,Chrotopterus,auritus,Chrotopterus_auritus,28,28,,XY,,13,unfused,Animal Karyotype Book,Morielle-Versute et al. 1992
+474,Chiroptera,Phyllostomidae,Desmodus,rotundus,Desmodus_rotundus,28,28,,XY,,13,unfused,Animal Karyotype Book,Varella-Garcia et al. 1989
+475,Chiroptera,Phyllostomidae,Desmodus,rotundus murius,Desmodus_rotundus murius,28,28,,XY,,13,unfused,Blackmon,
+484,Chiroptera,Phyllostomidae,Lionycteris,spurrelli,Lionycteris_spurrelli,28,28,,XY,,13,unfused,Animal Karyotype Book,Baker et al. 1979
+491,Chiroptera,Phyllostomidae,Lonchophylla,concava,Lonchophylla_concava,28,28,,XY,,13,unfused,Animal Karyotype Book 2020,Sotero-Caio et al. 2013
+489,Chiroptera,Phyllostomidae,Lonchophylla,robusta,Lonchophylla_robusta,28,28,,XY,,13,unfused,Animal Karyotype Book,Baker et al. 1979
+498,Chiroptera,Phyllostomidae,Micronycteris,minuta,Micronycteris_minuta,28,28,,XY,,13,unfused,Animal Karyotype Book,Baker et al. 1979
+499,Chiroptera,Phyllostomidae,Micronycteris,nicefori,Micronycteris_nicefori,28,28,,XY,,13,unfused,Animal Karyotype Book,Baker et al. 1979
+518,Chiroptera,Phyllostomidae,Sphaeronycteris,toxophyllum,Sphaeronycteris_toxophyllum,28,28,,XY,,13,unfused,Animal Karyotype Book,Baker et al. 1979
+575,Chiroptera,Vespertilionidae,Lasiurus,borealis,Lasiurus_borealis,28,28,,XY,,13,unfused,Animal Karyotype Book,Varella-Garcia et al. 1989
+576,Chiroptera,Vespertilionidae,Lasiurus,seminolus,Lasiurus_seminolus,28,28,,XY,,13,unfused,Blackmon,
+731,Eulipotyphla,Soricidae,Crocidura,leucodon sp. 1,Crocidura_leucodon sp. 1,28,28,,XY,,13,unfused,Animal Karyotype Book 2020,Graphodatsky et al. 1987
+732,Eulipotyphla,Soricidae,Crocidura,leucodon sp. 2,Crocidura_leucodon sp. 2,28,28,,XY,,13,unfused,Animal Karyotype Book 2020,Vogel and Sofianidou 1996
+1027,Rodentia,Cricetidae,Auliscomys,sublimis,Auliscomys_sublimis,28,28,,XY,,13,unfused,Animal Karyotype Book,Walker and Spotorno 1992
+1197,Rodentia,Cricetidae,Phodopus,sungorus,Phodopus_sungorus,28,28,,XY,,13,unfused,Blackmon,Romanenko et al. 2007
+1198,Rodentia,Cricetidae,Phodopus,sungorus campbelli,Phodopus_sungorus campbelli,28,28,,XY,,13,unfused,Animal Karyotype Book,Romanenko et al. 2007
+1199,Rodentia,Cricetidae,Phodopus,sungorus sungorus,Phodopus_sungorus sungorus,28,28,,XY,,13,unfused,Animal Karyotype Book,Radjabli et al. (Unpublished)
+1209,Rodentia,Cricetidae,Sigmodon,mascotensis,Sigmodon_mascotensis,28,28,,XY,,13,unfused,Animal Karyotype Book 2020,Swier et al. 2009
+1213,Rodentia,Cricetidae,Tscherskia,triton,Tscherskia_triton,28,28,,XY,,13,unfused,Blackmon,Romanenko et al. 2007
+1248,Rodentia,Echimyidae,Isothrix,sinnamariensis,Isothrix_sinnamariensis,28,28,,XY,,13,unfused,Animal Karyotype Book,Vie et al. 1996
+1252,Rodentia,Echimyidae,Proechimys,brevicauda,Proechimys_brevicauda,28,28,,XY,,13,unfused,Animal Karyotype Book,Aniskin 1994b
+16,Afrosoricida,Chrysochloridae,Eremitalpa,granti,Eremitalpa_granti,26,26,,XY,,12,unfused,Animal Karyotype Book 2020,Gilbert et al. 2006
+238,Artiodactyla,Tayassuidae,Tayassu,albirostris,Tayassu_albirostris,26,26,,XY,,12,unfused,Blackmon,
+239,Artiodactyla,Tayassuidae,Tayassu,pecari,Tayassu_pecari,26,26,,XY,,12,unfused,Animal Karyotype Book,Benirschke and Kumamoto 1989
+466,Chiroptera,Phyllostomidae,Chiroderma,doriae,Chiroderma_doriae,26,26,,XY,,12,unfused,Animal Karyotype Book,Varella-Garcia et al. 1989
+467,Chiroptera,Phyllostomidae,Chiroderma,improvisum,Chiroderma_improvisum,26,26,,XY,,12,unfused,Animal Karyotype Book,Baker et al. 1979
+468,Chiroptera,Phyllostomidae,Chiroderma,villosum,Chiroderma_villosum,26,26,,XY,,12,unfused,Blackmon,Varella-Garcia et al. 1989
+501,Chiroptera,Phyllostomidae,Micronycteris,hirsuta,Micronycteris_hirsuta,26,26,,XY,,12,unfused,Animal Karyotype Book 2020,Ribas et al. 2013
+532,Chiroptera,Phyllostomidae,Vampyressa,bidens,Vampyressa_bidens,26,26,,XY,,12,unfused,Animal Karyotype Book 2020,Gomes et al. 2016
+529,Chiroptera,Phyllostomidae,Vampyressa,nymphaea,Vampyressa_nymphaea,26,26,,XY,,12,unfused,Animal Karyotype Book,Baker et al. 1979
+577,Chiroptera,Vespertilionidae,Lasiurus,intermedius,Lasiurus_intermedius,26,26,,XY,,12,unfused,Blackmon,
+712,Eulipotyphla,Soricidae,Crocidura,horsfieldii watasei,Crocidura_horsfieldii watasei,26,26,,XY,,12,unfused,Animal Karyotype Book,Perelman and Graphodatsky (Unpublished)
+730,Eulipotyphla,Soricidae,Crocidura,watasei,Crocidura_watasei,26,26,,XY,,12,unfused,Animal Karyotype Book 2020,Harada et al. 1985
+783,Macroscelidea,Macroscelididae,Elephantus,rupestris,Elephantus_rupestris,26,26,,XY,,12,unfused,Animal Karyotype Book 2020,Robinson et al. 2004
+780,Macroscelidea,Macroscelididae,Macroscelides,proboscideus,Macroscelides_proboscideus,26,26,,XY,,12,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+952,Primates,Lepilemuridae,Lepilemur,leucopus,Lepilemur_leucopus,26,26,,XY,,12,unfused,Animal Karyotype Book,Rumpler et al. 1985
+1407,Rodentia,Muridae,Tokudaia,osimensis osimensis,Tokudaia_osimensis osimensis,25,25,,XO,XO females and males/no SRY,12,unfused,Blackmon,
+1007,Rodentia,Cricetidae,Akodon,orophilus,Akodon_orophilus,26,26,,XY,,12,unfused,Blackmon,
+1014,Rodentia,Cricetidae,Allocricetulus,eversmanni,Allocricetulus_eversmanni,26,26,,XY,,12,unfused,Animal Karyotype Book,Romanenko et al. 2013
+1015,Rodentia,Cricetidae,Allocricetulus,pseudocurtatus,Allocricetulus_pseudocurtatus,26,26,,XY,,12,unfused,,Romanenko et al. 2013
+1221,Rodentia,Ctenomyidae,Ctenomys,fulvus,Ctenomys_fulvus,26,26,,XY,,12,unfused,Animal Karyotype Book,Gallardo 1979
+1223,Rodentia,Ctenomyidae,Ctenomys,maulinus brunneus,Ctenomys_maulinus brunneus,26,26,,XY,,12,unfused,Animal Karyotype Book,Gallardo 1979
+1224,Rodentia,Ctenomyidae,Ctenomys,maulinus maulinus,Ctenomys_maulinus maulinus,26,26,,XY,,12,unfused,Animal Karyotype Book,Gallardo 1979
+1225,Rodentia,Ctenomyidae,Ctenomys,opimus,Ctenomys_opimus,26,26,,XY,,12,unfused,Animal Karyotype Book,Gallardo 1979
+1227,Rodentia,Ctenomyidae,Ctenomys,robustus,Ctenomys_robustus,26,26,,XY,,12,unfused,Animal Karyotype Book,Gallardo 1979
+1243,Rodentia,Dipodidae,Sicista,severtzovi,Sicista_severtzovi,26,26,,XY,,12,unfused,Animal Karyotype Book 2020,Kovalskaya et al. 2011
+1244,Rodentia,Dipodidae,Sicista,subtilis nordmanni,Sicista_subtilis nordmanni,26,26,,XY,,12,unfused,Animal Karyotype Book 2020,Kovalskaya et al. 2011
+1312,Rodentia,Muridae,Archboldomys,luzonensis,Archboldomys_luzonensis,26,26,,XY,,12,unfused,Animal Karyotype Book,Rickart and Heany 2002
+1366,Rodentia,Muridae,Mus,poschiavinus,Mus_poschiavinus,26,26,,XY,,12,unfused,Blackmon,
+483,Chiroptera,Phyllostomidae,Lichonycteris,obscura,Lichonycteris_obscura,24,24,,XY,,11,unfused,Animal Karyotype Book,Baker et al. 1979
+488,Chiroptera,Phyllostomidae,Lionycteris,obscura,Lionycteris_obscura,24,24,,XY,,11,unfused,Animal Karyotype Book 2020,Baker et al. 1979
+528,Chiroptera,Phyllostomidae,Vampyressa,brocki,Vampyressa_brocki,24,24,,XY,,11,unfused,Animal Karyotype Book,Baker et al. 1979
+691,Diprodontia,Tarsipedidae,Tarsipes,rostratus,Tarsipes_rostratus,24,24,,XY,,11,unfused,Animal Karyotype Book,Hayman 1990
+682,Diprodontia,Petauridae,Petaurus,norfolcensis,Petaurus_norfolcensis,21,21,,XY,,11,unfused,Atlas of Mammalian Chromosomes,Rofe 1979
+1408,Rodentia,Muridae,Tokudaia,osimensis spp,Tokudaia_osimensis spp,45,45,,XO,XO females and males/no SRY,11,unfused,Blackmon,
+1009,Rodentia,Cricetidae,Akodon,montensis,Akodon_montensis,24,24,,XY,,11,unfused,Animal Karyotype Book 2020,Hass et al. 2008
+1054,Rodentia,Cricetidae,Cricetulus,longicaudatus,Cricetulus_longicaudatus,24,24,,XY,,11,unfused,Animal Karyotype Book,Romanenko et al. 2007
+1057,Rodentia,Cricetidae,Cricetulus,pseudogriseus,Cricetulus_pseudogriseus,24,24,,XY,,11,unfused,Animal Karyotype Book,Radjabli et al. (Unpublished)
+1099,Rodentia,Cricetidae,Microtus,canicaudus,Microtus_canicaudus,24,24,,XY,,11,unfused,Blackmon,
+1114,Rodentia,Cricetidae,Microtus,montanus,Microtus_montanus,24,24,,XY,,11,unfused,Blackmon,
+1245,Rodentia,Dipodidae,Sicista,subtilis subtilis,Sicista_subtilis subtilis,24,24,,XY,,11,unfused,Animal Karyotype Book 2020,Kovalskaya et al. 2011
+1257,Rodentia,Echimyidae,Proechimys,steerei,Proechimys_steerei,24,24,,XY,,11,unfused,Animal Karyotype Book,Aniskin 1994b
+416,Chiroptera,Emballonuridae,Cormura,brevirostris,Cormura_brevirostris,22,22,,XY,,10,unfused,Animal Karyotype Book 2020,Araujo et al. 2016
+462,Chiroptera,Phyllostomidae,Carollia,castanea,Carollia_castanea,22,22,,XY,,10,unfused,Animal Karyotype Book,Stock 1975
+572,Chiroptera,Vespertilionidae,Glauconycteris,beatrix,Glauconycteris_beatrix,22,22,,XY,,10,unfused,Animal Karyotype Book 2020,Volleth and Heller 2007
+646,Didelphimorphia,Didelphidae,Chironectes,panamensis,Chironectes_panamensis,22,22,,XY,,10,unfused,Blackmon,
+647,Didelphimorphia,Didelphidae,Didelphis,marsupialis,Didelphis_marsupialis,22,22,,XY,,10,unfused,Blackmon,Aniskin et al. 1991
+648,Didelphimorphia,Didelphidae,Didelphis,virginiana,Didelphis_virginiana,22,22,,XY,,10,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+649,Didelphimorphia,Didelphidae,Didelphys,albiventris,Didelphys_albiventris,22,22,,XY,,10,unfused,Blackmon,
+650,Didelphimorphia,Didelphidae,Lutreolina,crassicaudata,Lutreolina_crassicaudata,22,22,,XY,,10,unfused,Blackmon,
+661,Didelphimorphia,Didelphidae,Philander,opossum,Philander_opossum,22,22,,XY,,10,unfused,Blackmon,Svartman 1998
+675,Diprodontia,Macropodidae,Petrogale,lateralis lateralis,Petrogale_lateralis lateralis,22,22,,XY,,10,unfused,Animal Karyotype Book,Eldridge et al. 1992a
+676,Diprodontia,Macropodidae,Petrogale,penicillata,Petrogale_penicillata,22,22,,XY,,10,unfused,Animal Karyotype Book,Rofe 1979
+677,Diprodontia,Macropodidae,Petrogale,xanthopus celeris,Petrogale_xanthopus celeris,22,22,,XY,,10,unfused,Animal Karyotype Book,Eldridge et al. 1992a
+678,Diprodontia,Macropodidae,Petrogale,xanthopus xanthopus,Petrogale_xanthopus xanthopus,22,22,,XY,,10,unfused,Animal Karyotype Book,Eldridge et al. 1992a
+679,Diprodontia,Macropodidae,Thylogale,billardierii,Thylogale_billardierii,22,22,,XY,,10,unfused,Animal Karyotype Book,Rofe 1979
+680,Diprodontia,Macropodidae,Thylogale,thetis,Thylogale_thetis,22,22,,XY,,10,unfused,Animal Karyotype Book,Eldridge et al. 1992a
+713,Eulipotyphla,Soricidae,Crocidura,pergrisea,Crocidura_pergrisea,22,22,,XY,,10,unfused,Animal Karyotype Book,Graphodatsky et al. 1987
+971,Primates,Pitheciidae,Callicebus,torquatus,Callicebus_torquatus,22,22,,XY,,10,unfused,Animal Karyotype Book 2020,Barros et al. 2000
+1025,Rodentia,Cricetidae,Auliscomys,boliviensis,Auliscomys_boliviensis,22,22,,XY,,10,unfused,Animal Karyotype Book,Walker and Spotorno 1992
+1052,Rodentia,Cricetidae,Cricetulus,cricetus,Cricetulus_cricetus,22,22,,XY,,10,unfused,Blackmon,
+1053,Rodentia,Cricetidae,Cricetulus,griseus,Cricetulus_griseus,22,22,,XY,,10,unfused,Blackmon,Romanenko et al. 2006
+1055,Rodentia,Cricetidae,Cricetulus,migratorius,Cricetulus_migratorius,22,22,,XY,,10,unfused,Animal Karyotype Book,Radjabli et al. (Unpublished)
+1059,Rodentia,Cricetidae,Cricetus,cricetus,Cricetus_cricetus,22,22,,XY,,10,unfused,Animal Karyotype Book,Romanenko et al. 2007
+1206,Rodentia,Cricetidae,Sigmodon,arizonae,Sigmodon_arizonae,22,22,,XY,,10,unfused,Blackmon,Swier et al. 2009
+237,Artiodactyla,Tayassuidae,Catagonus,wagneri,Catagonus_wagneri,20,20,,XY,,9,unfused,Animal Karyotype Book,Benirschke and Kumamoto 1989
+463,Chiroptera,Phyllostomidae,Carollia,castanea,Carollia_castanea,20,20,,XY,,9,unfused,Blackmon,
+471,Chiroptera,Phyllostomidae,Choeroniscus,itermedius,Choeroniscus_itermedius,20,20,,XY,,9,unfused,Animal Karyotype Book,Stock 1975
+470,Chiroptera,Phyllostomidae,Choeroniscus,minor,Choeroniscus_minor,20,20,,XY,,9,unfused,Animal Karyotype Book 2020,Das Neves et al. 2001
+672,Diprodontia,Macropodidae,Macropus,rufus,Macropus_rufus,20,20,,XY,,9,unfused,Blackmon,Rofe 1979
+673,Diprodontia,Macropodidae,Petrogale,brachyotis,Petrogale_brachyotis,20,20,,XY,,9,unfused,Animal Karyotype Book,Eldridge et al. 1992a
+683,Diprodontia,Phalangeridae,Trichosurus,vulpecula,Trichosurus_vulpecula,20,20,,XY,,9,unfused,Animal Karyotype Book,Rofe 1979
+686,Diprodontia,Pseudocheiridae,Hemibelideus,lemuroides,Hemibelideus_lemuroides,20,20,,XY,,9,unfused,Animal Karyotype Book,McQuade 1984
+688,Diprodontia,Pseudocheiridae,Pseudocheirus,peregrinus cookii,Pseudocheirus_peregrinus cookii,20,20,,XY,,9,unfused,Animal Karyotype Book,Murray et al. 1980
+689,Diprodontia,Pseudocheiridae,Pseudocheirus,peregrinus puicher,Pseudocheirus_peregrinus puicher,20,20,,XY,,9,unfused,Animal Karyotype Book,Murray et al. 1980
+690,Diprodontia,Pseudocheiridae,Pseudocheirus,peregrinus rubidus,Pseudocheirus_peregrinus rubidus,20,20,,XY,,9,unfused,Animal Karyotype Book,Murray et al. 1980
+695,Diprotodontia,Phalangeridae,Trichosurus,vulpecula,Trichosurus_vulpecula,20,20,,XY,,9,unfused,Blackmon,
+788,Notoryctemorphia,Notoryctidae,Notoryctes,typhlops,Notoryctes_typhlops,20,20,,XY,,9,unfused,Animal Karyotype Book,Calaby et al. 1974
+953,Primates,Lepilemuridae,Lepilemur,ruficaudatus,Lepilemur_ruficaudatus,20,20,,XY,,9,unfused,Animal Karyotype Book,Rumpler et al. 1985
+1094,Rodentia,Cricetidae,Microtus,oregoni,Microtus_oregoni,17,18,,XO females and XY males,complex XY,9,unfused,Blackmon,Modi 1987
+1013,Rodentia,Cricetidae,Allocricetulus,curtatus,Allocricetulus_curtatus,20,20,,XY,,9,unfused,Animal Karyotype Book,Romanenko et al. 2013
+1051,Rodentia,Cricetidae,Cricetulus,barabensis,Cricetulus_barabensis,20,20,,XY,,9,unfused,Blackmon,Radjabli et al. (Unpublished)
+1056,Rodentia,Cricetidae,Cricetulus,obscurus,Cricetulus_obscurus,20,20,,XY,,9,unfused,Animal Karyotype Book,Radjabli et al. (Unpublished)
+1058,Rodentia,Cricetidae,Cricetulus,sokolovi,Cricetulus_sokolovi,20,20,,XY,,9,unfused,Animal Karyotype Book 2020,Poplavskaya et al. 2017
+1405,Rodentia,Muridae,Taterillus,sp. 3,Taterillus_sp. 3,20,20,,XY,,9,unfused,Animal Karyotype Book 2020,Volobouev and Aniskin (Unpublished)
+1472,Tubulidentata,Oryceteropodidae,Orycteropus,afer,Orycteropus_afer,20,20,,XY,,9,unfused,Blackmon,Yang et al. 2003a
+530,Chiroptera,Phyllostomidae,Vampyressa,pusilla,Vampyressa_pusilla,18,18,,XY,,8,unfused,Animal Karyotype Book,Baker et al. 1979
+659,Didelphimorphia,Didelphidae,Monodelphis,brevicaudata,Monodelphis_brevicaudata,18,18,,XY,,8,unfused,Blackmon,
+660,Didelphimorphia,Didelphidae,Monodelphis,domestica,Monodelphis_domestica,18,18,,XY,,8,unfused,Animal Karyotype Book,Graphodatsky et al. (Unpublished)
+1068,Rodentia,Cricetidae,Ellobius,lutescens,Ellobius_lutescens,17,17,,XO,XO females and males/no SRY,8,unfused,Blackmon,Perelman et al. (Unpublished)
+1005,Rodentia,Cricetidae,Akodon,urichi venezeulensis,Akodon_urichi venezeulensis,18,18,,XY,,8,unfused,Blackmon,
+472,Chiroptera,Phyllostomidae,Choeronycteris,mexicana,Choeronycteris_mexicana,16,16,,XY,,7,unfused,Animal Karyotype Book,Baker et al. 1979
+482,Chiroptera,Phyllostomidae,Hylonycteris,underwoodi,Hylonycteris_underwoodi,16,16,,XY,,7,unfused,Animal Karyotype Book,Baker et al. 1979
+522,Chiroptera,Phyllostomidae,Tonatia,bidens,Tonatia_bidens,16,16,,XY,,7,unfused,Animal Karyotype Book,Baker et al. 1979
+523,Chiroptera,Phyllostomidae,Tonatia,saurophila,Tonatia_saurophila,16,16,,XY,,7,unfused,Animal Karyotype Book 2020,Sotero-Caio et al. 2017
+665,Diprodontia,Macropodidae,Macropus,eugenii,Macropus_eugenii,16,16,,XY,,7,unfused,Animal Karyotype Book,Rofe 1979
+666,Diprodontia,Macropodidae,Macropus,fuliginosus,Macropus_fuliginosus,16,16,,XY,,7,unfused,Animal Karyotype Book,Rofe 1979
+667,Diprodontia,Macropodidae,Macropus,giganteus,Macropus_giganteus,16,16,,XY,,7,unfused,Animal Karyotype Book,Rofe 1979
+668,Diprodontia,Macropodidae,Macropus,parma,Macropus_parma,16,16,,XY,,7,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+669,Diprodontia,Macropodidae,Macropus,parryi,Macropus_parryi,16,16,,XY,,7,unfused,Animal Karyotype Book,Rofe 1979
+670,Diprodontia,Macropodidae,Macropus,robustus,Macropus_robustus,16,16,,XY,,7,unfused,Animal Karyotype Book,Rofe 1979
+671,Diprodontia,Macropodidae,Macropus,rufogriseus,Macropus_rufogriseus,16,16,,XY,,7,unfused,Animal Karyotype Book,Rofe 1979
+674,Diprodontia,Macropodidae,Petrogale,concinna,Petrogale_concinna,16,16,,XY,,7,unfused,Animal Karyotype Book,Eldridge et al. 1992a
+684,Diprodontia,Phascolarctidae,Phascolarctos,cinereus,Phascolarctos_cinereus,16,16,,XY,,7,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+687,Diprodontia,Pseudocheiridae,Petropseudes,dahli,Petropseudes_dahli,16,16,,XY,,7,unfused,Animal Karyotype Book,Murray et al. 1980
+694,Diprotodontia,Macropodidae,Wallabia,eugenii,Wallabia_eugenii,16,16,,XY,,7,unfused,Blackmon,
+965,Primates,Pitheciidae,Callicebus,lugens,Callicebus_lugens,16,16,,XY,,7,unfused,Animal Karyotype Book 2020,Bonvicino et al. 2003
+632,Dasyuromorphia,Dasyuridae,Antechinomys,laniger,Antechinomys_laniger,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+633,Dasyuromorphia,Dasyuridae,Antechinus,flavipes,Antechinus_flavipes,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+634,Dasyuromorphia,Dasyuridae,Dasyuroides,byrnei,Dasyuroides_byrnei,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+631,Dasyuromorphia,Dasyuridae,Dasyurops,maculatus,Dasyurops_maculatus,14,14,,XY,,6,unfused,Blackmon,
+635,Dasyuromorphia,Dasyuridae,Dasyurus,hallucatus,Dasyurus_hallucatus,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+636,Dasyuromorphia,Dasyuridae,Dasyurus,maculatus,Dasyurus_maculatus,14,14,,XY,,6,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+637,Dasyuromorphia,Dasyuridae,Dasyurus,viverrinus,Dasyurus_viverrinus,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+638,Dasyuromorphia,Dasyuridae,Ningaui,sp.,Ningaui_sp.,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+639,Dasyuromorphia,Dasyuridae,Planigale,maculata,Planigale_maculata,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+640,Dasyuromorphia,Dasyuridae,Sarcophilus,harrisii,Sarcophilus_harrisii,14,14,,XY,,6,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+641,Dasyuromorphia,Dasyuridae,Sminthopsis,crassicaudata,Sminthopsis_crassicaudata,14,14,,XY,,6,unfused,Blackmon,Rofe 1979
+644,Didelphimorphia,Didelphidae,Caluromys,derbianus,Caluromys_derbianus,14,14,,XY,,6,unfused,Blackmon,
+645,Didelphimorphia,Didelphidae,Caluromys,lanatus,Caluromys_lanatus,14,14,,XY,,6,unfused,Animal Karyotype Book,Casartelli et al. 1986
+651,Didelphimorphia,Didelphidae,Marmosa,alstoni,Marmosa_alstoni,14,14,,XY,,6,unfused,Blackmon,
+652,Didelphimorphia,Didelphidae,Marmosa,murina,Marmosa_murina,14,14,,XY,,6,unfused,Blackmon,
+653,Didelphimorphia,Didelphidae,Marmosa,pusilla,Marmosa_pusilla,14,14,,XY,,6,unfused,Blackmon,
+654,Didelphimorphia,Didelphidae,Marmosa,robinsoni,Marmosa_robinsoni,14,14,,XY,,6,unfused,Blackmon,
+655,Didelphimorphia,Didelphidae,Marmosa,sp.,Marmosa_sp.,14,14,,XY,,6,unfused,Animal Karyotype Book,Aniskin 1994a
+656,Didelphimorphia,Didelphidae,Marmosops,incanus,Marmosops_incanus,14,14,,XY,,6,unfused,Animal Karyotype Book,Svartman 1998
+657,Didelphimorphia,Didelphidae,Metachirus,nudicaudatus,Metachirus_nudicaudatus,14,14,,XY,,6,unfused,Animal Karyotype Book,Aniskin et al. 1991
+658,Didelphimorphia,Didelphidae,Micoureus,demerarae,Micoureus_demerarae,14,14,,XY,,6,unfused,Animal Karyotype Book,Svartman 1998
+662,Didelphimorphia,Didelphidae,Thylamys,elegans,Thylamys_elegans,14,14,,XY,,6,unfused,Animal Karyotype Book,Shchipanov et al. 1996
+663,Diprodontia,Acrobatidae,Acrobates,pygmaeus,Acrobates_pygmaeus,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+664,Diprodontia,Burramyidae,Cercartetus,concinnus,Cercartetus_concinnus,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+692,Diprodontia,Vombatidae,Lasiorhinus,latifrons,Lasiorhinus_latifrons,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+693,Diprodontia,Vombatidae,Vombatus,ursinus,Vombatus_ursinus,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+784,Microbiotheria,Microbiotheriidae,Dromiciops,australis,Dromiciops_australis,14,13,,XO,,6,unfused,Animal Karyotype Book,Gallardo and Patterson (1987)
+789,Paucituberculata,Caenolestidae,Rhyncholestes,raphanurus,Rhyncholestes_raphanurus,14,14,,XY,,6,unfused,Animal Karyotype Book,Gallardo and Patterson (1987)
+790,Peramelemorphia,Peramelidae,Isoodon,obesulus,Isoodon_obesulus,14,14,,XY,,6,unfused,Animal Karyotype Book,Rofe 1979
+791,Peramelemorphia,Peramelidae,Perameles,nasuta,Perameles_nasuta,14,14,,XY,,6,unfused,Blackmon,Rofe 1979
+1008,Rodentia,Cricetidae,Akodon,cursor,Akodon_cursor,15,15,,XY,,6,unfused,Atlas of Mammalian Chromosomes,Hass et al. 2008
+685,Diprodontia,Potoroidae,Potorous,tridactylus,Potorous_tridactylus,12,12,,XY,,5,unfused,Animal Karyotype Book,Graphodatsky et al. (Unpublished)
+1010,Rodentia,Cricetidae,Akodon,sp.,Akodon_sp.,10,10,,XY,,4,unfused,Animal Karyotype Book 2020,Pereira et al. 2016
+1374,Rodentia,Muridae,Otomys,irroratus,Otomys_irroratus,28,8,yes,XY,,3,unfused,Animal Karyotype Book 2020,Engelbrecht et al. 2006
+802,Perissodactyla,Equidae,Equus,quagga boehmi,Equus_quagga boehmi,NA,44-45,,XY,,,unfused,Animal Karyotype Book,CRES San Diego (Unpublished)
+1093,Rodentia,Cricetidae,Microtus,mandarinus mandarinus,Microtus_mandarinus mandarinus,NA,,,"XO, XX females and XY males/no SRY",complex XY,,unfused,Blackmon,
+1002,Rodentia,Cricetidae,Akodon,sp.-1,Akodon_sp.-1,NA,,,"XX, XY females and XY males",complex XY,,unfused,Blackmon,
+1003,Rodentia,Cricetidae,Akodon,sp.-2,Akodon_sp.-2,NA,,,"XX, XY females and XY males",complex XY,,unfused,Blackmon,
+1360,Rodentia,Muridae,Mus,minutoides-2,Mus_minutoides-2,NA,,,"XX,X*X,X*Y females  and XY males",complex XY,,unfused,Blackmon,
+1157,Rodentia,Cricetidae,Myopus,schisticolor,Myopus_schisticolor,NA,,,"XX,X*X,X*Y females and XY males",complex XY,,unfused,Blackmon,
+1409,Rodentia,Muridae,Vandeleuria,oleracea,Vandeleuria_oleracea,29,29,,XY,,,unfused,Blackmon,
+787,Monotremata,Tachyglossidae,Zaglossus,bruijni,Zaglossus_bruijni,64,63,,X1X2X3X4X5Y1Y2Y3Y4,complex XY,27,unclear,Animal Karyotype Book,Graves et al. (Unpublished)
+785,Monotremata,Ornithorhynchidae,Ornithorhynchus,anatinus,Ornithorhynchus_anatinus,52,52,,X1X2X3X4X5Y1Y2Y3Y4Y5,complex XY,21,unclear,Blackmon,Bick and Sharman 1975
+541,Chiroptera,Pteropodidae,Micropteropus,pusillus,Micropteropus_pusillus,35,35,,,complex XY,16,unclear,Atlas of Mammalian Chromosomes,Haiduk et al. 1981
+727,Eulipotyphla,Soricidae,Sorex,tundrensis,Sorex_tundrensis,NA,30-35,,,,16,unclear,Atlas of Mammalian Chromosomes,Biltueva et al. 2011
+142,Artiodactyla,Bovidae,Taurotragus,oryx pattersonianus,Taurotragus_oryx pattersonianus,32,31,,"X/X, X/Y/A",complex XY,15,unclear,Atlas of Mammalian Chromosomes,Rubes et al. 2008
+531,Chiroptera,Phyllostomidae,Vampyressa,thyone,Vampyressa_thyone,24,24,,,complex XY,10,unclear,Atlas of Mammalian Chromosomes,Gomes et al. 2016
+187,Artiodactyla,Cervidae,Mazama,nemorivaga,Mazama_nemorivaga,68,69,yes,X1Y1Y2,complex XY,33,fused,Animal Karyotype Book 2020,Fiorillo et al. 2013
+88,Artiodactyla,Bovidae,Gazella,rufifrons laevipes,Gazella_rufifrons laevipes,58,58,,XY,rujuvenation of autosome to sex chromosomes,28,fused,Animal Karyotype Book,CRES San Diego (Unpublished)
+95,Artiodactyla,Bovidae,Gazella,thomsonii,Gazella_thomsonii,58,58,,XY,rujuvenation of autosome to sex chromosomes,28,fused,Blackmon,CRES San Diego (Unpublished)
+144,Artiodactyla,Bovidae,Tragelaphus,angasii,Tragelaphus_angasii,54,55,,"X/X, X/Y/A",complex XY,27,fused,Atlas of Mammalian Chromosomes,Rubes et al. 2008
+786,Monotremata,Tachyglossidae,Tachyglossus,aculeatus,Tachyglossus_aculeatus,64,63,,X1X2X3X4X5Y1Y2Y3Y4,complex XY,27,fused,Atlas of Mammalian Chromosomes,Rens et al. 2007
+835,Primates,Atelidae,Alouatta,palliata,Alouatta_palliata,54,53,,X1X2Y,complex XY,25,fused,Blackmon,
+843,Primates,Atelidae,Alouatta,caraya,Alouatta_caraya,54,54,,X1X2Y1Y2,complex XY,25,fused,Animal Karyotype Book 2020,de Oliveira et al. 2002
+836,Primates,Atelidae,Alouatta,sara,Alouatta_sara,52,52,,X1X2Y1Y2,complex XY,24,fused,Animal Karyotype Book,Stanyon et al. 1995
+178,Artiodactyla,Cervidae,Elaphodus,cephalophus,Elaphodus_cephalophus,NA,46-48,,X1Y1Y2,complex XY,23,fused,Animal Karyotype Book,CRES San Diego (Unpublished)
+179,Artiodactyla,Cervidae,Elaphodus,cephalophus,Elaphodus_cephalophus,47,47,,XY,17 fusion to X,23,fused,Atlas of Mammalian Chromosomes,Huang et al. 2006a
+819,Pilosa,Choloepodidae,Choloepus,hoffmanni,Choloepus_hoffmanni,49,49,,X1X2Y,complex XY,23,fused,Blackmon,
+825,Primates,Aotidae,Aotus,azarae,Aotus_azarae,50,49,,X1X2Y,complex XY,23,fused,Blackmon,
+826,Primates,Aotidae,Aotus,boliviensis,Aotus_boliviensis,50,49,,X1X2Y,complex XY,23,fused,Blackmon,
+827,Primates,Aotidae,Aotus,inflatus,Aotus_inflatus,50,49,,X1X2Y,complex XY,23,fused,Blackmon,
+829,Primates,Aotidae,Aotus,sp.,Aotus_sp.,50,49,,X1X2Y,complex XY,23,fused,Blackmon,
+831,Primates,Atelidae,Alouatta,belzebul,Alouatta_belzebul,50,49,,X1X2Y,complex XY,23,fused,Blackmon,
+834,Primates,Atelidae,Alouatta,fusca,Alouatta_fusca,50,49,,X1X2Y,complex XY,23,fused,Blackmon,
+845,Primates,Atelidae,Alouatta,guariba,Alouatta_guariba,50,50,,X1X2Y1Y2,complex XY,23,fused,Animal Karyotype Book 2020,Stanyon et al. 2011
+842,Primates,Atelidae,Alouatta,sara,Alouatta_sara,50,50,,X1X2Y1Y2,complex XY,23,fused,Animal Karyotype Book 2020,Consigliere et al. 1996
+1146,Rodentia,Cricetidae,Lasiopodomys,mandarinus,Lasiopodomys_mandarinus,47,48,,"neo sex chroms X1X2X3 (f), XY (m)",complex XY,23,fused,Atlas of Mammalian Chromosomes,"Gladkikh et al. 2016, Aniskin and Volobouev (Unpublished)"
+55,Artiodactyla,Bovidae,Boselaphus,tragocamelus,Boselaphus_tragocamelus,46,46,,XY,rujuvenation of autosome 14 o sex chromosomes,22,fused,Blackmon,Gallagher et al. 1998
+90,Artiodactyla,Bovidae,Nanger,soemmerringii,Nanger_soemmerringii,NA,34-39,,rujuvenation of autosomes to sex chromosomes,complex XY,22,fused,Atlas of Mammalian Chromosomes,CRES San Diego (Unpublished)
+850,Primates,Callitrichidae,Callimico,goeldii,Callimico_goeldii,48,47,,X1X2Y,complex XY,22,fused,Blackmon,Dumas et al. 2007
+958,Primates,Pitheciidae,Cacajao,calvus,Cacajao_calvus,46,45,,X1X2Y,complex XY,21,fused,Blackmon,
+841,Primates,Atelidae,Alouatta,seniculus macconnelli,Alouatta_seniculus macconnelli,46,46,,X1X2Y1Y2,complex XY,21,fused,Animal Karyotype Book 2020,de Oliveira et al. 2002
+905,Primates,Cercopithecidae,Trachypithecus,cristatus,Trachypithecus_cristatus,44,44,,X1Y1Y2,complex XY,21,fused,Atlas of Mammalian Chromosomes,Bigoni et al. 1997a
+1064,Rodentia,Cricetidae,Dicrostonyx,torquatus,Dicrostonyx_torquatus,NA,45,Yes,X1X2Y,complex XY,21,fused,Animal Karyotype Book 2020,Romanenko et al. 2016
+183,Artiodactyla,Cervidae,Mazama,americana,Mazama_americana,42,43,yes,X1Y1Y2,complex XY,20,fused,Animal Karyotype Book 2020,Aquino et al. 2013
+846,Primates,Atelidae,Alouatta,arctoidea,Alouatta_arctoidea,44,44,,X1X2Y1Y2,complex XY,20,fused,Animal Karyotype Book 2020,Stanyon et al. 2011
+837,Primates,Atelidae,Alouatta,seniculus,Alouatta_seniculus,44,44,,X1X2Y1Y2,complex XY,20,fused,Animal Karyotype Book,Stanyon et al. 1995
+844,Primates,Atelidae,Alouatta,fusca clamitans,Alouatta_fusca clamitans,46,45,,X1X2X3Y1Y2,complex XY,20,fused,Atlas of Mammalian Chromosomes,de Oliveira et al. 2002
+81,Artiodactyla,Bovidae,Nanger,dama mhorr,Nanger_dama mhorr,NA,38-40,,rujuvenation of autosomes to sex chromosomes,complex XY,19,fused,Atlas of Mammalian Chromosomes,Cernohorska et al. 2012
+82,Artiodactyla,Bovidae,Nanger,dama ruficollis,Nanger_dama ruficollis,NA,38-40,,rujuvenation of autosomes to sex chromosomes,complex XY,19,fused,Atlas of Mammalian Chromosomes,Cernohorska et al. 2012
+726,Eulipotyphla,Soricidae,Sorex,granarius,Sorex_granarius,NA,36-37,,X1Y1Y2,complex XY,17,fused,Atlas of Mammalian Chromosomes,"Biltueva et al. 2011, Biltueva and Vorobieva 2012"
+1060,Rodentia,Cricetidae,Deltamys,kempi,Deltamys_kempi,38,37,,X1X2Y,complex XY,17,fused,Blackmon,
+1402,Rodentia,Muridae,Taterillus,sp.2,Taterillus_sp.2,38,37,,X1Y1Y2,complex XY,17,fused,Animal Karyotype Book,Dobigny et al. 2002
+84,Artiodactyla,Bovidae,Gazella,gazella,Gazella_gazella,34,35,,X1Y1Y2,complex XY,16,fused,Blackmon,CRES San Diego (Unpublished)
+145,Artiodactyla,Bovidae,Tragelaphus,eurycerus,Tragelaphus_eurycerus,34,33,,"X/X, X/Y/A",complex XY,16,fused,Atlas of Mammalian Chromosomes,Rubes et al. 2008
+311,Carnivora,Herpestidae,Atilax,paludinosus,Atilax_paludinosus,36,35,,X1X2Y,complex XY,16,fused,Animal Karyotype Book,Wurster-Hill and Gray 1975
+314,Carnivora,Herpestidae,Herpestes,auropunctatus,Herpestes_auropunctatus,36,35,,X1X2Y,complex XY,16,fused,Blackmon,
+1359,Rodentia,Muridae,Mus,minutoides-1,Mus_minutoides-1,36,35,,X1X2Y,complex XY,16,fused,Blackmon,
+1395,Rodentia,Muridae,Taterillus,arenarius,Taterillus_arenarius,34,35,,X1Y1Y2,complex XY,16,fused,Animal Karyotype Book,Volobouev and Granjon 1996
+1370,Rodentia,Muridae,Mus,minutoides,Mus_minutoides,34,34,,XY,fusion of chrom 1 to X and Y,16,fused,,
+87,Artiodactyla,Bovidae,Gazella,leptoceros,Gazella_leptoceros,32,33,,X1Y1Y2,complex XY,15,fused,Blackmon,Cernohorska et al. 2012
+91,Artiodactyla,Bovidae,Gazella,spekei,Gazella_spekei,32,33,,X1Y1Y2,complex XY,15,fused,Blackmon,CRES San Diego (Unpublished)
+80,Artiodactyla,Bovidae,Gazella,cuvieri,Gazella_cuvieri,32,33,,"X/A, X/A/Y",complex XY,15,fused,Atlas of Mammalian Chromosomes,CRES San Diego (Unpublished)
+141,Artiodactyla,Bovidae,Taurotragus,derbianus,Taurotragus_derbianus,32,31,,"X/X, X/Y/A",complex XY,15,fused,Atlas of Mammalian Chromosomes,Rubes et al. 2008
+1368,Rodentia,Muridae,Mus,minutoides,Mus_minutoides,33,33,,XY,fusion of chrom 1 to X and Y,15,fused,Atlas of Mammalian Chromosomes,Volobouev and Aniskin (Unpublished)
+149,Artiodactyla,Bovidae,Tragelaphus,strepsiceros strepsiceros,Tragelaphus_strepsiceros strepsiceros,32,31,,X1X2Y,complex XY,14,fused,Blackmon,
+83,Artiodactyla,Bovidae,Gazella,dorcas,Gazella_dorcas,30,31,,X1Y1Y2,complex XY,14,fused,Blackmon,
+85,Artiodactyla,Bovidae,Gazella,granti,Gazella_granti,30,31,,X1Y1Y2,complex XY,14,fused,Blackmon,
+92,Artiodactyla,Bovidae,Gazella,subgutturosa,Gazella_subgutturosa,30,31,,X1Y1Y2,complex XY,14,fused,Blackmon,
+94,Artiodactyla,Bovidae,Gazella,subgutturosa subgutturosa,Gazella_subgutturosa subgutturosa,32,31,,"X/A, X/A/Y",complex XY,14,fused,Atlas of Mammalian Chromosomes,CRES San Diego (Unpublished)
+86,Artiodactyla,Bovidae,Nanger,granti roosevelti,Gazella_granti roosevelti,30,31,,"X/A, Y; rujuvenation of autosome to X-chromosome",complex XY,14,fused,Atlas of Mammalian Chromosomes,CRES San Diego (Unpublished)
+453,Chiroptera,Phyllostomidae,Ardops,nichollsi,Ardops_nichollsi,30,31,,X1Y1Y2,complex XY,14,fused,Animal Karyotype Book 2020,Baker et al. 1979
+454,Chiroptera,Phyllostomidae,Ariteus,flavescens,Ariteus_flavescens,30,31,,X1Y1Y2,complex XY,14,fused,Animal Karyotype Book,Baker et al. 1979
+455,Chiroptera,Phyllostomidae,Artibeus,jamaicensis,Artibeus_jamaicensis,30,31,,X1Y1Y2,complex XY,14,fused,Blackmon,Baker et al. 1979
+457,Chiroptera,Phyllostomidae,Artibeus,lituratus,Artibeus_lituratus,30,31,,X1Y1Y2,complex XY,14,fused,Blackmon,Varella-Garcia et al. 1989
+460,Chiroptera,Phyllostomidae,Artibeus,obscurus,Artibeus_obscurus,30,31,,X1Y1Y2,complex XY,14,fused,Animal Karyotype Book 2020,Pieczarka et al. 2013
+459,Chiroptera,Phyllostomidae,Artibeus,toltecus,Artibeus_toltecus,30,31,,X1Y1Y2,complex XY,14,fused,Blackmon,
+450,Chiroptera,Phyllostomidae,Ametrida,centurio,Ametrida_centurio,31,32,,X1Y1Y2,complex XY,14,fused,Atlas of Mammalian Chromosomes,Baker et al. 1979
+458,Chiroptera,Phyllostomidae,Ardops,nichollsi,Ardops_nichollsi,31,32,,X1Y1Y2,complex XY,14,fused,Atlas of Mammalian Chromosomes,Baker et al. 1979
+479,Chiroptera,Phyllostomidae,Enchisthenes,hartii,Enchisthenes_hartii,31,32,,X1Y1Y2,complex XY,14,fused,Atlas of Mammalian Chromosomes,Baker et al. 1979
+506,Chiroptera,Phyllostomidae,Phyllops,haitiensis,Phyllops_haitiensis,31,32,,X1Y1Y2,complex XY,14,fused,Atlas of Mammalian Chromosomes,Baker et al. 1979
+1396,Rodentia,Muridae,Taterillus,arenarius,Taterillus_arenarius,30,31,,X1Y1Y2,complex XY,14,fused,Blackmon,
+93,Artiodactyla,Bovidae,Gazella,subgutturosa marica,Gazella_subgutturosa marica,NA,31-33,,,complex XY,13,fused,Atlas of Mammalian Chromosomes,Kingswoo and Blank 1996
+1410,Rodentia,Muridae,Vandeleuria,oleracea,Vandeleuria_oleracea,29,29,,X1X2Y,complex XY,13,fused,Blackmon,
+562,Chiroptera,Rhinolophidae,Rhinolophus,morio,Rhinolophus_morio,28,28,,X1X2Y1Y2,complex XY,12,fused,Animal Karyotype Book 2020,Volleth et al. 2015
+456,Chiroptera,Phyllostomidae,Artibeus,jamaicensis,Artibeus_jamaicensis,28,28,,X1Y1Y2,complex XY,12,fused,Atlas of Mammalian Chromosomes,Baker et al. 1979
+1258,Rodentia,Echimyidae,Proechimys,goeldii,Proechimys_goeldii,26,27,,X1Y1Y2,complex XY,12,fused,Animal Karyotype Book 2020,Rodrigues Da Costa et al. 2016
+1259,Rodentia,Echimyidae,Proechimys,goeldii,Proechimys_goeldii,24,25,,X1Y1Y2,complex XY,11,fused,Animal Karyotype Book 2020,Rodrigues Da Costa et al. 2016
+1403,Rodentia,Muridae,Taterillus,sp.2,Taterillus_sp.2,24,25,,X1Y1Y2,complex XY,11,fused,Blackmon,
+728,Eulipotyphla,Soricidae,Sorex,coronatus,Sorex_coronatus,NA,22-23,,X1Y1Y2,complex XY,10,fused,Atlas of Mammalian Chromosomes,Biltueva et al. 2011
+1399,Rodentia,Muridae,Taterillus,pygargus,Taterillus_pygargus,22,23,,X1Y1Y2,complex XY,10,fused,Blackmon,
+1400,Rodentia,Muridae,Taterillus,sp.1,Taterillus_sp.1,22,23,,X1Y1Y2,complex XY,10,fused,Animal Karyotype Book,Dobigny et al. 2002
+1401,Rodentia,Muridae,Taterillus,sp.1,Taterillus_sp.1,22,23,,X1Y1Y2,complex XY,10,fused,Blackmon,
+1470,Soricomorpha,Soricidae,Sorex,araneus Race A,Sorex_araneus Race A,22,23,,X1Y1Y2,complex XY,10,fused,Blackmon,
+1471,Soricomorpha,Soricidae,Sorex,gemelleus,Sorex_gemelleus,22,23,,X1Y1Y2,complex XY,10,fused,Blackmon,
+494,Chiroptera,Phyllostomidae,Mesophylla,macconnelli,Mesophylla_macconnelli,22,21,,X1X2Y,complex XY,9,fused,Blackmon,Baker et al. 1979
+461,Chiroptera,Phyllostomidae,Carollia,brevicauda,Carollia_brevicauda,20,21,,X1Y1Y2,complex XY,9,fused,Animal Karyotype Book,Stock 1975
+464,Chiroptera,Phyllostomidae,Carollia,perspicillata,Carollia_perspicillata,20,21,,X1Y1Y2,complex XY,9,fused,Blackmon,Teeling and Stanyon (Unpublished)
+465,Chiroptera,Phyllostomidae,Carollia,subrufa,Carollia_subrufa,20,21,,X1Y1Y2,complex XY,9,fused,Blackmon,
+718,Eulipotyphla,Soricidae,Sorex,araneus,Sorex_araneus,21,21,,X1Y1Y2,complex XY,9,fused,Animal Karyotype Book,Serov et al. 1998
+725,Eulipotyphla,Soricidae,Sorex,araneus,Sorex_araneus,NA,20-33,,X1Y1Y2,complex XY,9,fused,Atlas of Mammalian Chromosomes,"Dixhens et al. 1998, Ye et al. 2006, Biltueva et al. 2011"
+469,Chiroptera,Phyllostomidae,Choeroniscus,godmani,Choeroniscus_godmani,20,19,,X1X2Y,complex XY,8,fused,Blackmon,Hsu et al. 1968
+710,Eulipotyphla,Soricidae,Blarina,hylophaga,Blarina_hylophaga,19,19,,X1Y1Y2,complex XY,8,fused,Animal Karyotype Book,George et al. 1982
+792,Peramelemorphia,Thylacomyidae,Macrotis,lagotis,Macrotis_lagotis,18,19,,X1Y1Y2,complex XY,8,fused,Animal Karyotype Book,Martin and Hayman 1967
+1205,Rodentia,Cricetidae,Salinomys,delicatus,Salinomys_delicatus,18,19,,X1Y1Y2,complex XY,8,fused,Blackmon,
+1361,Rodentia,Muridae,Mus,musculoides,Mus_musculoides,18,19,,X1Y1Y2,complex XY,8,fused,Blackmon,
+1398,Rodentia,Muridae,Taterillus,petteri,Taterillus_petteri,18,19,,X1Y1Y2,complex XY,8,fused,Animal Karyotype Book,Dobigny 2002
+1406,Rodentia,Muridae,Taterillus,sp. 4,Taterillus_sp. 4,19,19,,X1Y1Y2,complex XY,8,fused,Animal Karyotype Book 2020,Volobouev and Aniskin (Unpublished)
+1369,Rodentia,Muridae,Mus,minutoides,Mus_minutoides,18,18,,XY,"fusion of hrom to X, chrom 1 now Y?",8,fused,Animal Karyotype Book 2020,Veyrunes et al. 2004
+1260,Rodentia,Echimyidae,Proechimys,longicaudatus,Proechimys_longicaudatus,16,17,,X1Y1Y2,complex XY,7,fused,Animal Karyotype Book 2020,Amaral et al. 2013
+189,Artiodactyla,Cervidae,Muntiacus,feae,Muntiacus_feae,13,14,,"X/A, X/A/Y",complex XY,6,fused,Atlas of Mammalian Chromosomes,Huang et al. 2006b
+1404,Rodentia,Muridae,Taterillus,tranieri,Taterillus_tranieri,14,15,,X1Y1Y2,complex XY,6,fused,Blackmon,Dobigny et al. 2003
+681,Diprodontia,Macropodidae,Wallabia,bicolor,Wallabia_bicolor,10,11,,X1Y1Y2,complex XY,4,fused,Animal Karyotype Book,Rofe 1979
+188,Artiodactyla,Cervidae,Muntiacus,crinifrons,Muntiacus_crinifrons,8,9,,"X/A, X/A/Y",complex XY,3,fused,Atlas of Mammalian Chromosomes,Fu and Yang (Unpublished)
+190,Artiodactyla,Cervidae,Muntiacus,gongshanensis,Muntiacus_gongshanensis,8,9,,"X/A, X/A/Y",complex XY,3,fused,Atlas of Mammalian Chromosomes,Fu and Yang (Unpublished)
+191,Artiodactyla,Cervidae,Muntiacus,muntjak,Muntiacus_muntjak,6,7,,X1Y1Y2,complex XY,2,fused,Blackmon,
+192,Artiodactyla,Cervidae,Muntiacus,muntjak vaginalis,Muntiacus_muntjak vaginalis,6,7,,"X/A, X/A/Y",complex XY,2,fused,Atlas of Mammalian Chromosomes,Burkin et al. 1997
