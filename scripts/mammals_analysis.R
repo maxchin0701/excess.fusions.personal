@@ -125,9 +125,26 @@ obspropSAF <- SAF.counts/(AAF.counts + SAF.counts)
 
 #### EXPERIMENTAL SAF ####
 
+#Dataframe for results
+props <- as.data.frame(matrix(c(rep(NA,5)),
+                                      nrow=1,
+                                      ncol=6,
+                                      byrow = F))
+
+colnames(props) <- c("obs.mean",
+                     "null.mean",
+                     "obs.lower",
+                     "obs.upper",
+                     "null.lower",
+                     "null.upper")
+
+#experimental rates vector
 expSA <- c()
 
 for(i in 1:100){
+  
+  #print iterations
+  print(paste0("tree ",i))
   
   #Read in times
   times <- read.csv(paste0("../data/simmap_out/dwelling_times_fixed/dwelling_times_",
@@ -286,11 +303,21 @@ for(i in 1:100){
   expSA[i] <- sum(as.numeric(expSa.prop))
 }
 
-#Extract mean and intervals
-mean(obspropSAF)
-mean(expSA)
-HPDinterval(as.mcmc(obspropSAF))
-HPDinterval(as.mcmc(expSA))
+#### CALCULATE ####
+
+#Extract mean and intervals, append
+props [1,2] <- mean(obspropSAF)
+props [1,3] <- mean(expSA)
+props [1,4] <- HPDinterval(as.mcmc(obspropSAF))[1]
+props [1,5] <- HPDinterval(as.mcmc(obspropSAF))[2]
+props [1,6] <- HPDinterval(as.mcmc(expSA))[1]
+props [1,7] <- HPDinterval(as.mcmc(expSA))[2]
+
+#Save
+write.csv(props,
+          paste0("../data/simmap_out/proportions.csv"),
+          quote=F,
+          row.names=T)
 
 #### PLOT ####
 
@@ -300,9 +327,9 @@ overlap_plot <- ggplot()+
                                              fill="Observed"),
                                alpha=0.5)+
                   geom_density(mapping=aes(expSA,
-                                           fill="Expected"),
+                                           fill="Null"),
                                alpha=0.5)+
-                  ggtitle(paste0("Overlap in distribution of expected vs. observed SAF"))+
+                  ggtitle(paste0("Overlap in distribution of null vs. observed SAF"))+
                   scale_y_continuous("Density")+
                   scale_fill_viridis_d()+
                   xlab("Proportion sex-autosome fusion")+
@@ -320,6 +347,13 @@ overlap_plot <- ggplot()+
                                                   hjust=0.5))
 
 plot(overlap_plot)
+
+#Save
+ggsave(overlap_plot,
+       filename = paste0("../figures/big_ovelap.pdf"),
+       width = 7,
+       height = 7,
+       units = "in")
 
 
 

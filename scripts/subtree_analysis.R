@@ -109,8 +109,8 @@ colnames(prop.subtrees) <- c("tree",
                              "null.mean",
                              "obs.lower",
                              "obs.upper",
-                             "exp.lower",
-                             "exp.upper")
+                             "null.lower",
+                             "null.upper")
 
 for(i in 1:5){
   
@@ -202,6 +202,10 @@ for(i in 1:5){
   
   for(j in 1:100){
     
+    #print iterations
+    print(paste0("subtree ",clades[i],",tree ",j))
+    
+    #read in times
     times <- describe.simmap2(hists[[j]])$times[2,]
     
     #Vector to store individual proportions
@@ -374,9 +378,9 @@ for(i in 1:5){
                                fill="Observed"),
                  alpha=0.5)+
     geom_density(mapping=aes(expSA,
-                             fill="Expected"),
+                             fill="Null"),
                  alpha=0.5)+
-    ggtitle(paste0("Overlap in distribution of expected vs. observed SAF"))+
+    ggtitle(paste0("Overlap in distribution of null vs. observed SAF"))+
     labs(subtitle = paste0(clades[i]))+
     scale_y_continuous("Density")+
     scale_fill_viridis_d()+
