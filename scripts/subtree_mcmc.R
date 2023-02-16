@@ -93,12 +93,13 @@ rm(edges, i)
 
 #Loop
 for(i in 1:5){
-  i=4
+  
   #Subset data
   split.data <- subset(data, tree.name %in% trees[[i]]$tip.label)[,-c(1,3,6)]
 
   #Subset tree to match data
-  split.tree <- force.ultrametric(trees[[i]])
+  split.tree <- force.ultrametric(trees[[i]],
+                                  method = "extend")
 
   #Scale tree to unit length
   split.tree$edge.length <- split.tree$edge.length/max(branching.times(split.tree))
@@ -210,12 +211,4 @@ for(i in 1:5){
              paste0("../data/trees/subtrees/tree_",clades[i],".nwk"))
   
 }
-
-
-
-out.large <- read.simmap(file="../data/simmap_out/simmap_out.nex",version = 1.5,format="nexus")
-
-
-
-
 
