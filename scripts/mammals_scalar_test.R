@@ -1,12 +1,16 @@
 library(phytools)
-library(abc)
-
-#### LOAD DATA ####
+library(ape)
 
 data <- read.csv("../data/chromes/mammal_chroms_sim_state.csv",
                  as.is=T)[,c(5,9,11,12,15)]
-data.sim <- read.csv("../data/chromes/deprecated/simChrom_data.csv")
+
 tree <- read.tree("../data/trees/4705sp_mean.nwk")
+
+mat <- as.matrix(read.csv("../data/transition_matrix/matrix_mammalian.csv",
+                           as.is=T,header=F))
+
+
+source("scale.tree.rates.R")
 
 #### DATA ORGANIZATION ####
 
@@ -27,6 +31,7 @@ tree <- keep.tip(tree, data$tree.name)
 #Scale tree to unit length
 tree$edge.length <- tree$edge.length/max(branching.times(tree))
 
+
 #Identify and remove multiple sim states for taxa (for now, troubleshoot in future)
 data.dup <- data[duplicated(data$tree.name),]
 
@@ -41,44 +46,41 @@ for(j in 1:length(tree$tip.label)){
   data.alt[j,] <- data.unique[index,]
 }
 
-data <- data.unique <- data.alt
+data <- data.alt
 
-rm(data.alt,data.unique)
+rm(data.alt,data.unique,data.dup)
 
-#### CALCULATE EMPIRICAL SUMMARY STATS ####
+#### INITIAL ACE #####
+fit <- ace2(x=data$sim.state, phy=tree, type="discrete", model=mat,use.expm = T,use.eigen = F,mp = 100)
 
-#Calculate margin of error
-margin <- qt(0.975,df=914)*sd(data$hapauto)/sqrt(914)
-
-#Fill vector with stats
-stats.emp <- c(mean(data$hapauto),
-               sd(data$hapauto)/mean(data$hapauto),
-               mean(data$hapauto) - margin,
-               mean(data$hapauto) + margin)
-
-#Name vector (should be same as in data.sim)
-colnames(data.sim)
-
-names(stats.emp) <- c("hapauto.mean",
-                      "hapauto.cv",
-                      "hapauto.95..lower",
-                      "hapauto.95..upper")
-
-#### RUN ABC ####
-
-#Split into params and sumstats
-params.sim <- data.sim[,c(1,2,4)]
-
-stats.sim <- data.sim[,5:8]
-
-#Run ABC
-abc.out <- abc(target = stats.emp,
-               param = params.sim,
-               sumstat = stats.sim,
-               tol=0.1,
-               method = "rejection")
-
-summary(abc.out)
+logLik.start <- fit$loglik
 
 
 
+#### RUN SCALING ANALYSIS ####
+
+scaled.tree <- scaleTreeRates(tree = tree,
+                              tip.states = data$sim.state,
+                              max.ratios = c(1.5,1.5),
+                              nbins = c(2,2),
+                              max.transition = 1,
+                              model = mat,
+                              use.expm=T,
+                              use.eigen=F,
+                              mp=100)
+
+
+nb.tip <- length(tree$tip.label)
+nb.node <- tree$Nnode
+
+rate <- mat
+
+nlminb(rep(0.1, length.out = 4), function(p) dev(p), 
+       lower = rep(0, 4), upper = rep(1e+50, 4)) -> out
+
+e1 <- tree$edge[, 1]
+e2 <- tree$edge[, 2]
+
+c(p, 0)[rate]
+
+x <-data$sim.state

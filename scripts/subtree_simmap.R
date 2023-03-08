@@ -44,7 +44,7 @@ rm(data.unique)
 for(i in 1:5){
   
   #### READ TREE AND QMAT ####
-  trees[[i]] <- read.tree(paste0("../data/trees/subtrees/tree_",clades[i],".nwk"))
+  tree <- read.tree(paste0("../data/trees/subtrees/tree_",clades[i],".nwk"))
   
   
   Qmat <- as.matrix(read.csv(paste0("../data/transition_matrix/subtree_matrices/matrix_",clades[i],".csv"),
@@ -84,9 +84,9 @@ for(i in 1:5){
        data.subset$codedSCS[j] == "unclear"){
       data.subset$sim.state[j] <- NA
     } else if(data.subset$codedSCS[j] == "unfused"){
-      data.subset$sim.state[j] <- data.subset$hapauto[i] - chrmrng[1] + 1
+      data.subset$sim.state[j] <- data.subset$hapauto[j] - chrmrng[1] + 1
     } else if(data.subset$codedSCS[j] == "fused"){
-      data.subset$sim.state[j] <- (data.subset$hapauto[i] - chrmrng[1] + 1) +
+      data.subset$sim.state[j] <- (data.subset$hapauto[j] - chrmrng[1] + 1) +
         (chrmrng[2] - chrmrng[1] + 1)
     }
   }
