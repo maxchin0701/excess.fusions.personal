@@ -1,5 +1,6 @@
 library(phytools)
 library(ape)
+library(expm)
 
 data <- read.csv("../data/chromes/mammal_chroms_sim_state.csv",
                  as.is=T)[,c(5,9,11,12,15)]
@@ -8,6 +9,9 @@ tree <- read.tree("../data/trees/4705sp_mean.nwk")
 
 mat <- as.matrix(read.csv("../data/transition_matrix/matrix_mammalian.csv",
                            as.is=T,header=F))
+
+Qmat <- as.matrix(read.csv("../data/transition_matrix/Q_matrix_mammalian.csv",
+                           as.is=T,header=T))
 
 
 source("scale.tree.rates.R")
@@ -50,24 +54,24 @@ data <- data.alt
 
 rm(data.alt,data.unique,data.dup)
 
-#### INITIAL ACE #####
-fit <- ace2(x=data$sim.state, phy=tree, type="discrete", model=mat,use.expm = T,use.eigen = F,mp = 100)
+#### INITIAL FITMK #####
+fit <- fitMkNew(tree,data$sim.state,model=mat,fixedQ = Qmat)
 
-logLik.start <- fit$loglik
+logLik.start <- fit$logLik
 
 
 
 #### RUN SCALING ANALYSIS ####
 
+tip.states <- data$sim.state
+names(tip.states) <- data$tree.name
+
 scaled.tree <- scaleTreeRates(tree = tree,
-                              tip.states = data$sim.state,
-                              max.ratios = c(1.5,1.5),
-                              nbins = c(2,2),
-                              max.transition = 1,
+                              tip.states = tip.states,
+                              max.ratio = 1.5,
+                              nbins=10,
                               model = mat,
-                              use.expm=T,
-                              use.eigen=F,
-                              mp=100)
+                              fixedQ = Qmat)
 
 
 nb.tip <- length(tree$tip.label)
