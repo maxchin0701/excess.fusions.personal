@@ -376,10 +376,12 @@ for(i in 1:5){
   overlap_plot <- ggplot()+
     geom_density(mapping = aes(obspropSAF,
                                fill="Observed"),
-                 alpha=0.5)+
+                 alpha=0.5,
+                 bw=0.005)+
     geom_density(mapping=aes(expSA,
                              fill="Null"),
-                 alpha=0.5)+
+                 alpha=0.5,
+                 bw=0.005)+
     ggtitle(paste0("Overlap in distribution of null vs. observed SAF"))+
     labs(subtitle = paste0(clades[i]))+
     scale_y_continuous("Density")+

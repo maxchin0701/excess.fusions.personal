@@ -1,6 +1,8 @@
 library(phytools)
 library(ape)
 library(expm)
+library(RColorBrewer)
+library(viridis)
 
 data <- read.csv("../data/chromes/mammal_chroms_sim_state.csv",
                  as.is=T)[,c(5,9,11,12,15)]
@@ -14,7 +16,7 @@ Qmat <- as.matrix(read.csv("../data/transition_matrix/Q_matrix_mammalian.csv",
                            as.is=T,header=T))
 
 
-source("scale.tree.rates.R")
+source("functions.R")
 
 #### DATA ORGANIZATION ####
 
@@ -74,17 +76,17 @@ scaled.tree <- scaleTreeRates(tree = tree,
                               fixedQ = Qmat)
 
 
-nb.tip <- length(tree$tip.label)
-nb.node <- tree$Nnode
+scaled.tree.stretch <- scaled.tree
 
-rate <- mat
+scaled.tree.stretch$edge.length <- scaled.tree.stretch$edge.length * scaled.tree.stretch$scalar
 
-nlminb(rep(0.1, length.out = 4), function(p) dev(p), 
-       lower = rep(0, 4), upper = rep(1e+50, 4)) -> out
+plot(scaled.tree.stretch,show.tip.label = F,edge.width = 0.000000001)
 
-e1 <- tree$edge[, 1]
-e2 <- tree$edge[, 2]
+max(scaled.tree$scalar)
 
-c(p, 0)[rate]
+plot.phyloscaled(scaled.tree,palette = "RdYlGn",edge.width = 0.000000001,
+                 cex = 0.02)
 
-x <-data$sim.state
+class(scaled.tree) <- c("phylo","phyloscaled")
+
+mean(scaled.tree$scalar)

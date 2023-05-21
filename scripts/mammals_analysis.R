@@ -325,10 +325,12 @@ write.csv(props,
 overlap_plot <- ggplot()+
                   geom_density(mapping = aes(obspropSAF,
                                              fill="Observed"),
-                               alpha=0.5)+
+                               alpha=0.5,
+                               bw=0.005)+
                   geom_density(mapping=aes(expSA,
                                            fill="Null"),
-                               alpha=0.5)+
+                               alpha=0.5,
+                               bw=0.005)+
                   ggtitle(paste0("Overlap in distribution of null vs. observed SAF"))+
                   scale_y_continuous("Density")+
                   scale_fill_viridis_d()+
@@ -355,7 +357,7 @@ ggsave(overlap_plot,
        height = 7,
        units = "in")
 
-
+max(obspropSAF)
 
 
 

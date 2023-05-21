@@ -5,22 +5,24 @@ library(ape)
 
 #### FUNCTIONs ####
 scaleTreeRates <- function(tree,tip.states,
-                           max.ratio,
-                           nbins,
+                           model,
+                           fixedQ=NULL,
+                           max.ratio=10,
+                           nbins=10,
                            max.transition = 1,
-                           model = "ARD",
                            var.start = F,
-                           ...){
+                           pi="fitzjohn"){
   
   # Arguments
   # tree: phylogenetic tree for analysis
   # tip.states: vector of tip states associated with tree (can be unordered)
-  # max.ratio: maximum ratio of scalars to one, integer
-  # nbins: number of bins above and below one, integer
   # model: model for likelihood calculation, character (any argument that fitMk takes) or matrix
+  # fixedQ: Qmatrix with pre-estimated rates, default is Null (rates will be estimated using fitMk)
+  # max.ratio: maximum ratio of scalars to one, integer, default is 10
+  # nbins: number of bins above and below one, integer,default is 10
   # var.start: whether or not to increment scalar values at root of tree. If true, all scalar
   #            values will be tested and best tree returned. If false, root scalar is set to one.
-  # optional arguments: fixedQ: provide Qmatrix with pre-estimated rates
+  # pi: method to use for estimating prior (state at root of tree), can take any character taken by fitMk
   
   #fitMkNew Functions
   fitMkNew <- function (tree, x, model = "SYM", fixedQ = NULL, ...) 
@@ -267,17 +269,17 @@ scaleTreeRates <- function(tree,tip.states,
   #Get tip states
   x <- tip.states[order(factor(names(tip.states), levels=tree$tip.label))]
   
-  if(hasArg(fixedQ)){
+  if(!is.null(fixedQ)){
     
     print("using supplied Q-matrix")
     
-    Q <- list(...)$fixedQ
+    Q <- fixedQ
   } else {
     
     print("estimating rates")
     
     #fit model and extract rates + index matrix
-    fit <- fitMkNew(tree, x, model=model)
+    fit <- fitMkNew(tree, x, model=model,pi=pi)
     rates <- fit$rates
     
     print("building Q-matrix")
@@ -389,9 +391,10 @@ scaleTreeRates <- function(tree,tip.states,
         
         temp.tree$edge.length <- temp.tree$edge.length * temp.tree$scalar
         
-        liks[k] <- fitMkNew(temp.tree, 
+        liks[k] <- fitMkNew(temp.tree,
                          x, 
-                         model=model, 
+                         model=model,
+                         pi=pi,
                          fixedQ = Q)$logLik
         
       }
@@ -472,7 +475,9 @@ scaleTreeRates <- function(tree,tip.states,
 
 
 
-plot.phyloscaled <- function (tree,palette="RdYlGn")
+
+plot.phyloscaled <- function (tree,palette="RdYlGn",edge.width=1,cex=1,
+                              show.tip.label = T)
 {
   # tree: tree of class phyloscaled
   # palette: diverging palette that can be passed to brewer.palette
@@ -488,23 +493,44 @@ plot.phyloscaled <- function (tree,palette="RdYlGn")
   states.numeric <- as.numeric(as.factor(tree$scalar))
   n <- length(states)
   
+  if(n >= 11){
+    
+    print("number of states exceeds maximum for brewer.pal, using viridis")
+    
+    palette <- "viridis"
+    
+  }
+  
   #get number above and below
   slow <- sum(states < 1)
   fast <- sum(states > 1)
   
   #generate colors
-  if(1 %in% states){
-    cols <- c(brewer.pal(n=2*slow + 1,name=palette)[1:slow],
-              brewer.pal(n=3,name=palette)[2],
-              brewer.pal(n=2*fast + 1,name = palette)[(fast + 1):
-                                                        (2*fast + 1)]
-    )
+  if(palette=="RdYlGn"){
+    if(1 %in% states){
+      cols <- c(brewer.pal(n=2*slow + 1,name=palette)[1:slow],
+                brewer.pal(n=3,name=palette)[2],
+                brewer.pal(n=2*fast + 1,name = palette)[(fast + 1):
+                                                          (2*fast + 1)]
+      )
+    } else {
+      
+      cols <- c(brewer.pal(n=2*slow + 1,name=palette)[1:slow],
+                brewer.pal(n=2*fast + 1,name = palette)[(fast + 2):
+                                                          (2*fast + 1)]
+      )
+    }
   } else {
     
-    cols <- c(brewer.pal(n=2*slow + 1,name=palette)[1:slow],
-              brewer.pal(n=2*fast + 1,name = palette)[(fast + 2):
-                                                        (2*fast + 1)]
-    )
+    if(1 %in% states){
+      cols <- c(viridis(n=slow,begin=0,end=0.49),
+                viridis(n=1,begin=0.5,end=0.5),
+                viridis(n=fast,begin=0.51,end=1))
+    } else {
+      cols <- c(viridis(n=slow,begin=0,end=0.49),
+                viridis(n=fast,begin=0.51,end=1))
+    }
+    
   }
   
   #assign color to edges
@@ -514,9 +540,8 @@ plot.phyloscaled <- function (tree,palette="RdYlGn")
     edge.cols[i] <- cols[states.numeric[i]]
   }
   
-  plot.phylo(tree,edge.color = edge.cols,edge.width = 1.75)
-  
-  
+  plot.phylo(tree,edge.color = edge.cols,edge.width = edge.width,cex = cex,
+             show.tip.label=show.tip.label)
 }
 
 
