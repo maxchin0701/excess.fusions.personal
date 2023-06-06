@@ -1,9 +1,10 @@
 #### LOAD PACKAGES ####
 library(phytools)
 library(ape)
+library(igraph)
 
 
-#### FUNCTIONs ####
+#### SCALE TREE RATES FUNCTIONs ####
 scaleTreeRates <- function(tree,tip.states,
                            model,
                            fixedQ=NULL,
@@ -544,4 +545,1026 @@ plot.phyloscaled <- function (tree,palette="RdYlGn",edge.width=1,cex=1,
              show.tip.label=show.tip.label)
 }
 
+#### MAKESIMMAP2 FUNCTIONS ####
+
+make.simmap2 <- function (tree, x, model, nsim, rejmax = NULL, rejint = 1000000, monitor = FALSE, ...){
+  if (inherits(tree, "multiPhylo")) {
+    ff <- function(yy, x, model, nsim, ...) {
+      zz <- make.simmap(yy, x, model, nsim, ...)
+      if (nsim > 1) 
+        class(zz) <- NULL
+      return(zz)
+    }
+    if (nsim > 1) 
+      mtrees <- unlist(sapply(tree, ff, x, model, nsim, 
+                              ..., simplify = FALSE), recursive = FALSE)
+    else mtrees <- sapply(tree, ff, x, model, nsim, ..., 
+                          simplify = FALSE)
+    class(mtrees) <- c("multiSimmap", "multiPhylo")
+  } else {
+    if (hasArg(pi)) 
+      pi <- list(...)$pi
+    else pi <- "equal"
+    if (hasArg(message)) 
+      pm <- list(...)$message
+    else pm <- TRUE
+    if (hasArg(tol)) 
+      tol <- list(...)$tol
+    else tol <- 0
+    if (hasArg(Q)) 
+      Q <- list(...)$Q
+    else Q <- "empirical"
+    if (hasArg(burnin)) 
+      burnin <- list(...)$burnin
+    else burnin <- 1000
+    if (hasArg(samplefreq)) 
+      samplefreq <- list(...)$samplefreq
+    else samplefreq <- 100
+    if (hasArg(vQ)) 
+      vQ <- list(...)$vQ
+    else vQ <- 0.1
+    prior <- list(alpha = 1, beta = 1, use.empirical = FALSE)
+    if (hasArg(prior)) {
+      pr <- list(...)$prior
+      prior[names(pr)] <- pr
+    }
+    if (!inherits(tree, "phylo")) 
+      stop("tree should be object of class \"phylo\".")
+    if (!is.matrix(x)) 
+      xx <- to.matrix(x, sort(unique(x)))
+    else xx <- x
+    xx <- xx[tree$tip.label, ]
+    xx <- xx/rowSums(xx)
+    tree <- bt <- reorder.phylo(tree, "cladewise")
+    if (!is.binary(bt)) 
+      bt <- multi2di(bt, random = FALSE)
+    N <- Ntip(tree)
+    m <- ncol(xx)
+    root <- N + 1
+    
+    if(hasArg(parallel)){
+      sim <- as.numeric(list(...)$parallel[1]) - 1
+      npar <- as.numeric(list(...)$parallel[2])
+    } else {
+      sim <- 0
+      npar <- nsim
+    }
+    
+    if (is.character(Q) && Q == "empirical") {
+      XX <- getPars(bt, xx, model, Q = NULL, tree, tol, 
+                    m, pi = pi, args = list(...))
+      L <- XX$L
+      Q <- XX$Q
+      logL <- XX$loglik
+      pi <- XX$pi
+      if (pi[1] == "equal") 
+        pi <- setNames(rep(1/m, m), colnames(L))
+      else if (pi[1] == "estimated") 
+        pi <- statdist(Q)
+      else if (pi[1] == "fitzjohn") 
+        pi <- "fitzjohn"
+      else pi <- pi/sum(pi)
+      if (pm) 
+        printmessage(Q, pi, method = "empirical")
+      mtrees <- replicate(nsim,
+                          smap2(tree, x, N, m, root, L, Q, pi, logL, rejmax, rejint, monitor, sim),
+                          simplify = FALSE)
+    }
+    else if (is.character(Q) && Q == "mcmc") {
+      if (prior$use.empirical) {
+        qq <- fitMk(bt, xx, model)$rates
+        prior$alpha <- qq * prior$beta
+      }
+      get.stationary <- if (pi[1] == "estimated") 
+        TRUE
+      else FALSE
+      if (pi[1] %in% c("equal", "estimated")) 
+        pi <- setNames(rep(1/m, m), colnames(xx))
+      else if (pi[1] == "fitzjohn") 
+        pi <- "fitzjohn"
+      else pi <- pi/sum(pi)
+      XX <- mcmcQ(bt, xx, model, tree, tol, m, burnin, 
+                  samplefreq, nsim, vQ, prior, pi = pi)
+      L <- lapply(XX, function(x) x$L)
+      Q <- lapply(XX, function(x) x$Q)
+      logL <- lapply(XX, function(x) x$loglik)
+      pi <- if (get.stationary) 
+        lapply(Q, statdist)
+      else if (pi[1] == "fitzjohn") 
+        lapply(XX, function(x) x$pi)
+      else lapply(1:nsim, function(x, y) y, y = pi)
+      if (pm) 
+        printmessage(Reduce("+", Q)/length(Q), Reduce("+", 
+                                                      pi)/length(pi), method = "mcmc")
+      mtrees <- if (nsim > 1) 
+        mapply(smap2, L = L, Q = Q, pi = pi, logL = logL, 
+               MoreArgs = list(tree = tree, x = x, N = N, 
+                               m = m, root = root, rejmax = rejmax,
+                               rejint = rejint, monitor = monitor, sim = sim), SIMPLIFY = FALSE)
+      else list(smap2(tree = tree, x = x, N = N, m = m, 
+                      root = root, rejmax = rejmax, rejint = rejint, monitor = monitor, sim = sim,
+                      L = L[[1]], Q = Q[[1]], pi = pi[[1]], logL = logL[[1]]))
+    }
+    else if (is.matrix(Q)) {
+      XX <- getPars(bt, xx, model, Q = Q, tree, tol, m, 
+                    pi = pi, args = list(...))
+      L <- XX$L
+      logL <- XX$loglik
+      pi <- XX$pi
+      if (pi[1] == "equal") 
+        pi <- setNames(rep(1/m, m), colnames(L))
+      else if (pi[1] == "estimated") 
+        pi <- statdist(Q)
+      else if (pi[1] == "fitzjohn") 
+        pi <- "fitzjohn"
+      else pi <- pi/sum(pi)
+      if (pm) 
+        printmessage(Q, pi, method = "fixed")
+      
+      mtrees <- replicate(nsim,
+                          c(sim <<- sim + 1,
+                            if(monitor == TRUE){print(paste("simulation", sim, "of", npar, sep = " "))},
+                            smap2(tree, x, N, m, root, L, Q, pi, logL, rejmax, rejint, monitor, sim)),
+                          simplify = FALSE)
+    }
+    if (nsim==1) {
+      mtrees <- mtrees[[1]]
+      class(mtrees) <- c("simmap","phylo")
+    } else {
+      #Change class of list
+      class(mtrees) <- c("multiSimmap", "multiPhylo")
+      
+      #Change class of individual objects
+      for(i in 1:nsim){
+        class(mtrees[[i]]) <- c("simmap","phylo")
+      }
+    }
+  }
+  (if (hasArg(message)) 
+    list(...)$message
+    else TRUE)
+  if ((if (hasArg(message)) 
+    list(...)$message
+    else TRUE) && inherits(tree, "phylo")) 
+    message("Done.")
+  return(mtrees)
+}
+
+getPars <- function(bt,xx,model,Q,tree,tol,m,liks=TRUE,pi,args=list()){
+  if(!is.null(args$pi)) args$pi<-NULL
+  args<-c(list(tree=bt,x=xx,model=model,fixedQ=Q,output.liks=liks,pi=pi),args)
+  obj<-do.call(fitMk,args)
+  N<-length(bt$tip.label)
+  pi<-obj$pi
+  II<-obj$index.matrix+1
+  lvls<-obj$states
+  if(liks){
+    L<-obj$lik.anc
+    rownames(L)<-N+1:nrow(L)
+    if(!is.binary(tree)){
+      ancNames<-matchNodes(tree,bt)
+      L<-L[as.character(ancNames[,2]),]
+      rownames(L)<-ancNames[,1]
+    }
+    L<-rbind(xx,L)
+    rownames(L)[1:N]<-1:N
+  } else L<-NULL	
+  Q<-matrix(c(0,obj$rates)[II],m,m,dimnames=list(lvls,lvls))
+  if(any(rowSums(Q,na.rm=TRUE)<tol)){
+    message(paste("\nWarning: some rows of Q not numerically distinct from 0; setting to",tol,"\n"))
+    ii<-which(rowSums(Q,na.rm=TRUE)<tol)
+    for(i in 1:length(ii)) Q[ii[i],setdiff(1:ncol(Q),ii[i])]<-tol/(ncol(Q)-1)
+  }
+  diag(Q)<--rowSums(Q,na.rm=TRUE)
+  return(list(Q=Q,L=L,loglik=logLik(obj),pi=pi))
+}
+
+printmessage <- function(Q,pi,method){
+  if(method=="empirical"||method=="fixed")
+    cat("make.simmap is sampling character histories conditioned on\nthe transition matrix\n\nQ =\n")
+  else if(method=="mcmc"){
+    cat("make.simmap is simulating with a sample of Q from\nthe posterior distribution\n")
+    cat("\nMean Q from the posterior is\nQ =\n")
+  }
+  print(Q)
+  if(method=="empirical") cat("(estimated using likelihood);\n")
+  else if(method=="fixed") cat("(specified by the user);\n")
+  cat("and (mean) root node prior probabilities\npi =\n")
+  if(is.list(pi)) pi<-Reduce("+",pi)/length(pi)
+  print(pi)
+  flush.console()
+}
+
+smap2 <- function(tree,x,N,m,root,L,Q,pi,logL,rejmax,rejint,monitor,sim){
+  # create the map tree object
+  mtree<-tree
+  mtree$maps<-list()
+  mtree$mapped.edge<-matrix(0,nrow(tree$edge),m,dimnames=list(paste(tree$edge[,1],",",
+                                                                    tree$edge[,2],sep=""),colnames(L)))
+  # now we want to simulate the node states & histories by pre-order traversal
+  NN<-matrix(NA,nrow(tree$edge),2) # our node values
+  NN[which(tree$edge[,1]==root),1]<-rstate(L[as.character(root),]/
+                                             sum(L[as.character(root),])) # assign root
+  
+  #Create list for failed tips
+  fail <- list()
+  fail.count <- 0
+  
+  for(j in 1:nrow(tree$edge)){
+    # conditioned on the start value, assign end value of node (if internal)
+    p<-EXPM(Q*tree$edge.length[j])[as.numeric(NN[j,1]),]*L[as.character(tree$edge[j,2]),]
+    NN[j,2]<-rstate(p/sum(p))
+    NN[which(tree$edge[,1]==tree$edge[j,2]),1]<-NN[j,2]
+    # now simulate on the branches
+    accept <- FALSE
+    counter <- 0
+    while(!accept){
+      map<-sch(as.numeric(NN[j,1]),tree$edge.length[j],Q)
+      if (counter == rejmax){
+        if (monitor == TRUE){
+          print(paste("sim",sim,": branch", j, "of", nrow(tree$edge),
+                      "has exceeded the rejection limit of", format(rejmax, scientific = FALSE),
+                      "and will be skipped", sep = " "))
+        }
+        map <- NA
+        fail.count <- fail.count + 1
+        fail[[fail.count]] <- j
+        accept = TRUE
+      } else
+        if(names(map)[length(map)]==NN[j,2]){
+          if (monitor == TRUE){
+            print(paste("sim",sim,": branch", j, "of", nrow(tree$edge),
+                        "ACCEPTED after", format(counter, scientific = FALSE),
+                        "total rejections", sep = " "))
+          }
+          accept = TRUE
+        } else {
+          counter <- counter + 1
+          if ((counter/rejint) %% 1 == 0){
+            if (monitor == TRUE){  
+              print(paste("sim",sim,": branch", j, "of", nrow(tree$edge),
+                          "rejected with", format(counter, scientific = FALSE),
+                          "total rejections", sep = " "))
+            }
+          }
+        }
+    }
+    mtree$maps[[j]]<-map
+    for(k in 1:length(mtree$maps[[j]])){
+      mtree$mapped.edge[j,names(mtree$maps[[j]])[k]]<-
+        mtree$mapped.edge[j,names(mtree$maps[[j]])[k]]+mtree$maps[[j]][k]
+    }
+  }
+  for(L in 1:length(mtree$maps)){
+    if(is.na(mtree$maps[[L]][1]) == TRUE){
+      named.edge <- mtree$edge.length[L]
+      names(named.edge) <- "fail"
+      mtree$maps[[L]] <- named.edge
+    }
+  }
+  mtree$Q<-Q
+  mtree$logL<-logL
+  mtree$fail <- unlist(fail)
+  if(!inherits(mtree,"simmap")) class(mtree)<-c("simmap",setdiff(class(mtree),"simmap"))
+  attr(mtree,"map.order")<-"right-to-left"
+  return(mtree)
+}
+
+EXPM <- function(x,...){
+  e_x<-if(isSymmetric(x)) matexpo(x) else expm(x,...)
+  dimnames(e_x)<-dimnames(x)
+  e_x
+}
+
+expm <- function (x, method = c("Higham08.b", "Higham08", "AlMohy-Hi09", 
+                                "Ward77", "PadeRBS", "Pade", "Taylor", "PadeO", "TaylorO", 
+                                "R_Eigen", "R_Pade", "R_Ward77", "hybrid_Eigen_Ward"), order = 8, 
+                  trySym = TRUE, tol = .Machine$double.eps, do.sparseMsg = TRUE, 
+                  preconditioning = c("2bal", "1bal", "buggy")){
+  stopifnot(is.numeric(x) || (isM <- inherits(x, "dMatrix")) || 
+              inherits(x, "mpfrMatrix"))
+  if (length(d <- dim(x)) != 2) 
+    stop("argument is not a matrix")
+  if (d[1] != d[2]) 
+    stop("matrix not square")
+  method <- match.arg(method)
+  checkSparse <- !nzchar(Sys.getenv("R_EXPM_NO_DENSE_COERCION"))
+  isM <- !is.numeric(x) && isM
+  if (isM && checkSparse) {
+    if (!(method %in% expm.methSparse) && is(x, "sparseMatrix")) {
+      if (do.sparseMsg) 
+        message("coercing to dense matrix, as required by method ", 
+                dQuote(method))
+      x <- as(x, "denseMatrix")
+    }
+  }
+  switch(method, `AlMohy-Hi09` = expm.AlMoHi09(x, p = order), 
+         Higham08.b = expm.Higham08(x, balancing = TRUE),
+         Higham08 = expm.Higham08(x, balancing = FALSE), Ward77 = {
+           if (!is.numeric(x)) x <- as(x, "matrix")
+           switch(match.arg(preconditioning), `2bal` = .Call(do_expm, 
+                                                             x, "Ward77"), `1bal` = .Call(do_expm, x, "Ward77_1"), 
+                  buggy = .Call(do_expm, x, "buggy_Ward77"), stop("invalid 'preconditioning'"))
+         }, R_Eigen = {
+           isSym <- if (trySym) isSymmetric.matrix(x) else FALSE
+           z <- eigen(x, symmetric = isSym)
+           V <- z$vectors
+           Vi <- if (isSym) t(V) else solve(V)
+           Re(V %*% (exp(z$values) * Vi))
+         }, hybrid_Eigen_Ward = {
+           if (!is.numeric(x)) x <- as(x, "matrix")
+           .Call(do_expm_eigen, x, tol)
+         }, R_Pade = {
+           stopifnot(order >= 2)
+           expm.s.Pade.s(x, order, n = d[1])
+         }, R_Ward77 = {
+           stopifnot(order >= 2)
+           n <- d[1]
+           trShift <- sum(d.x <- diag(x))
+           if (trShift) {
+             trShift <- trShift/n
+             diag(x) <- d.x - trShift
+           }
+           baP <- balance(x, "P")
+           baS <- balance(baP$z, "S")
+           x <- expm.s.Pade.s(baS$z, order)
+           d <- baS$scale
+           x <- x * (d * rep(1/d, each = n))
+           pp <- as.integer(baP$scale)
+           if (baP$i1 > 1) {
+             for (i in (baP$i1 - 1):1) {
+               tt <- x[, i]
+               x[, i] <- x[, pp[i]]
+               x[, pp[i]] <- tt
+               tt <- x[i, ]
+               x[i, ] <- x[pp[i], ]
+               x[pp[i], ] <- tt
+             }
+           }
+           if (baP$i2 < n) {
+             for (i in (baP$i2 + 1):n) {
+               tt <- x[, i]
+               x[, i] <- x[, pp[i]]
+               x[, pp[i]] <- tt
+               tt <- x[i, ]
+               x[i, ] <- x[pp[i], ]
+               x[pp[i], ] <- tt
+             }
+           }
+           if (trShift) {
+             exp(trShift) * x
+           } else x
+         }, PadeRBS = {
+           if (!is.numeric(x)) x <- as(x, "matrix")
+           stopifnot((order <- as.integer(order)) >= 1)
+           if (!is.double(x)) storage.mode(x) <- "double"
+           Fobj <- .Fortran(matexpRBS, order, as.integer(d[1]), 
+                            T = 1, H = x, iflag = integer(1))[c("H", "iflag")]
+           if (Fobj[["iflag"]] < 0) stop("Unable to determine matrix exponential")
+           Fobj[["H"]]
+         }, {
+           if (!is.numeric(x)) x <- as(x, "matrix")
+           if (!is.double(x)) storage.mode(x) <- "double"
+           order <- as.integer(order)
+           ntaylor <- npade <- 0L
+           if (substr(method, 1, 4) == "Pade") npade <- order else ntaylor <- order
+           res <- if (identical(grep("O$", method), 1L)) .Fortran(matrexpO, 
+                                                                  X = x, size = d[1], ntaylor, npade, accuracy = double(1))[c("X", 
+                                                                                                                              "accuracy")] else .Fortran(matrexp, X = x, size = d[1], 
+                                                                                                                                                         ntaylor, npade, accuracy = double(1))[c("X", 
+                                                                                                                                                                                                 "accuracy")]
+           structure(res$X, accuracy = res$accuracy)
+         })
+}
+
+sch <- function(start,t,Q){
+  tol<-t*1e-12
+  dt<-setNames(0,start)
+  while(sum(dt)<(t-tol)){
+    s<-as.numeric(names(dt)[length(dt)])
+    dt[length(dt)]<-if(-Q[s,s]>0) rexp(n=1,rate=-Q[s,s]) else t-sum(dt)
+    if(sum(dt)<(t-tol)){
+      dt<-c(dt,0)
+      if(sum(Q[s,][-match(s,colnames(Q))])>0)
+        names(dt)[length(dt)]<-rstate(Q[s,][-match(s,colnames(Q))]/sum(Q[s,][-match(s,colnames(Q))]))
+      else names(dt)[length(dt)]<-s
+    } else dt[length(dt)]<-dt[length(dt)]-sum(dt)+t
+  }
+  return(dt)
+}
+
+expm.Higham08 <- function (A, balancing = TRUE){
+  d <- dim(A)
+  if (length(d) != 2 || d[1] != d[2]) 
+    stop("'A' must be a square matrix")
+  n <- d[1]
+  if (n <= 1) 
+    return(exp(A))
+  if (balancing) {
+    baP <- balance(A, "P")
+    baS <- balance(baP$z, "S")
+    A <- baS$z
+  }
+  nA <- Matrix::norm(A, "1")
+  I <- if (is(A, "Matrix")) 
+    Diagonal(n)
+  else diag(n)
+  if (nA <= 2.1) {
+    t <- c(0.015, 0.25, 0.95, 2.1)
+    l <- which.max(nA <= t)
+    C <- rbind(c(120, 60, 12, 1, 0, 0, 0, 0, 0, 0),
+               c(30240, 15120, 3360, 420, 30, 1, 0, 0, 0, 0),
+               c(17297280, 8648640, 1995840, 277200, 25200, 1512, 56, 1, 0, 0),
+               c(17643225600, 8821612800, 2075673600, 302702400, 30270240, 2162160, 110880, 3960, 90, 1))
+    A2 <- A %*% A
+    P <- I
+    U <- C[l, 2] * I
+    V <- C[l, 1] * I
+    for (k in 1:l) {
+      P <- P %*% A2
+      U <- U + C[l, (2 * k) + 2] * P
+      V <- V + C[l, (2 * k) + 1] * P
+    }
+    U <- A %*% U
+    X <- solve(V - U, V + U)
+  }
+  else {
+    s <- log2(nA/5.4)
+    B <- A
+    if (s > 0) {
+      s <- ceiling(s)
+      B <- B/(2^s)
+    }
+    c. <- c(64764752532480000, 32382376266240000, 7771770303897600, 
+            1187353796428800, 129060195264000, 10559470521600, 
+            670442572800, 33522128640, 1323241920, 40840800, 
+            960960, 16380, 182, 1)
+    B2 <- B %*% B
+    B4 <- B2 %*% B2
+    B6 <- B2 %*% B4
+    U <- B %*% (B6 %*% (c.[14] * B6 + c.[12] * B4 + c.[10] * 
+                          B2) + c.[8] * B6 + c.[6] * B4 + c.[4] * B2 + c.[2] * 
+                  I)
+    V <- B6 %*% (c.[13] * B6 + c.[11] * B4 + c.[9] * B2) + 
+      c.[7] * B6 + c.[5] * B4 + c.[3] * B2 + c.[1] * I
+    X <- solve(V - U, V + U)
+    if (s > 0) 
+      for (t in 1:s) X <- X %*% X
+  }
+  if (balancing) {
+    d <- baS$scale
+    X <- X * (d * rep(1/d, each = n))
+    pp <- as.integer(baP$scale)
+    if (baP$i1 > 1) {
+      for (i in (baP$i1 - 1):1) {
+        tt <- X[, i]
+        X[, i] <- X[, pp[i]]
+        X[, pp[i]] <- tt
+        tt <- X[i, ]
+        X[i, ] <- X[pp[i], ]
+        X[pp[i], ] <- tt
+      }
+    }
+    if (baP$i2 < n) {
+      for (i in (baP$i2 + 1):n) {
+        tt <- X[, i]
+        X[, i] <- X[, pp[i]]
+        X[, pp[i]] <- tt
+        tt <- X[i, ]
+        X[i, ] <- X[pp[i], ]
+        X[pp[i], ] <- tt
+      }
+    }
+  }
+  X
+}
+
+balance <- function (A, job = c("B", "N", "P", "S")){
+  .Call("R_dgebal", if (is.numeric(A)) A else as(A, "matrix"), 
+        match.arg(job))
+}
+
+#### FIX SIMMAP  ####
+
+#Arguments: hists(simmap or multisimmap object to be fixed)
+#           tips(two column dataframe with first column listing species name as
+#                shown in tree tips and second column listing simulation state
+#                for each species)
+#           transition.matrix(symmetrical matrix describing possible transitions
+#                             between states)
+#
+#Output: simmap or multisimmap object with failing edges fixed (time spent in 
+#        each transitional state is assumed to be equal), maps and mapped.edges
+#        adjusted accordingly
+
+fix.simmap <- function(hists, tips, transition.matrix){
+  
+  #### REARRANGE IF SINGLE MAP ####
+  if("simmap"  %in% class(hists)){
+    hist <- hists
+    hists <- list()
+    hists[[1]] <- hist
+  }
+  #### CATALOG FAILED EDGES ####
+  
+  # Create list of 100 lists to store failures
+  fail.list <- rep(list(c()), length(hists))
+  
+  #Loop through 100 simulations and store failed tips
+  for (i in 1:length(hists)){
+    for (j in 1:nrow(hists[[i]]$edge)){
+      if("fail" %in% names(hists[[i]]$maps[[j]])){
+        fail.list[[i]] <- c(fail.list[[i]] ,j)
+      } else {
+        names(hists[[i]]$maps[[j]])
+      }
+    }
+  }
+  
+  #### LOOP TO FIX ####
+  
+  for (i in 1:length(hists)){
+    
+    #Check if any edges failed
+    if(length(fail.list[[i]]) == 0){
+      
+      #Go to next simulation
+      next
+      
+    }
+    
+    
+    # catalog the simulation states at each node and tip of the maps
+    tip.states <- getStates(hists[[i]], type = "tips")
+    
+    # cataloging which tips failed, the taxa on those tips, the branches leading to
+    # those tips, and the simulation state from which the transition failed
+    fail.taxa <- tips[which(tips[,1] %in%
+                              names(which(tip.states == "fail"))), ]
+    
+    #Check if any tips failed
+    if(nrow(fail.taxa) != 0 ){
+      #add tip numbers to fail.taxa
+      for(j in 1:nrow(fail.taxa)){
+        fail.taxa[j,3] <- which(hists[[i]]$tip.label %in% 
+                                  fail.taxa[j,1])
+      }
+      
+      fail.tips.names <- which(tip.states == "fail")
+      fail.tips.numbers <- matrix(hists[[i]]$edge[fail.list[[i]], ],
+                                  ncol = 2)
+      fail.tips.edges <- fail.list[[i]][which(fail.tips.numbers[,2]
+                                              <= length(hists[[i]]$tip.label))]
+      fail.tips.numbers <- matrix(fail.tips.numbers[which(fail.tips.numbers[,2]
+                                                          <= length(hists[[i]]$tip.label)),],
+                                  ncol=2)
+      fail.tips.start <- fail.tips.numbers[, 1]
+      fail.tips.leading.edge <- which(hists[[i]]$edge[,2] %in% 
+                                        fail.tips.start)
+      fail.tips.leading.maps <- hists[[i]]$maps[fail.tips.leading.edge]
+      fail.tips.start.states <- c()
+      
+      for(j in 1:length(fail.tips.leading.maps)){
+        
+        fail.tips.start.states[j] <- names(fail.tips.leading.maps[[j]])[
+          length(fail.tips.leading.maps[[j]])]
+      }
+      
+      names(fail.tips.start.states) <- unique(fail.tips.start)
+      
+      # cataloging the simulation state that the failed tips should have resolved to
+      # ????? using only the first data entry: some taxa have data for multiple karyotypes ?????
+      fail.tips.end.states <- fail.taxa[,2]
+      
+      names(fail.tips.end.states) <- fail.taxa[,3]
+      
+      # cataloging the length of the branches leading to the failed tips
+      branch.lengths <- c()
+      for (k in 1:nrow(fail.tips.numbers)){
+        branch.lengths[k] <- hists[[i]]$edge.length[
+          which(fail.tips.numbers[k, 1] == hists[[i]]$edge[ , 1]
+                & fail.tips.numbers[k, 2] == hists[[i]]$edge[ , 2])]
+      }
+      branches <- cbind(fail.tips.numbers, branch.lengths)
+    } else {
+      
+      #Set to blank
+      fail.tips.edges <- NA
+      
+    }
+    
+    # cataloging which internal nodes failed, the branches leading to those nodes,
+    # and the simulation states from which the transition failed
+    fail.internal.edges <- fail.list[[i]][which(!fail.list[[i]] %in% 
+                                                  fail.tips.edges)]
+    
+    if(length(fail.internal.edges) != 0){
+      fail.internal <- as.numeric(hists[[i]]$edge[fail.internal.edges,2])
+      fail.internal.start <- hists[[i]]$edge[
+        which(hists[[i]]$edge[,2] %in% fail.internal), 1]
+      fail.internal.leading.edge <- which(hists[[i]]$edge[,2] %in% 
+                                            fail.internal.start)
+      fail.internal.leading.maps <- hists[[i]]$maps[fail.internal.leading.edge]
+      
+      fail.internal.start.states <- c()
+      
+      for(j in 1:length(fail.internal.leading.maps)){
+        
+        fail.internal.start.states[j] <- names(fail.internal.leading.maps[[j]])[
+          length(fail.internal.leading.maps[[j]])]
+      }
+      
+      names(fail.internal.start.states) <- unique(fail.internal.start)
+      
+      fail.internal.end.states <- rep("fail", length(fail.internal))
+      names(fail.internal.end.states) <- fail.internal
+      
+      #Get failed.internal.numbers
+      fail.internal.numbers <- matrix(hists[[i]]$edge[fail.internal.edges,],
+                                      ncol=2)
+      
+      #Get failed.internal branch lengths and combine
+      branches.internal <- cbind(fail.internal.numbers,
+                                 hists[[i]]$edge.length[fail.internal.edges])
+      if(exists("branches") &&
+         ncol(branches) == 3){
+        #bind failed branches to failed tips 
+        branches <- rbind(branches,
+                          branches.internal)
+      } else {
+        
+        #reassign branches.internal to branches
+        branches <- branches.internal
+        
+      }
+    }
+    
+    #columns for extra length, edge id, start state, end state
+    branches <- cbind(branches,c(rep(NA,nrow(branches))),
+                      c(rep(NA,nrow(branches))),
+                      c(rep(NA,nrow(branches))),
+                      c(rep(NA,nrow(branches))),
+                      c(rep(NA,nrow(branches))))
+    
+    colnames(branches) <- c("start",
+                            "end",
+                            "edge.length",
+                            "extra.edge.length",
+                            "edge",
+                            "extra.edge",
+                            "start.state",
+                            "end.state")
+    
+    #add edge info
+    if(length(fail.internal.edges) == 0){
+      branches[,5] <- fail.tips.edges
+    } else if(nrow(fail.taxa) == 0){
+      branches[,5] <- fail.internal.edges
+    } else {
+      branches[,5] <- c(fail.tips.edges,fail.internal.edges)
+    }
+    
+    # adding length of internal failed branches connected by internal node to failed tip
+    # catalog known start and end states for failed branches for transition inference
+    # standardizing branch length
+    for (l in 1:nrow(branches)){
+      
+      #Determine start states
+      
+      #Check if leading edge also failed
+      if (branches[l,1] %in% branches[,2]){
+        
+        #Retreive sibling edge (same start node, different end node
+        sibling.edge <- which(hists[[i]]$edge[,1] %in% branches[l,1] &
+                                !hists[[i]]$edge[,2] %in% branches[l,2])
+        
+        sibling.map <- hists[[i]]$maps[sibling.edge]
+        
+        #Check if sibling tip also failed
+        if(names(sibling.map[[1]])[1] == "fail"){
+          
+          #New start from start node of leading edge
+          start.1 <- names(fail.internal.start.states[
+            names(fail.internal.end.states) == branches[l, 1]])
+          
+          #Extra length from leading edge
+          extra.length <- hists[[i]]$edge.length[
+            which(start.1 == hists[[i]]$edge[ , 1]
+                  & branches[l, 1] == hists[[i]]$edge[ , 2])]
+          
+          branches[l,4] <- extra.length
+          
+          #document failed leading edge
+          branches[l,6] <- which(start.1 == hists[[i]]$edge[ , 1]
+                                 & branches[l, 1] == hists[[i]]$edge[ , 2])
+          
+          #Start state from leading edge
+          branches[l, 7]  <- fail.internal.start.states[
+            names(fail.internal.end.states) == branches[l, 1]]
+        } else {
+          
+          #Start state from sibling edge
+          branches[l,7] <- names(sibling.map[[1]])[1]
+        }
+      } else {
+        
+        #Check if tip or internal
+        if(as.numeric(branches[l,2]) <= length(hists[[i]]$tip.label)){
+          
+          #Retrieve start from fail.tips.start.states
+          branches[l, 7] <-
+            fail.tips.start.states[names(fail.tips.start.states) == branches[l, 1]]
+          
+        } else {
+          #Retrieve start from fail.internal.start.states
+          branches[l, 7] <-
+            fail.internal.start.states[names(fail.internal.start.states) == branches[l, 1]]
+        }
+      }
+      
+      #Determine end states
+      
+      #Check if tip or internal
+      if(as.numeric(branches[l,2]) <= length(hists[[i]]$tip.label)){
+        
+        #Retreive end state from fail.tips.end.state 
+        branches[l, 8] <-
+          fail.tips.end.states[names(fail.tips.end.states) == branches[l, 2]]
+      } else {
+        
+        #Check if trailing tip failed
+        if(branches[l,2] %in% branches[,1]){
+          
+          #Test for descendent which didn't fail
+          descendent.sibling.edge <- which(hists[[i]]$edge[,1] %in% branches[l,2] &
+                                             !hists[[i]]$edge[,2] %in% branches[,2])
+          
+          #Check if non-failing descendent exists
+          if(length(descendent.sibling.edge) == 0){
+            
+            #Set to fail (already added under "extra.edge" section)
+            branches[l,8] <- NA
+          } else {
+            
+            #Retreive map from edge
+            descendent.sibling.map <- hists[[i]]$maps[descendent.sibling.edge]
+            
+            branches[l,8] <- names(descendent.sibling.map[[1]])[1]
+          }
+        } else {
+          
+          #Retreive one of two trailing edges (doesn't matter which one as 
+          #both should start in same state)
+          trailing <- which(hists[[i]]$edge[,1] %in% branches[l,2])[1]
+          
+          trailing.maps <- hists[[i]]$maps[trailing]
+          
+          branches[l,8] <- names(trailing.maps[[1]][1])
+        }
+        
+        
+      }
+    }
+    
+    #Remove any branches with failing end states (redundant since they are already
+    #included elsewhere)
+    if(NA %in% branches[,8]){
+      branches <- branches[-which(is.na(branches[,8])),]
+    }
+    
+    #Change to matrix
+    branches <- as.matrix(branches)
+    
+    #Retreive possible paths
+    graph.paths <- graph_from_data_frame(
+      which(transition.matrix != 0, arr.ind = TRUE))
+    
+    #Find paths and add to maps
+    for(j in 1:nrow(branches)){
+      
+      # use graph/network theory to find the shortest path between simulation states
+      found.path <- shortest_paths(graph.paths, branches[j, 7], branches[j, 8])[[1]][[1]]
+      
+      #Distinguish between connected and isolated failed tips
+      if(is.na(branches[j,6])){
+        
+        #Calculate time spent in each state
+        fail.time <- as.numeric(branches[j, 3])/length(found.path)
+        
+        #Add to maps
+        hists[[i]]$maps[[as.numeric(branches[j,5])]] <- rep(fail.time,
+                                                            length(found.path))
+        
+        #Name with states
+        names(hists[[i]]$maps[[as.numeric(branches[j,5])]]) <- names(found.path)
+        
+      } else {
+        
+        #Calculate time spent in each state
+        fail.time <- (as.numeric(branches[j, 3]) + as.numeric(branches[j,4]))/
+          length(found.path)
+        
+        #Sum time and divide between edges
+        leading.multiple <- as.integer(as.numeric(branches[j,4])/fail.time)
+        trailing.multiple <- as.integer(as.numeric(branches[j,3])/fail.time)
+        leading.leftover <- as.numeric(branches[j,4]) - (leading.multiple * fail.time)
+        trailing.leftover <- as.numeric(branches[j,3]) - (trailing.multiple * fail.time)
+        
+        #Add to leading map
+        hists[[i]]$maps[[as.numeric(branches[j,6])]] <- c(rep(fail.time,
+                                                              leading.multiple),
+                                                          leading.leftover)
+        
+        names(hists[[i]]$maps[[as.numeric(branches[j,6])]]) <- 
+          names(found.path)[1:(leading.multiple + 1)]
+        
+        #Add to trailing map
+        hists[[i]]$maps[[as.numeric(branches[j,5])]] <- c(trailing.leftover,
+                                                          rep(fail.time,
+                                                              trailing.multiple))
+        
+        names(hists[[i]]$maps[[as.numeric(branches[j,5])]]) <- 
+          names(found.path)[(length(found.path) - 
+                               trailing.multiple):length(found.path)]
+        
+        #Check if sibling tip failed
+        if(sum(as.numeric(branches[,6]) == branches[j,6],na.rm = T) >= 1){
+          
+          #identify index associated with other failed sibling
+          repeat.index <- which(branches[,6] == branches[j,6] &
+                                  branches[,5] != branches[j,5])
+          
+          #Change extra.edge.length and extra.edge to NA
+          branches[repeat.index,4] <- NA
+          branches[repeat.index,6] <- NA
+          
+          #Change start state
+          branches[repeat.index,7] <- names(hists[[i]]$maps[[as.numeric(
+            branches[j,5])]])[1]
+          
+        }
+      }
+    }
+    
+    #Make changes to mapped edges
+    for(j in 1:nrow(branches)){
+      
+      #retreive edge
+      edge <- as.numeric(branches[j,5])
+      
+      #Loop through states
+      for(k in 1:length(hists[[i]]$maps[[edge]])){
+        
+        #Retreive state
+        state <- names(hists[[i]]$maps[[edge]])[k]
+        
+        if(state %in% colnames(hists[[i]]$mapped.edge)){
+          #Sub into matrix
+          hists[[i]]$mapped.edge[edge,state] <- hists[[i]]$maps[[edge]][k]
+          
+        } else {
+          
+          #Name
+          colnames.new <- c(colnames(hists[[i]]$mapped.edge),
+                            state)
+          
+          #Add column
+          hists[[i]]$mapped.edge <- cbind(hists[[i]]$mapped.edge,c(0))
+          
+          #Rename
+          colnames(hists[[i]]$mapped.edge) <- colnames.new
+          
+          #Sort to reorder
+          hists[[i]]$mapped.edge <- hists[[i]]$mapped.edge[,sort(colnames(
+            hists[[i]]$mapped.edge))]
+          
+          #Sub into matrix
+          hists[[i]]$mapped.edge[edge,state] <- hists[[i]]$maps[[edge]][k]
+          
+        }
+      }
+      
+      if("fail" %in% colnames(hists[[i]]$mapped.edge)){
+        hists[[i]]$mapped.edge[edge,"fail"] <- 0
+      }
+    }
+    
+  }
+  
+  #### RETURN FIXED OBJECT ####
+  
+  return(hists)
+}
+
+
+#### MISC ####
+describe.simmap2 <- function (tree, ...) {
+  if (hasArg(plot)) 
+    plot <- list(...)$plot
+  else plot <- FALSE
+  if (hasArg(check.equal)) 
+    check.equal <- list(...)$check.equal
+  else check.equal <- FALSE
+  if (hasArg(message)) 
+    message <- list(...)$message
+  else message <- FALSE
+  if (hasArg(ref.tree)) 
+    ref.tree <- list(...)$ref.tree
+  else ref.tree <- NULL
+  if (inherits(tree, "multiPhylo")) {
+    if (check.equal) {
+      TT <- sapply(tree, function(x, y) sapply(y, all.equal.phylo, 
+                                               x), y = tree)
+      check <- all(TT)
+      if (!check) 
+        cat("Note: Some trees are not equal.\nA \"reference\" tree will be computed if none was provided.\n\n")
+    }
+    else check <- TRUE
+    YY <- getStates(tree, "both")
+    states <- c()
+    for(i in 1:length(tree)){
+      states <- c(states,colnames(tree[[i]]$mapped.edge))
+    }
+    states <- sort(unique(as.vector(states)))
+    if (is.null(ref.tree) && check) 
+      ZZ <- t(apply(YY, 1, function(x, levels, Nsim) summary(factor(x, 
+                                                                    levels))/Nsim, levels = states, Nsim = length(tree)))
+    else {
+      if (is.null(ref.tree)) {
+        cat("No reference tree provided & some trees are unequal.\nComputing majority-rule consensus tree.\n")
+        ref.tree <- consensus(tree, p = 0.5)
+      }
+      YYp <- matrix(NA, ref.tree$Nnode, length(tree), 
+                    dimnames = list(1:ref.tree$Nnode + Ntip(ref.tree), 
+                                    NULL))
+      for (i in 1:length(tree)) {
+        M <- matchNodes(ref.tree, tree[[i]])
+        jj <- sapply(M[, 2], function(x, y) if (x %in% 
+                                                y) 
+          which(as.numeric(y) == x)
+          else NA, y = as.numeric(rownames(YY)))
+        YYp[, i] <- YY[jj, i]
+      }
+      ZZ <- t(apply(YYp, 1, function(x, levels) summary(factor(x[!is.na(x)], 
+                                                               levels))/sum(!is.na(x)), levels = states))
+    }
+    XX <- countSimmap(tree, states, FALSE)
+    XX <- XX[, -(which(as.vector(diag(-1, length(states))) == 
+                         -1) + 1)]
+    AA <- t(sapply(unclass(tree), function(x) c(colSums(x$mapped.edge), 
+                                                sum(x$edge.length))))
+    colnames(AA)[ncol(AA)] <- "total"
+    BB <- getStates(tree, type = "tips")
+    CC <- t(apply(BB, 1, function(x, levels, Nsim) summary(factor(x, 
+                                                                  levels))/Nsim, levels = states, Nsim = length(tree)))
+    x <- list(count = XX, times = AA, ace = ZZ, tips = CC, 
+              tree = tree, ref.tree = if (!is.null(ref.tree)) ref.tree else NULL)
+    class(x) <- "describe.simmap"
+  }
+  else if (inherits(tree, "phylo")) {
+    XX <- countSimmap(tree, message = FALSE)
+    YY <- getStates(tree)
+    states <- sort(unique(YY))
+    AA <- setNames(c(colSums(tree$mapped.edge), sum(tree$edge.length)), 
+                   c(colnames(tree$mapped.edge), "total"))
+    AA <- rbind(AA, AA/AA[length(AA)])
+    rownames(AA) <- c("raw", "prop")
+    x <- list(N = XX$N, Tr = XX$Tr, times = AA, states = YY, 
+              tree = tree)
+    class(x) <- "describe.simmap"
+  }
+  if (message) 
+    print(x)
+  if (plot) 
+    plot(x)
+  x
+}
+
+#Pfsa2
+Pfsa2 <- function (Da, scs, mud = 0.5) 
+{
+  sexchroms <- strsplit(scs, split = "")[[1]]
+  if (grepl("X",scs,fixed = T)) {
+    Xs <- sum(sexchroms == "X")
+    Y <- sum(sexchroms == "Y")
+    Ds <- Da + Xs + Y
+    Dd <- Da + 2 * Xs
+    res <- 1 - mud * ((Da * (Da - 2) + 2 * Xs * (2 * Xs - 
+                                                   2))/(Dd * (Dd - 2))) - (1 - mud) * ((Da * (Da - 
+                                                                                                2) + max(c(Xs, Y)) * (max(c(Xs, Y)) - 1))/(Ds * 
+                                                                                                                                             (Ds - 2)))
+  }
+  if (grepl("Z",scs,fixed = T)) {
+    Zd <- sum(sexchroms == "Z")
+    W <- sum(sexchroms == "W")
+    Dd <- Da + Zd + W
+    Ds <- Da + 2 * Zd
+    mus <- 1 - mud
+    res <- 1 - mus * ((Da * (Da - 2) + 2 * Zd * (2 * Zd - 
+                                                   2))/(2 * Ds * (Ds - 2))) - (1 - mus) * ((Da * (Da - 
+                                                                                                    2) + max(c(Zd, W)) * (max(c(Zd, W)) - 1))/(2 * Dd * 
+                                                                                                                                                 (Dd - 2)))
+  }
+  return(res)
+}
 
