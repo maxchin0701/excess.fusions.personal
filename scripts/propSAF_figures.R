@@ -30,3 +30,5 @@ SAF.overlap <- ggplot()+
   scale_color_viridis_d()+
   xlab("Proportion SAF")+
   theme_density
+
+plot(SAF.overlap)

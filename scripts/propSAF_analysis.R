@@ -16,7 +16,7 @@ SAF.summarized <- hists.summarized
 
 rm(hists.summarized)
 
-#### EXTRACT OBSERVED TRANSITIONS
+#### EXTRACT OBSERVED TRANSITIONS ####
 
 #get column names
 SAF.names <- colnames(SAF.summarized$count[,2:ncol(SAF.summarized$count)])
@@ -49,7 +49,7 @@ SAF.counts <- rowSums(SAF.summarized$count[,SAF.cols])
 total.counts <- rowSums(hapauto.summarized$count[,hapauto.cols])
 
 #Divide
-obspropSAF <- SAF.counts/total.counts
+obspropSAF <- SAF.counts/(total.counts)
 
 #### NULL SAF ####
 

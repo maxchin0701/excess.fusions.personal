@@ -81,7 +81,8 @@ model.con <- constrainMkn(data.matrix,
                           hyper = T,
                           polyploidy = F,
                           verbose = T,
-                          constrain = list(saf.model=T))
+                          constrain = list(saf.model=T,
+                                           sym.hyperstates=T))
 
 # Check args: 4 different rates in constrained model, output is as expected
 argnames(model.con$`likelihood function`)
