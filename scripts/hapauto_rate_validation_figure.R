@@ -8,20 +8,18 @@ load("../outputs/test.hist.RData")
 dat <- read.csv("../data/chromes/dat.csv",
                 as.is=T)[,c(1,3)]
 
-
 #### SUBSET TREE TO JUST ARTIODACTYLS ####
 
 #subset map
-hist.subset <- extract.clade(hists.fixed.alt[[1]],
-                             node=hists.fixed.alt[[1]]$edge[448,2])
-hist.subset$maps <- hist.subset$maps[449:(448+length(hist.subset$edge.length))]
+hist.subset <- extract.clade.simmap(tree = hists.fixed.alt[[1]],
+                                    node=hists.fixed.alt[[1]]$edge[448,2])
 
 dat <- dat[which(dat$tree.name %in% hist.subset$tip.label),]
 
 #plot
 cols <- c(viridis(49))
 names(cols) <- c(1:49)
-plotSimmap(hist.subset,col=cols,pts=T)
+plotSimmap(hists.fixed.alt[[1]],col=cols)
 
 #### GET NODE STATES ####
 
@@ -59,4 +57,3 @@ tiplabels(dat$hapauto,frame="none",cex=0.6)
 
 
 
-plotSimmap(hists.fixed.alt[[1]],col=cols,fsize=0.1,lwd=0.1,type="fan")

@@ -3,7 +3,6 @@ library(phytools)
 library(ape)
 library(igraph)
 
-
 #### SCALE TREE RATES FUNCTIONs ####
 scaleTreeRates <- function(tree,tip.states,
                            model,
@@ -1123,7 +1122,16 @@ fix.simmap <- function(hists, tips, transition.matrix){
     
     
     # catalog the simulation states at each node and tip of the maps
-    tip.states <- getStates(hists[[i]], type = "tips")
+    tip.states <- c()
+    
+    for(j in 1:length(hist[[i]]$tip.label)){
+      tip.leading.edge <- which(hist[[i]]$edge[,2] == j)
+      tip.state <- names(hist[[i]]$maps[[tip.leading.edge]]
+                        [length(hist[[i]]$maps[[tip.leading.edge]])])
+      tip.states <- c(tip.states,tip.state)
+    }
+    
+    names(tip.states) <- hists[[i]]$tip.label
     
     # cataloging which tips failed, the taxa on those tips, the branches leading to
     # those tips, and the simulation state from which the transition failed
@@ -1147,8 +1155,12 @@ fix.simmap <- function(hists, tips, transition.matrix){
                                                           <= length(hists[[i]]$tip.label)),],
                                   ncol=2)
       fail.tips.start <- fail.tips.numbers[, 1]
-      fail.tips.leading.edge <- which(hists[[i]]$edge[,2] %in% 
-                                        fail.tips.start)
+      fail.tips.leading.edge <- c()
+      for(j in 1:length(fail.tips.start)){
+        fail.tips.leading.edge <- c(fail.tips.leading.edge,which(hists[[i]]$edge[,2] == 
+                                          fail.tips.start[j]))
+      }
+      fail.tips.leading.edge <- unique(fail.tips.leading.edge)
       fail.tips.leading.maps <- hists[[i]]$maps[fail.tips.leading.edge]
       fail.tips.start.states <- c()
       
@@ -1349,8 +1361,6 @@ fix.simmap <- function(hists, tips, transition.matrix){
           
           branches[l,8] <- names(trailing.maps[[1]][1])
         }
-        
-        
       }
     }
     

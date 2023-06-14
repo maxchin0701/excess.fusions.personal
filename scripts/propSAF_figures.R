@@ -32,3 +32,11 @@ SAF.overlap <- ggplot()+
   theme_density
 
 plot(SAF.overlap)
+
+#### SAVE PLOT ####
+ggsave(SAF.overlap,
+       filename = paste0("../figures/observed_null_overlap.pdf"),
+       width = 7,
+       height = 7,
+       units = "in")
+

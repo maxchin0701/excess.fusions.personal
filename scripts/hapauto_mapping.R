@@ -36,22 +36,29 @@ rownames(Qmat) <- 1:49
 colnames(Qmat) <- 1:49
 
 #### STOCHASTIC MAPPING ####
+
 hists <- make.simmap2(tree = tree,
-                      x = data.matrix,
-                      model = mat,
-                      nsim = 100,
-                      Q = Qmat,
-                      rejmax = 1000000,
-                      rejint = 100000,
-                      pi="fitzjohn",
-                      monitor=T)
+                     x = data.matrix,
+                     model = mat,
+                     nsim = 100,
+                     Q = Qmat,
+                     rejmax = 1000000,
+                     rejint = 100000,
+                     pi="fitzjohn",
+                     monitor=T)
+
 
 #### FIX STOCHASTIC MAPS ####
 dat$sim.state <- dat$hapauto - 1
 dat.for.fixing <- dat[,-2]
-hists.fixed <- fix.simmap(hists,dat.for.fixing,mat)
+hists.fixed <- fix.simmap(hist,dat.for.fixing,mat)
+
+
 
 #### SUMMARIZE STOCHASTIC MAPS ####
+cols <- c(viridis(49))
+names(cols) <- c(1:49)
+plotSimmap(hist[[48]],col=cols,fsize = 0.05,lwd=1)
 hists.summarized <- describe.simmap2(hists.fixed)
 
 #### SAVE OUTPUTS ####
