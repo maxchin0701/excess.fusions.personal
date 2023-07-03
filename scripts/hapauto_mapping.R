@@ -1,5 +1,4 @@
 #### PACKAGES ####
-
 library(phytools)
 library(doSNOW)
 library(viridis)
@@ -36,7 +35,6 @@ rownames(Qmat) <- 1:49
 colnames(Qmat) <- 1:49
 
 #### STOCHASTIC MAPPING ####
-
 hists <- make.simmap2(tree = tree,
                      x = data.matrix,
                      model = mat,
@@ -47,13 +45,10 @@ hists <- make.simmap2(tree = tree,
                      pi="fitzjohn",
                      monitor=T)
 
-
 #### FIX STOCHASTIC MAPS ####
 dat$sim.state <- dat$hapauto - 1
 dat.for.fixing <- dat[,-2]
 hists.fixed <- fix.simmap(hist,dat.for.fixing,mat)
-
-
 
 #### SUMMARIZE STOCHASTIC MAPS ####
 cols <- c(viridis(49))

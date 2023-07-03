@@ -5,12 +5,9 @@ source("functions.R")
 #### LOAD DATA ####
 dat <- read.csv("../data/chromes/dat.csv",
                 as.is=T)
-
 tree <- read.tree("../data/trees/tree.nex")
-
 mat <- as.matrix(read.csv("../data/transition_matrix/transition_matrix_hapauto.csv",
                           as.is=T,header=F))[-1,]
-
 Qmat <- as.matrix(read.csv("../data/transition_matrix/Q_matrix_hapauto.csv",
                            as.is=T,header=T))
 
@@ -41,11 +38,4 @@ plot(cut.tree,cex=0.05,edge.width = 0.1)
 #### SAVE SCALED TREE AND CUT TREE ####
 write.nexus(cut.tree,file="../data/trees/cut.tree.nex")
 save(scaled.tree,file="../outputs/scaled.tree.RData")
-
-
-
-
-
-
-
 
