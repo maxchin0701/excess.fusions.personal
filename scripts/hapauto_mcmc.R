@@ -66,6 +66,6 @@ diag(parMat) <- -rowSums(parMat)
 
 #### SAVE QMATRIX ####
 write.csv(parMat,
-          paste0("../data/transition_matrix/Q_matrix_subset_hapauto.csv"),
+          paste0("../data/transition_matrix/Q_matrix_hapauto.csv"),
           row.names=F,quote=F)
 
