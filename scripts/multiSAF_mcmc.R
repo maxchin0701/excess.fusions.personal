@@ -7,7 +7,7 @@ library(diversitree)
 
 dat <- read.csv("../data/chromes/dat.csv",
                 as.is=T)[,c(1,4)]
-tree <- force.ultrametric(read.tree("../data/trees/tree.nex"))
+tree <- force.ultrametric(read.tree("../data/trees/cut.tree.nex"))
 
 #### BUILD + CONSTRAIN MODEL ####
 
